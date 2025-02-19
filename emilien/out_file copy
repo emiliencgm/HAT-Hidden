@@ -1,0 +1,1306 @@
+
+splited test_preds                  smiles  ...   frozen_dG
+0        [CH3:4][CH3:5]  ...   -0.031315
+1   [CH3:1][CH2:2][O:3]  ...  134.120326
+2        [CH3:4][CH2:5]  ...  136.430661
+3  [CH3:1][CH2:2][OH:3]  ...   -0.131446
+
+[4 rows x 6 columns]
+
+
+@@@test_preds [array([[ 2.17325985e-04],
+       [-1.17555752e-01],
+       [ 8.64656210e-01],
+       [-5.33455051e-02],
+       [-5.33455051e-02],
+       [-5.33455051e-02],
+       [-3.50881256e-02],
+       [-3.50881256e-02],
+       [ 4.23882119e-02],
+       [ 4.11238633e-02],
+       [ 4.33574989e-02],
+       [ 4.02980037e-02],
+       [ 4.02980037e-02],
+       [ 4.02980037e-02],
+       [ 4.03474234e-02],
+       [ 4.03474234e-02],
+       [ 4.23371159e-02],
+       [ 4.04555053e-02],
+       [ 4.04555053e-02],
+       [ 4.14474979e-02],
+       [ 4.14474979e-02],
+       [ 4.14474979e-02],
+       [ 4.14474979e-02],
+       [ 4.14474979e-02],
+       [ 4.14474979e-02],
+       [-1.73112705e-01],
+       [ 9.92186427e-01],
+       [-3.57991941e-02],
+       [-3.57991941e-02],
+       [-3.57991941e-02],
+       [-1.17885396e-01],
+       [-1.17885396e-01]], dtype=float32), array([[-0.39951354],
+       [-0.03321457],
+       [-0.23525403],
+       [ 0.1488488 ],
+       [ 0.1488488 ],
+       [ 0.1488488 ],
+       [ 0.11071788],
+       [ 0.11071788],
+       [-0.4231083 ],
+       [-0.04650766],
+       [-0.4728099 ],
+       [ 0.13671298],
+       [ 0.13671298],
+       [ 0.13671298],
+       [ 0.1103771 ],
+       [ 0.1103771 ],
+       [ 0.31153274],
+       [-0.3945564 ],
+       [-0.3945564 ],
+       [ 0.1315188 ],
+       [ 0.1315188 ],
+       [ 0.1315188 ],
+       [ 0.1315188 ],
+       [ 0.1315188 ],
+       [ 0.1315188 ],
+       [-0.3649907 ],
+       [-0.35060567],
+       [ 0.13506104],
+       [ 0.13506104],
+       [ 0.13506104],
+       [ 0.15520662],
+       [ 0.15520665]], dtype=float32), array([[ 2.43789080e-01,  9.55555809e+01,  1.34120326e+02],
+       [ 1.04625195e-04,  2.19111555e-02, -1.31446461e-01],
+       [-1.33526483e-03,  1.11945598e-01, -3.13149843e-02],
+       [ 1.83080132e-01,  9.12199379e+01,  1.36430661e+02]])]
+
+
+@@@args Namespace(gpu=None, test_path='tmp/species_reactivity_dataset.csv', path_bond_dict='all_bond_dict.pickle', use_compound_names=False, use_conf_id=False, preds_path='tmp/preds_surrogate.pkl', checkpoint_dir=None, checkpoint_path='surrogate_model/qmdesc_wrap/model.pt', batch_size=50, features_path=None, no_features_scaling=False, max_data_size=None, datasubset_sample=False, checkpoint_paths=['surrogate_model/qmdesc_wrap/model.pt'], cuda=False, predict_only=True, data_path='trainset_surrogate_model.pkl', output=None, test=False, save_dir='output', save_smiles_splits=False, separate_val_path=None, separate_val_features_path=None, separate_test_path='testset_surrogate_model.pkl', separate_test_features_path=None, split_type='random', split_sizes=[0.8, 0.1, 0.1], num_folds=1, folds_file=None, val_fold_index=None, test_fold_index=None, crossval_index_dir=None, crossval_index_file=None, seed=0, metric='mae', quiet=False, log_frequency=10, show_individual_scores=False, no_cache=False, config_path=None, atom_targets=['spin_densities', 'charges_all_atom'], atom_constraints=tensor([1., 1.]), bond_targets=[], bond_constraints=None, mol_ext_targets=[], mol_int_targets=['Buried_Vol', 'dG', 'frozen_dG'], loss_weights=[1, 1, [1, 1, 1]], no_equal_lss_weights=False, epochs=100, warmup_epochs=2.0, lr_schedule='Sinexp', init_lr=0.0001, max_lr=0.001, final_lr=1e-05, single_mol_tasks=False, target_scaling=True, target_scaler_type='StandardScaler', atom_wise_scaling=[], no_atom_scaling=True, early_stopping=True, patience=5, ensemble_size=1, hidden_size=1200, bias=False, depth=5, dropout=0.0, activation='ReLU', undirected=False, ffn_hidden_size=900, ffn_num_layers=4, atom_messages=False, explicit_Hs=True, mol_targets=[['Buried_Vol', 'dG', 'frozen_dG']], equal_lss_weights=True, features_scaling=True, use_input_features=None, num_lrs=1, task_names=['spin_densities', 'charges_all_atom', 'INT_MOL_PROPS'], num_tasks=3, features_size=None, train_data_size=178910, output_size=1)
+@@@train_args Namespace(gpu=None, data_path='trainset_surrogate_model.pkl', path_bond_dict='all_bond_dict.pickle', output=None, use_compound_names=False, use_conf_id=False, max_data_size=None, datasubset_sample=False, test=False, features_path=None, save_dir='output', save_smiles_splits=False, checkpoint_dir=None, checkpoint_path=None, separate_val_path=None, separate_val_features_path=None, separate_test_path='testset_surrogate_model.pkl', separate_test_features_path=None, split_type='random', split_sizes=[0.8, 0.1, 0.1], num_folds=1, folds_file=None, val_fold_index=None, test_fold_index=None, crossval_index_dir=None, crossval_index_file=None, seed=0, metric='mae', quiet=False, log_frequency=10, show_individual_scores=False, no_cache=False, config_path=None, atom_targets=['spin_densities', 'charges_all_atom'], atom_constraints=tensor([1., 1.]), bond_targets=[], bond_constraints=None, mol_ext_targets=[], mol_int_targets=['Buried_Vol', 'dG', 'frozen_dG'], loss_weights=[1, 1, [1, 1, 1]], no_equal_lss_weights=False, epochs=100, batch_size=50, warmup_epochs=2.0, lr_schedule='Sinexp', init_lr=0.0001, max_lr=0.001, final_lr=1e-05, single_mol_tasks=False, target_scaling=True, target_scaler_type='StandardScaler', atom_wise_scaling=[], no_atom_scaling=True, early_stopping=True, patience=5, ensemble_size=1, hidden_size=1200, bias=False, depth=5, dropout=0.0, activation='ReLU', undirected=False, ffn_hidden_size=900, ffn_num_layers=4, atom_messages=False, explicit_Hs=True, cuda=True, mol_targets=[['Buried_Vol', 'dG', 'frozen_dG']], equal_lss_weights=True, features_scaling=True, checkpoint_paths=None, use_input_features=None, num_lrs=1, task_names=['spin_densities', 'charges_all_atom', 'INT_MOL_PROPS'], predict_only=False, num_tasks=3, features_size=None, train_data_size=178910, output_size=1)
+
+
+@@@scaler <utilities.scaler.StandardScaler object at 0x7f2b494a8280>
+@@@features_scaler None
+
+
+@@@batch_preds_hiddens (tensor([[0.0016, 0.0000, 0.0000,  ..., 0.0041, 0.0000, 0.0000],
+        [0.0000, 0.0582, 0.0000,  ..., 0.0000, 0.0818, 0.0000],
+        [0.0160, 0.0414, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+        ...,
+        [0.1018, 0.0126, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+        [0.1018, 0.0126, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+        [0.1053, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000]]), tensor([[0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+        [0.0000, 0.1027, 0.0000,  ..., 0.1391, 0.0000, 0.0000],
+        [0.0000, 0.0968, 0.0302,  ..., 0.2061, 0.0000, 0.0000],
+        ...,
+        [0.0000, 0.0364, 0.0000,  ..., 0.1650, 0.0000, 0.0000],
+        [0.0083, 0.0619, 0.0000,  ..., 0.0290, 0.0000, 0.0000],
+        [0.0000, 0.0364, 0.0000,  ..., 0.1650, 0.0000, 0.0000]]))
+
+
+@@@batch_preds_atom_hiddens@@@shape, >0 torch.Size([33, 1200]) 13398
+@@@batch_preds_bond_hiddens@@@shape, >0 torch.Size([57, 1200]) 33844
+
+
+@@@@batch_preds [tensor([[-1.1429e+00],
+        [ 5.0717e+00],
+        [-4.1064e-01],
+        [-4.1064e-01],
+        [-4.1064e-01],
+        [-8.4841e-01],
+        [-8.4841e-01],
+        [ 6.3394e-03],
+        [-4.0342e-04],
+        [ 1.1509e-02],
+        [-4.8078e-03],
+        [-4.8078e-03],
+        [-4.8078e-03],
+        [-4.5442e-03],
+        [-4.5442e-03],
+        [ 6.0669e-03],
+        [-2.1856e-01],
+        [-8.4665e-01],
+        [ 4.3916e+00],
+        [-5.0422e-01],
+        [-5.0422e-01],
+        [-5.0422e-01],
+        [-4.0685e-01],
+        [-4.0685e-01],
+        [-3.9678e-03],
+        [-3.9678e-03],
+        [ 1.3225e-03],
+        [ 1.3225e-03],
+        [ 1.3225e-03],
+        [ 1.3225e-03],
+        [ 1.3225e-03],
+        [ 1.3225e-03]]), tensor([[-1.5957],
+        [-1.5328],
+        [ 0.5905],
+        [ 0.5905],
+        [ 0.5905],
+        [ 0.6785],
+        [ 0.6785],
+        [-1.8498],
+        [-0.2033],
+        [-2.0670],
+        [ 0.5977],
+        [ 0.5977],
+        [ 0.5977],
+        [ 0.4825],
+        [ 0.4825],
+        [ 1.3620],
+        [-1.7466],
+        [-0.1452],
+        [-1.0285],
+        [ 0.6507],
+        [ 0.6507],
+        [ 0.6507],
+        [ 0.4840],
+        [ 0.4840],
+        [-1.7249],
+        [-1.7249],
+        [ 0.5750],
+        [ 0.5750],
+        [ 0.5750],
+        [ 0.5750],
+        [ 0.5750],
+        [ 0.5750]]), tensor([[-0.8801,  0.5234,  0.5925],
+        [-1.8566, -2.0609, -2.1206],
+        [-0.5562,  0.6462,  0.5466],
+        [-1.8642, -2.0584, -2.1186]])]
+
+
+@@@f_bonds torch.Size([57, 49])
+@@@f_atoms torch.Size([33, 42])
+@@@f_bonds torch.Size([57, 49])
+@@@f_atoms torch.Size([33, 42])
+
+
+@@@atom_hiddens tensor([[0.0016, 0.0000, 0.0000,  ..., 0.0041, 0.0000, 0.0000],
+        [0.0000, 0.0960, 0.0000,  ..., 0.0055, 0.1295, 0.0000],
+        [0.0320, 0.0347, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+        ...,
+        [0.1018, 0.0126, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+        [0.1018, 0.0126, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+        [0.1053, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000]])
+@@@bond_hiddens tensor([[0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+        [0.0000, 0.1027, 0.0000,  ..., 0.1391, 0.0000, 0.0000],
+        [0.0762, 0.0757, 0.0000,  ..., 0.1201, 0.0000, 0.0000],
+        ...,
+        [0.0000, 0.0364, 0.0000,  ..., 0.1650, 0.0000, 0.0000],
+        [0.0083, 0.0619, 0.0000,  ..., 0.0290, 0.0000, 0.0000],
+        [0.0000, 0.0364, 0.0000,  ..., 0.1650, 0.0000, 0.0000]])
+
+
+@@@atom_hiddens torch.Size([33, 1200])
+@@@bond_hiddens torch.Size([57, 1200])
+
+
+@@@MultiReadout MultiReadout(
+  (readout_0): FFN(
+    (ffn): DenseLayers(
+      (dense_layers): Sequential(
+        (0): Dropout(p=0.0, inplace=False)
+        (1): Linear(in_features=1200, out_features=900, bias=True)
+        (2): ReLU()
+        (3): Dropout(p=0.0, inplace=False)
+        (4): Linear(in_features=900, out_features=900, bias=True)
+        (5): ReLU()
+        (6): Dropout(p=0.0, inplace=False)
+        (7): Linear(in_features=900, out_features=900, bias=True)
+        (8): ReLU()
+        (9): Dropout(p=0.0, inplace=False)
+        (10): Linear(in_features=900, out_features=1, bias=True)
+      )
+    )
+    (weights_readout): DenseLayers(
+      (dense_layers): Sequential(
+        (0): Dropout(p=0.0, inplace=False)
+        (1): Linear(in_features=1200, out_features=900, bias=True)
+        (2): ReLU()
+        (3): Dropout(p=0.0, inplace=False)
+        (4): Linear(in_features=900, out_features=900, bias=True)
+        (5): ReLU()
+        (6): Dropout(p=0.0, inplace=False)
+        (7): Linear(in_features=900, out_features=900, bias=True)
+        (8): ReLU()
+        (9): Dropout(p=0.0, inplace=False)
+        (10): Linear(in_features=900, out_features=1, bias=True)
+      )
+    )
+  )
+  (readout_1): FFN(
+    (ffn): DenseLayers(
+      (dense_layers): Sequential(
+        (0): Dropout(p=0.0, inplace=False)
+        (1): Linear(in_features=1200, out_features=900, bias=True)
+        (2): ReLU()
+        (3): Dropout(p=0.0, inplace=False)
+        (4): Linear(in_features=900, out_features=900, bias=True)
+        (5): ReLU()
+        (6): Dropout(p=0.0, inplace=False)
+        (7): Linear(in_features=900, out_features=900, bias=True)
+        (8): ReLU()
+        (9): Dropout(p=0.0, inplace=False)
+        (10): Linear(in_features=900, out_features=1, bias=True)
+      )
+    )
+    (weights_readout): DenseLayers(
+      (dense_layers): Sequential(
+        (0): Dropout(p=0.0, inplace=False)
+        (1): Linear(in_features=1200, out_features=900, bias=True)
+        (2): ReLU()
+        (3): Dropout(p=0.0, inplace=False)
+        (4): Linear(in_features=900, out_features=900, bias=True)
+        (5): ReLU()
+        (6): Dropout(p=0.0, inplace=False)
+        (7): Linear(in_features=900, out_features=900, bias=True)
+        (8): ReLU()
+        (9): Dropout(p=0.0, inplace=False)
+        (10): Linear(in_features=900, out_features=1, bias=True)
+      )
+    )
+  )
+  (readout_2): FFN(
+    (ffn): DenseLayers(
+      (dense_layers): Sequential(
+        (0): Dropout(p=0.0, inplace=False)
+        (1): Linear(in_features=1200, out_features=900, bias=True)
+        (2): ReLU()
+        (3): Dropout(p=0.0, inplace=False)
+        (4): Linear(in_features=900, out_features=900, bias=True)
+        (5): ReLU()
+        (6): Dropout(p=0.0, inplace=False)
+        (7): Linear(in_features=900, out_features=900, bias=True)
+        (8): ReLU()
+        (9): Dropout(p=0.0, inplace=False)
+        (10): Linear(in_features=900, out_features=3, bias=True)
+      )
+    )
+  )
+)
+
+
+@@@mol_index 0
+@@@mol_index 1
+@@@mol_index 2
+@@@mol_index 3
+
+
+@@@mol_graph.get_components(), f_atoms, f_bonds torch.Size([33, 42]) torch.Size([57, 49])
+@@@mol_graph.get_components(), f_atoms, f_bonds torch.Size([33, 42]) torch.Size([57, 49])
+
+
+@@@mol_graph.get_components(), f_atoms, f_bonds torch.Size([33, 42]) torch.Size([57, 49])
+@@@mol_graph.get_components(), f_atoms, f_bonds torch.Size([33, 42]) torch.Size([57, 49])Loading training args
+
+
+@@@charge_output_FFN torch.Size([32, 1])
+
+
+@@@charge_output_FFN_before_weights torch.Size([33, 1])
+@@@charge_output_FFN_before_weights torch.Size([33, 1])
+@@@charge_output_FFN_after_weights torch.Size([32, 1])
+
+
+@@@b_hiddens_input_into_ffn torch.Size([57, 1200])
+@@@b_hiddens_input_into_ffn torch.Size([57, 1200])
+@@@b_hiddens_input_into_ffn torch.Size([57, 1200])
+
+
+@@@f_bonds torch.Size([57, 49])
+@@@f_bonds torch.Size([57, 49])
+
+
+@@@f_bonds_within_BatchMolGraph torch.Size([57, 49])
+@@@f_bonds_within_BatchMolGraph torch.Size([57, 49])
+
+
+
+@@@f_bonds_within_BatchMolGraph 17
+@@@f_bonds_within_BatchMolGraph 29
+@@@f_bonds_within_BatchMolGraph 43
+@@@f_bonds_within_BatchMolGraph 57
+@@@f_bonds_within_BatchMolGraph 17
+@@@f_bonds_within_BatchMolGraph 29
+@@@f_bonds_within_BatchMolGraph 43
+@@@f_bonds_within_BatchMolGraph 57
+
+
+
+
+
+@@@f_bonds_within_BatchMolGraph 15
+@@@f_bonds_within_BatchMolGraph 29
+@@@f_bonds_within_BatchMolGraph 41
+@@@f_bonds_within_BatchMolGraph 57
+@@@f_bonds_within_BatchMolGraph 15
+@@@f_bonds_within_BatchMolGraph 29
+@@@f_bonds_within_BatchMolGraph 41
+@@@f_bonds_within_BatchMolGraph 57
+@@@batch_atom_hiddens torch.Size([33, 1200])
+
+
+
+@@@f_bonds_within_BatchMolGraph 15
+@@@f_bonds_within_BatchMolGraph 27
+@@@f_bonds_within_BatchMolGraph 41
+@@@f_bonds_within_BatchMolGraph 57
+@@@f_bonds_within_BatchMolGraph 15
+@@@f_bonds_within_BatchMolGraph 27
+@@@f_bonds_within_BatchMolGraph 41
+@@@f_bonds_within_BatchMolGraph 57
+@@@batch_atom_hiddens torch.Size([32, 1200])
+
+
+
+@@@f_bonds_within_BatchMolGraph 13
+@@@f_bonds_within_BatchMolGraph 27
+@@@f_bonds_within_BatchMolGraph 41
+@@@f_bonds_within_BatchMolGraph 57
+@@@f_bonds_within_BatchMolGraph 13
+@@@f_bonds_within_BatchMolGraph 27
+@@@f_bonds_within_BatchMolGraph 41
+@@@f_bonds_within_BatchMolGraph 57
+@@@atom_hiddens torch.Size([32, 1200])
+@@@mol_hiddens torch.Size([4, 1200])
+
+
+
+@@@f_bond_in_MolGraph 7
+@@@self.f_bonds_in_MolGraph 2
+@@@f_bond_in_MolGraph 7
+@@@self.f_bonds_in_MolGraph 4
+@@@f_bond_in_MolGraph 7
+@@@self.f_bonds_in_MolGraph 6
+@@@f_bond_in_MolGraph 7
+@@@self.f_bonds_in_MolGraph 8
+@@@f_bond_in_MolGraph 7
+@@@self.f_bonds_in_MolGraph 10
+@@@f_bond_in_MolGraph 7
+@@@self.f_bonds_in_MolGraph 12
+@@@f_bond_in_MolGraph 7
+@@@self.f_bonds_in_MolGraph 14
+@@@f_bond_in_MolGraph 7
+@@@self.f_bonds_in_MolGraph 2
+@@@f_bond_in_MolGraph 7
+@@@self.f_bonds_in_MolGraph 4
+@@@f_bond_in_MolGraph 7
+@@@self.f_bonds_in_MolGraph 6
+@@@f_bond_in_MolGraph 7
+@@@self.f_bonds_in_MolGraph 8
+@@@f_bond_in_MolGraph 7
+@@@self.f_bonds_in_MolGraph 10
+@@@f_bond_in_MolGraph 7
+@@@self.f_bonds_in_MolGraph 12
+@@@f_bond_in_MolGraph 7
+@@@self.f_bonds_in_MolGraph 14
+@@@f_bond_in_MolGraph 7
+@@@self.f_bonds_in_MolGraph 2
+@@@f_bond_in_MolGraph 7
+@@@self.f_bonds_in_MolGraph 4
+@@@f_bond_in_MolGraph 7
+@@@self.f_bonds_in_MolGraph 6
+@@@f_bond_in_MolGraph 7
+@@@self.f_bonds_in_MolGraph 8
+@@@f_bond_in_MolGraph 7
+@@@self.f_bonds_in_MolGraph 10
+@@@f_bond_in_MolGraph 7
+@@@self.f_bonds_in_MolGraph 12
+@@@f_bond_in_MolGraph 7
+@@@self.f_bonds_in_MolGraph 14
+@@@f_bond_in_MolGraph 7
+@@@self.f_bonds_in_MolGraph 16
+@@@f_bond_in_MolGraph 7
+@@@self.f_bonds_in_MolGraph 2
+@@@f_bond_in_MolGraph 7
+@@@self.f_bonds_in_MolGraph 4
+@@@f_bond_in_MolGraph 7
+@@@self.f_bonds_in_MolGraph 6
+@@@f_bond_in_MolGraph 7
+@@@self.f_bonds_in_MolGraph 8
+@@@f_bond_in_MolGraph 7
+@@@self.f_bonds_in_MolGraph 10
+@@@f_bond_in_MolGraph 7
+@@@self.f_bonds_in_MolGraph 12
+@@@f_bonds_within_BatchMolGraph 15
+@@@f_bonds_within_BatchMolGraph 29
+@@@f_bonds_within_BatchMolGraph 45
+@@@f_bonds_within_BatchMolGraph 57
+@@@f_bonds_within_BatchMolGraph 15
+@@@f_bonds_within_BatchMolGraph 29
+@@@f_bonds_within_BatchMolGraph 45
+@@@f_bonds_within_BatchMolGraph 57
+@@@atom_hiddens torch.Size([32, 1200])
+@@@mol_hiddens torch.Size([4, 1200])
+
+
+
+atom_hiddens [[0.         0.06839235 0.         ... 0.03758144 0.         0.        ]
+ [0.18573625 0.12451022 0.         ... 0.         0.00754495 0.        ]
+ [0.         0.         0.         ... 0.0869398  0.00390703 0.        ]
+ ...
+ [0.10321128 0.         0.         ... 0.         0.         0.        ]
+ [0.10321128 0.         0.         ... 0.         0.         0.        ]
+ [0.10321128 0.         0.         ... 0.         0.         0.        ]]
+mol_hiddens [[0.06698093 0.02423555 0.         ... 0.01383569 0.00127244 0.        ]
+ [0.02260328 0.02105281 0.         ... 0.03364069 0.07421065 0.        ]
+ [0.05990196 0.05581987 0.         ... 0.         0.01371678 0.        ]
+ [0.07740846 0.00637508 0.         ... 0.00924708 0.         0.        ]]
+
+
+atom_hiddens 32 1200
+mol_hiddens 4 1200
+
+@@@atom_hiddens 32 1200
+@@@mol_hiddens 4 1200
+
+
+@@@atom_hiddens 70 1200
+@@@mol_hiddens 8 1200
+
+self.atom_hiddens, self.mol_hiddens torch.Size([70, 1200]) torch.Size([8, 1200])
+
+@@@self.atom_hiddens, self.mol_hiddens torch.Size([70, 1200]) torch.Size([8, 1200])
+
+
+
+@@@stom_hidden torch.Size([71, 1200])
+@@@self.atom_hiddens, self.mol_hiddens torch.Size([70, 1200]) torch.Size([8, 1200])
+
+@@@atom_hidden torch.Size([33, 1200])
+@@@self.atom_hiddens, self.mol_hiddens torch.Size([32, 1200]) torch.Size([4, 1200])
+
+
+
+@@@atom_hidden torch.Size([71, 1200])
+@@@@@test_preds [array([[-1.73112705e-01],
+       [ 9.92186427e-01],
+       [-3.57991941e-02],
+       [-3.57991941e-02],
+       [-3.57991941e-02],
+       [-1.17885396e-01],
+       [-1.17885396e-01],
+       [-1.73112705e-01],
+       [ 9.92186427e-01],
+       [-3.57991941e-02],
+       [-3.57991941e-02],
+       [-3.57991941e-02],
+       [-1.17885396e-01],
+       [-1.17885396e-01],
+       [ 4.23882119e-02],
+       [ 4.11238633e-02],
+       [ 4.33574989e-02],
+       [ 4.02980037e-02],
+       [ 4.02980037e-02],
+       [ 4.02980037e-02],
+       [ 4.03474234e-02],
+       [ 4.03474234e-02],
+       [ 4.23371159e-02],
+       [ 4.10415120e-02],
+       [ 4.06257585e-02],
+       [ 4.22700197e-02],
+       [ 4.44500968e-02],
+       [ 3.94721478e-02],
+       [ 3.94721478e-02],
+       [ 3.94721478e-02],
+       [ 4.04093303e-02],
+       [ 4.04093303e-02],
+       [ 4.22189236e-02],
+       [ 4.22189236e-02],
+       [ 4.23337333e-02],
+       [-2.88680978e-02],
+       [ 1.85079314e-02],
+       [-8.86458457e-02],
+       [ 8.75911355e-01],
+       [-3.00822295e-02],
+       [-3.00822295e-02],
+       [-3.00822295e-02],
+       [-3.13965045e-02],
+       [-3.13965045e-02],
+       [ 8.41888413e-03],
+       [ 8.41888413e-03],
+       [ 2.17325985e-04],
+       [-1.17555752e-01],
+       [ 8.64656210e-01],
+       [-5.33455051e-02],
+       [-5.33455051e-02],
+       [-5.33455051e-02],
+       [-3.50881256e-02],
+       [-3.50881256e-02],
+       [ 4.04555053e-02],
+       [ 4.04555053e-02],
+       [ 4.14474979e-02],
+       [ 4.14474979e-02],
+       [ 4.14474979e-02],
+       [ 4.14474979e-02],
+       [ 4.14474979e-02],
+       [ 4.14474979e-02],
+       [ 4.04555053e-02],
+       [ 4.04555053e-02],
+       [ 4.14474979e-02],
+       [ 4.14474979e-02],
+       [ 4.14474979e-02],
+       [ 4.14474979e-02],
+       [ 4.14474979e-02],
+       [ 4.14474979e-02]], dtype=float32), array([[-0.3649907 ],
+       [-0.35060567],
+       [ 0.13506104],
+       [ 0.13506104],
+       [ 0.13506104],
+       [ 0.15520664],
+       [ 0.15520664],
+       [-0.3649907 ],
+       [-0.35060567],
+       [ 0.13506104],
+       [ 0.13506104],
+       [ 0.13506104],
+       [ 0.15520664],
+       [ 0.15520664],
+       [-0.4231083 ],
+       [-0.04650766],
+       [-0.4728099 ],
+       [ 0.13671298],
+       [ 0.13671298],
+       [ 0.13671298],
+       [ 0.1103771 ],
+       [ 0.1103771 ],
+       [ 0.31153274],
+       [-0.44599822],
+       [-0.23578145],
+       [-0.07973134],
+       [-0.47140223],
+       [ 0.13814601],
+       [ 0.13814601],
+       [ 0.13814601],
+       [ 0.13365433],
+       [ 0.13365433],
+       [ 0.11836724],
+       [ 0.11836724],
+       [ 0.31443202],
+       [-0.4216506 ],
+       [-0.24910717],
+       [-0.01348121],
+       [-0.24164282],
+       [ 0.13795273],
+       [ 0.13795273],
+       [ 0.13795273],
+       [ 0.14124833],
+       [ 0.14124833],
+       [ 0.11476347],
+       [ 0.11476347],
+       [-0.39951354],
+       [-0.03321457],
+       [-0.23525403],
+       [ 0.1488488 ],
+       [ 0.1488488 ],
+       [ 0.1488488 ],
+       [ 0.11071788],
+       [ 0.11071788],
+       [-0.3945564 ],
+       [-0.3945564 ],
+       [ 0.1315188 ],
+       [ 0.1315188 ],
+       [ 0.1315188 ],
+       [ 0.1315188 ],
+       [ 0.1315188 ],
+       [ 0.1315188 ],
+       [-0.3945564 ],
+       [-0.3945564 ],
+       [ 0.1315188 ],
+       [ 0.1315188 ],
+       [ 0.1315188 ],
+       [ 0.13151878],
+       [ 0.1315188 ],
+       [ 0.13151878]], dtype=float32), array([[ 1.83080132e-01,  9.12199379e+01,  1.36430661e+02],
+       [ 1.83080132e-01,  9.12199379e+01,  1.36430661e+02],
+       [ 1.04625195e-04,  2.19111555e-02, -1.31446461e-01],
+       [-4.40158815e-04, -2.68122774e-02, -1.41046794e-01],
+       [ 2.52862636e-01,  9.49519396e+01,  1.32451302e+02],
+       [ 2.43789080e-01,  9.55555809e+01,  1.34120326e+02],
+       [-1.33526483e-03,  1.11945598e-01, -3.13149843e-02],
+       [-1.33526483e-03,  1.11945598e-01, -3.13149843e-02]])]
+
+
+
+@@@n_atoms (7, 7, 8, 11, 9, 12, 8, 8)
+@@@n_bonds (6, 6, 7, 10, 8, 11, 7, 7)
+@@@test_preds i [[-1.73112705e-01]
+ [ 9.92186427e-01]
+ [-3.57991941e-02]
+ [-3.57991941e-02]
+ [-3.57991941e-02]
+ [-1.17885396e-01]
+ [-1.17885396e-01]
+ [-1.73112705e-01]
+ [ 9.92186427e-01]
+ [-3.57991941e-02]
+ [-3.57991941e-02]
+ [-3.57991941e-02]
+ [-1.17885396e-01]
+ [-1.17885396e-01]
+ [ 4.04555053e-02]
+ [ 4.04555053e-02]
+ [ 4.14474979e-02]
+ [ 4.14474979e-02]
+ [ 4.14474979e-02]
+ [ 4.14474979e-02]
+ [ 4.14474979e-02]
+ [ 4.14474979e-02]
+ [-2.88680978e-02]
+ [ 1.85079314e-02]
+ [-8.86458457e-02]
+ [ 8.75911355e-01]
+ [-3.00822295e-02]
+ [-3.00822295e-02]
+ [-3.00822295e-02]
+ [-3.13965045e-02]
+ [-3.13965045e-02]
+ [ 8.41888413e-03]
+ [ 8.41888413e-03]
+ [ 4.23882119e-02]
+ [ 4.11238633e-02]
+ [ 4.33574989e-02]
+ [ 4.02980037e-02]
+ [ 4.02980037e-02]
+ [ 4.02980037e-02]
+ [ 4.03474234e-02]
+ [ 4.03474234e-02]
+ [ 4.23371159e-02]
+ [ 4.10415120e-02]
+ [ 4.06257585e-02]
+ [ 4.22700197e-02]
+ [ 4.44500968e-02]
+ [ 3.94721478e-02]
+ [ 3.94721478e-02]
+ [ 3.94721478e-02]
+ [ 4.04093303e-02]
+ [ 4.04093303e-02]
+ [ 4.22189236e-02]
+ [ 4.22189236e-02]
+ [ 4.23337333e-02]
+ [ 4.04555053e-02]
+ [ 4.04555053e-02]
+ [ 4.14474979e-02]
+ [ 4.14474979e-02]
+ [ 4.14474979e-02]
+ [ 4.14474979e-02]
+ [ 4.14474979e-02]
+ [ 4.14474979e-02]
+ [ 2.17325985e-04]
+ [-1.17555752e-01]
+ [ 8.64656210e-01]
+ [-5.33455051e-02]
+ [-5.33455051e-02]
+ [-5.33455051e-02]
+ [-3.50881256e-02]
+ [-3.50881256e-02]]
+@@@test_preds i [[-0.3649907 ]
+ [-0.35060567]
+ [ 0.13506104]
+ [ 0.13506104]
+ [ 0.13506104]
+ [ 0.15520664]
+ [ 0.15520664]
+ [-0.3649907 ]
+ [-0.35060567]
+ [ 0.13506104]
+ [ 0.13506104]
+ [ 0.13506104]
+ [ 0.15520664]
+ [ 0.15520664]
+ [-0.3945564 ]
+ [-0.3945564 ]
+ [ 0.1315188 ]
+ [ 0.1315188 ]
+ [ 0.1315188 ]
+ [ 0.1315188 ]
+ [ 0.1315188 ]
+ [ 0.1315188 ]
+ [-0.4216506 ]
+ [-0.24910717]
+ [-0.01348121]
+ [-0.24164282]
+ [ 0.13795273]
+ [ 0.13795273]
+ [ 0.13795273]
+ [ 0.14124833]
+ [ 0.14124833]
+ [ 0.11476347]
+ [ 0.11476347]
+ [-0.4231083 ]
+ [-0.04650766]
+ [-0.4728099 ]
+ [ 0.13671298]
+ [ 0.13671298]
+ [ 0.13671298]
+ [ 0.1103771 ]
+ [ 0.1103771 ]
+ [ 0.31153274]
+ [-0.44599822]
+ [-0.23578145]
+ [-0.07973134]
+ [-0.47140223]
+ [ 0.13814601]
+ [ 0.13814601]
+ [ 0.13814601]
+ [ 0.13365433]
+ [ 0.13365433]
+ [ 0.11836724]
+ [ 0.11836724]
+ [ 0.31443202]
+ [-0.3945564 ]
+ [-0.3945564 ]
+ [ 0.1315188 ]
+ [ 0.1315188 ]
+ [ 0.1315188 ]
+ [ 0.1315188 ]
+ [ 0.1315188 ]
+ [ 0.1315188 ]
+ [-0.39951354]
+ [-0.03321455]
+ [-0.23525406]
+ [ 0.1488488 ]
+ [ 0.1488488 ]
+ [ 0.1488488 ]
+ [ 0.11071786]
+ [ 0.11071788]]
+@@@test_preds i [[ 1.83080132e-01  9.12199379e+01  1.36430661e+02]
+ [ 1.83080132e-01  9.12199379e+01  1.36430661e+02]
+ [-1.33526483e-03  1.11945598e-01 -3.13149843e-02]
+ [ 2.52862636e-01  9.49519396e+01  1.32451302e+02]
+ [ 1.04625195e-04  2.19111555e-02 -1.31446461e-01]
+ [-4.40158815e-04 -2.68122774e-02 -1.41046794e-01]
+ [-1.33526483e-03  1.11945598e-01 -3.13149843e-02]
+ [ 2.43789080e-01  9.55555809e+01  1.34120326e+02]]
+
+@@smiles_test_df ['[CH3:1][CH2:2][OH:3]', '[CH3:5][CH2:6]', '[CH3:4][CH3:5]', '[CH3:5][CH3:6]', '[CH3:1][CH2:2][CH2:3][O:4]', '[CH3:4][CH2:5]', '[CH3:1][CH2:2][O:3]', '[CH3:1][CH2:2][CH2:3][OH:4]']
+
+
+@@@test_preds_hidden[1] [[0.07740846 0.00637508 0.         ... 0.00924708 0.         0.        ]
+ [0.05990196 0.05581987 0.         ... 0.         0.01371678 0.        ]
+ [0.05990196 0.05581987 0.         ... 0.         0.01371678 0.        ]
+ ...
+ [0.08594088 0.01739939 0.         ... 0.01525725 0.00357213 0.        ]
+ [0.02260328 0.02105281 0.         ... 0.03364069 0.07421065 0.        ]
+ [0.06698093 0.02423555 0.         ... 0.01383569 0.00127244 0.        ]]Loading training args
+
+
+
+
+@@@@batch_preds_hidden [array([[0.        , 0.0255003 , 0.        , ..., 0.0369883 , 0.        ,
+        0.        ],
+       [0.        , 0.0255003 , 0.        , ..., 0.0369883 , 0.        ,
+        0.        ],
+       [0.10321128, 0.        , 0.        , ..., 0.        , 0.        ,
+        0.        ],
+       ...,
+       [0.10178925, 0.01260867, 0.        , ..., 0.        , 0.        ,
+        0.        ],
+       [0.10178925, 0.01260867, 0.        , ..., 0.        , 0.        ,
+        0.        ],
+       [0.10526084, 0.        , 0.        , ..., 0.        , 0.        ,
+        0.        ]], dtype=float32), array([[0.07740846, 0.00637508, 0.        , ..., 0.00924708, 0.        ,
+        0.        ],
+       [0.07740846, 0.00637508, 0.        , ..., 0.00924708, 0.        ,
+        0.        ],
+       [0.02260328, 0.02105281, 0.        , ..., 0.03364069, 0.07421065,
+        0.        ],
+       ...,
+       [0.08594088, 0.01739939, 0.        , ..., 0.01525725, 0.00357213,
+        0.        ],
+       [0.05990196, 0.05581987, 0.        , ..., 0.        , 0.01371678,
+        0.        ],
+       [0.06698093, 0.02423555, 0.        , ..., 0.01383569, 0.00127244,
+        0.        ]])]
+@@@preds_hidden [[array([[0.        , 0.0255003 , 0.        , ..., 0.0369883 , 0.        ,
+        0.        ],
+       [0.        , 0.0255003 , 0.        , ..., 0.0369883 , 0.        ,
+        0.        ],
+       [0.10321128, 0.        , 0.        , ..., 0.        , 0.        ,
+        0.        ],
+       ...,
+       [0.10178925, 0.01260867, 0.        , ..., 0.        , 0.        ,
+        0.        ],
+       [0.10178925, 0.01260867, 0.        , ..., 0.        , 0.        ,
+        0.        ],
+       [0.10526084, 0.        , 0.        , ..., 0.        , 0.        ,
+        0.        ]], dtype=float32), array([[0.07740846, 0.00637508, 0.        , ..., 0.00924708, 0.        ,
+        0.        ],
+       [0.07740846, 0.00637508, 0.        , ..., 0.00924708, 0.        ,
+        0.        ],
+       [0.02260328, 0.02105281, 0.        , ..., 0.03364069, 0.07421065,
+        0.        ],
+       ...,
+       [0.08594088, 0.01739939, 0.        , ..., 0.01525725, 0.00357213,
+        0.        ],
+       [0.05990196, 0.05581987, 0.        , ..., 0.        , 0.01371678,
+        0.        ],
+       [0.06698093, 0.02423555, 0.        , ..., 0.01383569, 0.00127244,
+        0.        ]])]]
+@@@preds_hidden [array([[0.        , 0.0255003 , 0.        , ..., 0.0369883 , 0.        ,
+        0.        ],
+       [0.        , 0.0255003 , 0.        , ..., 0.0369883 , 0.        ,
+        0.        ],
+       [0.10321128, 0.        , 0.        , ..., 0.        , 0.        ,
+        0.        ],
+       ...,
+       [0.10178925, 0.01260867, 0.        , ..., 0.        , 0.        ,
+        0.        ],
+       [0.10178925, 0.01260867, 0.        , ..., 0.        , 0.        ,
+        0.        ],
+       [0.10526084, 0.        , 0.        , ..., 0.        , 0.        ,
+        0.        ]], dtype=float32), array([[0.07740846, 0.00637508, 0.        , ..., 0.00924708, 0.        ,
+        0.        ],
+       [0.07740846, 0.00637508, 0.        , ..., 0.00924708, 0.        ,
+        0.        ],
+       [0.02260328, 0.02105281, 0.        , ..., 0.03364069, 0.07421065,
+        0.        ],
+       ...,
+       [0.08594088, 0.01739939, 0.        , ..., 0.01525725, 0.00357213,
+        0.        ],
+       [0.05990196, 0.05581987, 0.        , ..., 0.        , 0.01371678,
+        0.        ],
+       [0.06698093, 0.02423555, 0.        , ..., 0.01383569, 0.00127244,
+        0.        ]])]
+
+
+@@@n_atoms (8, 11, 7, 7, 12, 8, 9, 8)
+@@@smiles_mol [CH3:1][CH2:2][O:3]
+@@@rad_atom 2
+@@@smiles_mol [CH3:1][CH2:2][CH2:3][O:4]
+@@@rad_atom 11
+@@@smiles_mol [CH3:5][CH2:6]
+@@@rad_atom 20
+@@@smiles_mol [CH3:4][CH2:5]
+@@@rad_atom 27
+@@@smiles_mol [CH3:1][CH2:2][CH2:3][OH:4]
+@@@rad_atom None
+@@@smiles_mol [CH3:5][CH3:6]
+@@@rad_atom None
+@@@smiles_mol [CH3:1][CH2:2][OH:3]
+@@@rad_atom None
+@@@smiles_mol [CH3:4][CH3:5]
+@@@rad_atom None
+
+
+
+
+
+@@@n_atoms (7, 8, 9, 8, 11, 7, 12, 8)
+@@@rad_atom C
+@@@smiles_mol [CH3:4][CH2:5]
+@@@rad_atom O
+@@@smiles_mol [CH3:1][CH2:2][O:3]
+
+
+
+@@@np.stack(df[feature].values [[0.04807126 0.         0.0530402  ... 0.00789315 0.02018363 0.00991358]
+ [0.08842006 0.00331878 0.0389008  ... 0.01344695 0.01050779 0.0077157 ]
+ [0.07018198 0.00470712 0.00669206 ... 0.01023098 0.00399848 0.        ]
+ ...
+ [0.06612862 0.0205841  0.02558163 ... 0.01404009 0.00051028 0.00193088]
+ [0.23927252 0.00471416 0.05665834 ... 0.03130458 0.         0.00221495]
+ [0.20329987 0.0062175  0.         ... 0.00090695 0.00592857 0.        ]]
+@@@np.stack(df[feature].values [[1.19829282e-01 4.24871594e-02 1.48987293e-03 ... 3.65126804e-02
+  6.80853659e-03 0.00000000e+00]
+ [5.99931441e-02 1.17533728e-02 3.18171247e-03 ... 3.13742161e-02
+  1.19162258e-02 3.13881203e-03]
+ [1.46505222e-01 1.83358546e-02 0.00000000e+00 ... 1.48284405e-01
+  4.84665632e-02 0.00000000e+00]
+ ...
+ [7.23132938e-02 2.29471810e-02 1.37869278e-02 ... 1.46951169e-01
+  1.49556482e-02 0.00000000e+00]
+ [9.62034315e-02 4.67335135e-02 1.08638704e-02 ... 6.70088977e-02
+  0.00000000e+00 0.00000000e+00]
+ [1.16283141e-01 2.11778786e-02 4.34556138e-03 ... 8.49116594e-02
+  5.80755077e-05 0.00000000e+00]]
+@@@np.stack(df[feature].values [[0.13162915 0.02127405 0.00192456 ... 0.         0.         0.        ]
+ [0.05079143 0.01359008 0.         ... 0.00712875 0.00241793 0.00348529]
+ [0.1890748  0.00235237 0.         ... 0.         0.00896769 0.        ]
+ ...
+ [0.1073164  0.00826739 0.02573098 ... 0.00053379 0.00432385 0.        ]
+ [0.13963708 0.01724215 0.0307214  ... 0.00258429 0.         0.0019291 ]
+ [0.16141476 0.00603534 0.01183004 ... 0.         0.         0.00407049]]
+@@@np.stack(df[feature].values [[0.04972335 0.00395585 0.08220994 ... 0.06271973 0.07250772 0.00989921]
+ [0.07024835 0.03210194 0.01350087 ... 0.0987797  0.01571664 0.00613917]
+ [0.04097803 0.01295879 0.03067207 ... 0.07602987 0.03713763 0.        ]
+ ...
+ [0.05189199 0.03769802 0.00683183 ... 0.11433157 0.0094864  0.00360607]
+ [0.11333002 0.01158679 0.03800842 ... 0.24043581 0.013262   0.01014802]
+ [0.09853059 0.03102436 0.         ... 0.18901566 0.01121666 0.        ]]
+@@@np.stack(df[feature].values [[0.         0.08790798 0.         ... 0.         0.         0.        ]
+ [0.         0.03002846 0.         ... 0.         0.         0.        ]
+ [0.26128846 0.04035478 0.         ... 0.         0.04316117 0.        ]
+ ...
+ [0.14653824 0.15606447 0.         ... 0.         0.         0.        ]
+ [0.2937529  0.02564228 0.         ... 0.         0.         0.        ]
+ [0.301599   0.13286625 0.         ... 0.         0.00116151 0.        ]]
+@@@np.stack(df[feature].values [[0.         0.0027018  0.         ... 0.         0.         0.        ]
+ [0.15040708 0.         0.02165396 ... 0.         0.2146045  0.        ]
+ [0.01351802 0.07175085 0.         ... 0.         0.         0.        ]
+ ...
+ [0.01465249 0.10518942 0.         ... 0.         0.01617148 0.        ]
+ [0.3954362  0.15629363 0.         ... 0.         0.10815696 0.18266442]
+ [0.17028733 0.         0.         ... 0.         0.         0.        ]]
+@@@self.descriptors torch.Size([1360, 7200])
+@@@np.stack(df[feature].values [[0.10182565 0.02477334 0.00371104 ... 0.00223723 0.00422323 0.        ]
+ [0.12734699 0.00231566 0.         ... 0.00208613 0.01211725 0.        ]
+ [0.13813294 0.         0.00596447 ... 0.         0.         0.        ]
+ ...
+ [0.16077313 0.00325438 0.0055687  ... 0.00819182 0.00343286 0.00039622]
+ [0.13190527 0.00629897 0.01190148 ... 0.00305379 0.00367343 0.00293629]
+ [0.22013882 0.00762353 0.0177335  ... 0.         0.00785262 0.        ]]
+@@@np.stack(df[feature].values [[6.60566315e-02 1.95074510e-02 1.22568046e-03 ... 2.43835226e-02
+  8.96998215e-03 0.00000000e+00]
+ [5.91915101e-02 3.99871804e-02 9.77717713e-03 ... 8.31842124e-02
+  1.78660452e-02 0.00000000e+00]
+ [7.51041025e-02 3.75375687e-03 4.13327254e-02 ... 4.45820913e-02
+  1.12650683e-02 4.46380721e-03]
+ ...
+ [9.53875035e-02 3.50536592e-02 1.17549989e-02 ... 2.61649489e-02
+  1.66191943e-02 0.00000000e+00]
+ [1.01710528e-01 2.96880696e-02 3.28480056e-03 ... 5.24220355e-02
+  6.53215721e-02 5.57918660e-03]
+ [1.19713172e-01 1.88038480e-02 6.21896470e-05 ... 1.01922527e-01
+  2.18760297e-02 0.00000000e+00]]
+@@@np.stack(df[feature].values [[9.27244425e-02 1.61418263e-02 0.00000000e+00 ... 5.63475350e-03
+  2.36224337e-03 0.00000000e+00]
+ [1.18483894e-01 9.56966076e-03 4.36941441e-03 ... 1.24745835e-02
+  4.00753971e-03 0.00000000e+00]
+ [8.32279399e-02 2.21797824e-03 6.39302330e-03 ... 7.47312501e-04
+  4.75522538e-04 1.97357126e-03]
+ ...
+ [9.99366418e-02 1.25146972e-03 2.21597180e-02 ... 7.50140194e-03
+  2.77346540e-02 0.00000000e+00]
+ [1.10896565e-01 1.89863127e-02 4.41114232e-03 ... 1.07679088e-02
+  8.74136676e-05 3.53422528e-03]
+ [1.20206915e-01 3.04311328e-03 2.73300451e-04 ... 1.34528205e-02
+  3.61894636e-04 0.00000000e+00]]
+@@@np.stack(df[feature].values [[0.07489803 0.02674055 0.00705888 ... 0.00994872 0.01105061 0.        ]
+ [0.07196915 0.02091952 0.         ... 0.06017463 0.0246442  0.        ]
+ [0.13866667 0.00221887 0.06067576 ... 0.0107071  0.00946084 0.        ]
+ ...
+ [0.13691688 0.0105244  0.00547364 ... 0.05354257 0.00829485 0.00157997]
+ [0.05142828 0.01691235 0.00176622 ... 0.12471263 0.00783575 0.        ]
+ [0.12910031 0.00595361 0.047991   ... 0.11958953 0.03819173 0.        ]]
+@@@np.stack(df[feature].values [[0.10624607 0.         0.         ... 0.         0.         0.        ]
+ [0.1907037  0.         0.         ... 0.         0.         0.        ]
+ [0.10245971 0.         0.         ... 0.         0.         0.        ]
+ ...
+ [0.         0.         0.1144293  ... 0.         0.         0.        ]
+ [0.2257287  0.         0.         ... 0.         0.00739569 0.        ]
+ [0.02542088 0.0426649  0.         ... 0.         0.         0.        ]]
+@@@np.stack(df[feature].values [[0.02867358 0.         0.         ... 0.         0.         0.        ]
+ [0.11855201 0.         0.         ... 0.         0.01088602 0.        ]
+ [0.         0.         0.         ... 0.         0.         0.        ]
+ ...
+ [0.10475743 0.         0.         ... 0.         0.00959623 0.        ]
+ [0.25486106 0.         0.         ... 0.         0.04550176 0.        ]
+ [0.14623898 0.         0.         ... 0.         0.         0.        ]]
+@@@self.descriptors torch.Size([151, 7200])
+2025-01-29 18:33:25,226 INFO: Train, val: (1360, 151)
+/home/echen/anaconda3/envs/predict_HAT/lib/python3.9/site-packages/pytorch_lightning/callbacks/model_checkpoint.py:446: UserWarning: Checkpoint directory reactivity_model/results/hidden/ exists and is not empty.
+  rank_zero_warn(f"Checkpoint directory {dirpath} exists and is not empty.")
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+
+  | Name       | Type       | Params
+------------------------------------------
+0 | all_layers | Sequential | 1.7 M 
+------------------------------------------
+1.7 M     Trainable params
+0         Non-trainable params
+1.7 M     Total params
+6.626     Total estimated model params size (MB)
+@@@input_dim 7200
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

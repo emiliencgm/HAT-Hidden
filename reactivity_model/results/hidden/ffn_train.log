@@ -1,0 +1,388 @@
+2025-01-29 17:51:08,854 INFO: Args:
+!!python/object:argparse.Namespace
+batch_size: 64
+csv_file: null
+data_path: tmp/input_ffnn_hidden.pkl
+debug: false
+delta_ML: false
+dropout: 0.0
+ensemble_size: 4
+features:
+- dG_forward
+- dG_reverse
+- q_reac0
+- qH_reac0
+- q_reac1
+- s_reac1
+- q_prod0
+- s_prod0
+- q_prod1
+- qH_prod1
+- BV_reac1
+- BV_prod0
+- fr_dG_forward
+- fr_dG_reverse
+gpu: false
+hidden_size: 230
+host: 127.0.0.1
+layers: 0
+learning_rate: 0.0277
+lr_ratio: 0.95
+max_epochs: 100
+mode: client
+port: 57546
+pred_file: null
+random_state: 0
+rxn_id_column: rxn_id
+save_dir: reactivity_model/results/hidden
+splits:
+- 80
+- 10
+- 10
+target_column: DG_TS_tunn
+test_set_path: null
+train_valid_set_path: null
+trained_dir: null
+transfer_learning: false
+
+2025-01-29 17:51:08,854 INFO: Training of model 0 started...
+2025-01-29 17:53:29,547 INFO: Args:
+!!python/object:argparse.Namespace
+batch_size: 64
+csv_file: null
+data_path: tmp/input_ffnn_hidden.pkl
+debug: false
+delta_ML: false
+dropout: 0.0
+ensemble_size: 4
+features:
+- dG_forward
+- dG_reverse
+- q_reac0
+- qH_reac0
+- q_reac1
+- s_reac1
+- q_prod0
+- s_prod0
+- q_prod1
+- qH_prod1
+- BV_reac1
+- BV_prod0
+- fr_dG_forward
+- fr_dG_reverse
+gpu: false
+hidden_size: 230
+host: 127.0.0.1
+layers: 0
+learning_rate: 0.0277
+lr_ratio: 0.95
+max_epochs: 100
+mode: client
+port: 57546
+pred_file: null
+random_state: 0
+rxn_id_column: rxn_id
+save_dir: reactivity_model/results/hidden
+splits:
+- 80
+- 10
+- 10
+target_column: dG_act_corrected
+test_set_path: null
+train_valid_set_path: null
+trained_dir: null
+transfer_learning: false
+
+2025-01-29 17:53:29,547 INFO: Training of model 0 started...
+2025-01-29 18:05:49,742 INFO: Args:
+!!python/object:argparse.Namespace
+batch_size: 64
+csv_file: null
+data_path: tmp/input_ffnn_hidden.pkl
+debug: false
+delta_ML: false
+dropout: 0.0
+ensemble_size: 4
+features:
+- mol1_hidden
+- rad1_hidden
+- mol2_hidden
+- rad2_hidden
+- rad_atom1_hidden
+- rad_atom2_hidden
+- dG_act_corrected
+gpu: false
+hidden_size: 230
+host: 127.0.0.1
+layers: 0
+learning_rate: 0.0277
+lr_ratio: 0.95
+max_epochs: 100
+mode: client
+port: 57546
+pred_file: null
+random_state: 0
+rxn_id_column: rxn_id
+save_dir: reactivity_model/results/hidden
+splits:
+- 80
+- 10
+- 10
+target_column: dG_act_corrected
+test_set_path: null
+train_valid_set_path: null
+trained_dir: null
+transfer_learning: false
+
+2025-01-29 18:05:49,742 INFO: Training of model 0 started...
+2025-01-29 18:18:20,608 INFO: Args:
+!!python/object:argparse.Namespace
+batch_size: 64
+csv_file: null
+data_path: tmp/input_ffnn_hidden.pkl
+debug: false
+delta_ML: false
+dropout: 0.0
+ensemble_size: 4
+features:
+- mol1_hidden
+- rad1_hidden
+- mol2_hidden
+- rad2_hidden
+- rad_atom1_hidden
+- rad_atom2_hidden
+- dG_act_corrected
+gpu: false
+hidden_size: 230
+host: 127.0.0.1
+layers: 0
+learning_rate: 0.0277
+lr_ratio: 0.95
+max_epochs: 100
+mode: client
+port: 57546
+pred_file: null
+random_state: 0
+rxn_id_column: rxn_id
+save_dir: reactivity_model/results/hidden
+splits:
+- 80
+- 10
+- 10
+target_column: dG_act_corrected
+test_set_path: null
+train_valid_set_path: null
+trained_dir: null
+transfer_learning: false
+
+2025-01-29 18:18:20,608 INFO: Training of model 0 started...
+2025-01-29 18:19:13,563 INFO: Args:
+!!python/object:argparse.Namespace
+batch_size: 64
+csv_file: null
+data_path: tmp/input_ffnn_hidden.pkl
+debug: false
+delta_ML: false
+dropout: 0.0
+ensemble_size: 4
+features:
+- mol1_hidden
+- rad1_hidden
+- mol2_hidden
+- rad2_hidden
+- rad_atom1_hidden
+- rad_atom2_hidden
+- dG_act_corrected
+gpu: false
+hidden_size: 230
+host: 127.0.0.1
+layers: 0
+learning_rate: 0.0277
+lr_ratio: 0.95
+max_epochs: 100
+mode: client
+port: 57546
+pred_file: null
+random_state: 0
+rxn_id_column: rxn_id
+save_dir: reactivity_model/results/hidden
+splits:
+- 80
+- 10
+- 10
+target_column: dG_act_corrected
+test_set_path: null
+train_valid_set_path: null
+trained_dir: null
+transfer_learning: false
+
+2025-01-29 18:19:13,563 INFO: Training of model 0 started...
+2025-01-29 18:26:15,348 INFO: Args:
+!!python/object:argparse.Namespace
+batch_size: 64
+csv_file: null
+data_path: tmp/input_ffnn_hidden.pkl
+debug: false
+delta_ML: false
+dropout: 0.0
+ensemble_size: 4
+features:
+- mol1_hidden
+- rad1_hidden
+- mol2_hidden
+- rad2_hidden
+- rad_atom1_hidden
+- rad_atom2_hidden
+- dG_act_corrected
+gpu: false
+hidden_size: 230
+host: 127.0.0.1
+layers: 0
+learning_rate: 0.0277
+lr_ratio: 0.95
+max_epochs: 100
+mode: client
+port: 57546
+pred_file: null
+random_state: 0
+rxn_id_column: rxn_id
+save_dir: reactivity_model/results/hidden
+splits:
+- 80
+- 10
+- 10
+target_column: dG_act_corrected
+test_set_path: null
+train_valid_set_path: null
+trained_dir: null
+transfer_learning: false
+
+2025-01-29 18:26:15,348 INFO: Training of model 0 started...
+2025-01-29 18:28:55,944 INFO: Args:
+!!python/object:argparse.Namespace
+batch_size: 64
+csv_file: null
+data_path: tmp/input_ffnn_hidden.pkl
+debug: false
+delta_ML: false
+dropout: 0.0
+ensemble_size: 4
+features:
+- mol1_hidden
+- rad1_hidden
+- mol2_hidden
+- rad2_hidden
+- rad_atom1_hidden
+- rad_atom2_hidden
+gpu: false
+hidden_size: 230
+host: 127.0.0.1
+layers: 0
+learning_rate: 0.0277
+lr_ratio: 0.95
+max_epochs: 100
+mode: client
+port: 57546
+pred_file: null
+random_state: 0
+rxn_id_column: rxn_id
+save_dir: reactivity_model/results/hidden
+splits:
+- 80
+- 10
+- 10
+target_column: dG_act_corrected
+test_set_path: null
+train_valid_set_path: null
+trained_dir: null
+transfer_learning: false
+
+2025-01-29 18:28:55,944 INFO: Training of model 0 started...
+2025-01-29 18:32:08,082 INFO: Args:
+!!python/object:argparse.Namespace
+batch_size: 64
+csv_file: null
+data_path: tmp/input_ffnn_hidden.pkl
+debug: false
+delta_ML: false
+dropout: 0.0
+ensemble_size: 4
+features:
+- mol1_hidden
+- rad1_hidden
+- mol2_hidden
+- rad2_hidden
+- rad_atom1_hidden
+- rad_atom2_hidden
+gpu: false
+hidden_size: 230
+host: 127.0.0.1
+layers: 0
+learning_rate: 0.0277
+lr_ratio: 0.95
+max_epochs: 100
+mode: client
+port: 57546
+pred_file: null
+random_state: 0
+rxn_id_column: rxn_id
+save_dir: reactivity_model/results/hidden
+splits:
+- 80
+- 10
+- 10
+target_column: dG_act_corrected
+test_set_path: null
+train_valid_set_path: null
+trained_dir: null
+transfer_learning: false
+
+2025-01-29 18:32:08,082 INFO: Training of model 0 started...
+2025-01-29 18:33:25,167 INFO: Args:
+!!python/object:argparse.Namespace
+batch_size: 64
+csv_file: null
+data_path: tmp/input_ffnn_hidden.pkl
+debug: false
+delta_ML: false
+dropout: 0.0
+ensemble_size: 4
+features:
+- mol1_hidden
+- rad1_hidden
+- mol2_hidden
+- rad2_hidden
+- rad_atom1_hidden
+- rad_atom2_hidden
+gpu: false
+hidden_size: 230
+host: 127.0.0.1
+layers: 0
+learning_rate: 0.0277
+lr_ratio: 0.95
+max_epochs: 100
+mode: client
+port: 57546
+pred_file: null
+random_state: 0
+rxn_id_column: rxn_id
+save_dir: reactivity_model/results/hidden
+splits:
+- 80
+- 10
+- 10
+target_column: dG_act_corrected
+test_set_path: null
+train_valid_set_path: null
+trained_dir: null
+transfer_learning: false
+
+2025-01-29 18:33:25,167 INFO: Training of model 0 started...
+2025-01-29 18:33:25,226 INFO: Train, val: (1360, 151)
+2025-01-29 18:33:35,098 INFO: Training of model 1 started...
+2025-01-29 18:33:35,145 INFO: Train, val: (1360, 151)
+2025-01-29 18:33:44,838 INFO: Training of model 2 started...
+2025-01-29 18:33:44,886 INFO: Train, val: (1360, 151)
+2025-01-29 18:33:54,939 INFO: Training of model 3 started...
+2025-01-29 18:33:54,985 INFO: Train, val: (1360, 151)
+2025-01-29 18:34:04,735 INFO: Training finished

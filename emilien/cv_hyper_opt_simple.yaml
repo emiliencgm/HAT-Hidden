@@ -1,0 +1,387 @@
+10-fold cross-validation results:
+  MAE: '2.4883674069136004'
+  R2: '0.7602604210262498'
+  RMSE: '3.434475576138264'
+args:
+  dropout: 0.0
+  hidden_size: 230
+  layers: 0
+  lr: 0.0277
+10-fold cross-validation results:
+  MAE: '2.4883674069136004'
+  R2: '0.7602604210262498'
+  RMSE: '3.434475576138264'
+args:
+  dropout: 0.1
+  hidden_size: 230
+  layers: 0
+  lr: 0.0277
+10-fold cross-validation results:
+  MAE: '2.45078779719643'
+  R2: '0.765882126524259'
+  RMSE: '3.3961077044268975'
+args:
+  dropout: 0.0
+  hidden_size: 512
+  layers: 0
+  lr: 0.0277
+10-fold cross-validation results:
+  MAE: '2.45078779719643'
+  R2: '0.765882126524259'
+  RMSE: '3.3961077044268975'
+args:
+  dropout: 0.1
+  hidden_size: 512
+  layers: 0
+  lr: 0.0277
+10-fold cross-validation results:
+  MAE: '2.424165821312471'
+  R2: '0.7693520634720149'
+  RMSE: '3.3707374815595004'
+args:
+  dropout: 0.0
+  hidden_size: 1024
+  layers: 0
+  lr: 0.0277
+10-fold cross-validation results:
+  MAE: '2.424165821312471'
+  R2: '0.7693520634720149'
+  RMSE: '3.3707374815595004'
+args:
+  dropout: 0.1
+  hidden_size: 1024
+  layers: 0
+  lr: 0.0277
+10-fold cross-validation results:
+  MAE: '2.445771791614616'
+  R2: '0.7661099134536034'
+  RMSE: '3.393875154811229'
+args:
+  dropout: 0.0
+  hidden_size: 230
+  layers: 1
+  lr: 0.0277
+10-fold cross-validation results:
+  MAE: '2.4348277654383907'
+  R2: '0.767467544859197'
+  RMSE: '3.3851015213638798'
+args:
+  dropout: 0.1
+  hidden_size: 230
+  layers: 1
+  lr: 0.0277
+10-fold cross-validation results:
+  MAE: '2.4242806902710363'
+  R2: '0.7701475173201175'
+  RMSE: '3.3649059558386347'
+args:
+  dropout: 0.0
+  hidden_size: 512
+  layers: 1
+  lr: 0.0277
+10-fold cross-validation results:
+  MAE: '2.422008166395085'
+  R2: '0.7708306806389098'
+  RMSE: '3.3603231961663154'
+args:
+  dropout: 0.1
+  hidden_size: 512
+  layers: 1
+  lr: 0.0277
+10-fold cross-validation results:
+  MAE: '2.3923814361324336'
+  R2: '0.7756572141262799'
+  RMSE: '3.326509871848087'
+args:
+  dropout: 0.0
+  hidden_size: 1024
+  layers: 1
+  lr: 0.0277
+10-fold cross-validation results:
+  MAE: '2.4123562770857427'
+  R2: '0.7723061607299633'
+  RMSE: '3.3508226725135506'
+args:
+  dropout: 0.1
+  hidden_size: 1024
+  layers: 1
+  lr: 0.0277
+10-fold cross-validation results:
+  MAE: '2.444094268743971'
+  R2: '0.7655169936534246'
+  RMSE: '3.3955124604513656'
+args:
+  dropout: 0.0
+  hidden_size: 230
+  layers: 2
+  lr: 0.0277
+10-fold cross-validation results:
+  MAE: '2.4319880356356847'
+  R2: '0.7687711120063326'
+  RMSE: '3.3749925184153384'
+args:
+  dropout: 0.1
+  hidden_size: 230
+  layers: 2
+  lr: 0.0277
+10-fold cross-validation results:
+  MAE: '2.421595969833101'
+  R2: '0.7715895780744326'
+  RMSE: '3.3536721188269376'
+args:
+  dropout: 0.0
+  hidden_size: 512
+  layers: 2
+  lr: 0.0277
+10-fold cross-validation results:
+  MAE: '2.4013211798411542'
+  R2: '0.7726168561676433'
+  RMSE: '3.348899947525669'
+args:
+  dropout: 0.1
+  hidden_size: 512
+  layers: 2
+  lr: 0.0277
+10-fold cross-validation results:
+  MAE: '2.406524033677379'
+  R2: '0.771862190414364'
+  RMSE: '3.3533149204260235'
+args:
+  dropout: 0.0
+  hidden_size: 1024
+  layers: 2
+  lr: 0.0277
+10-fold cross-validation results:
+  MAE: '2.3887470292917055'
+  R2: '0.7739225178981439'
+  RMSE: '3.3407912115023324'
+args:
+  dropout: 0.1
+  hidden_size: 1024
+  layers: 2
+  lr: 0.0277
+10-fold cross-validation results:
+  MAE: '2.5076168832518677'
+  R2: '0.7628914062907343'
+  RMSE: '3.448707446881111'
+args:
+  dropout: 0.0
+  hidden_size: 230
+  layers: 0
+  lr: 0.0277
+10-fold cross-validation results:
+  MAE: '2.5076168832518677'
+  R2: '0.7628914062907343'
+  RMSE: '3.448707446881111'
+args:
+  dropout: 0.1
+  hidden_size: 230
+  layers: 0
+  lr: 0.0277
+10-fold cross-validation results:
+  MAE: '2.492081349552809'
+  R2: '0.7657681653017943'
+  RMSE: '3.4284460780301513'
+args:
+  dropout: 0.0
+  hidden_size: 512
+  layers: 0
+  lr: 0.0277
+10-fold cross-validation results:
+  MAE: '2.492081349552809'
+  R2: '0.7657681653017943'
+  RMSE: '3.4284460780301513'
+args:
+  dropout: 0.1
+  hidden_size: 512
+  layers: 0
+  lr: 0.0277
+10-fold cross-validation results:
+  MAE: '2.4555496410454305'
+  R2: '0.7704715242143291'
+  RMSE: '3.393120902042606'
+args:
+  dropout: 0.0
+  hidden_size: 1024
+  layers: 0
+  lr: 0.0277
+10-fold cross-validation results:
+  MAE: '2.4555496410454305'
+  R2: '0.7704715242143291'
+  RMSE: '3.393120902042606'
+args:
+  dropout: 0.1
+  hidden_size: 1024
+  layers: 0
+  lr: 0.0277
+10-fold cross-validation results:
+  MAE: '2.4573105828759156'
+  R2: '0.7706782866744111'
+  RMSE: '3.3913030954234715'
+args:
+  dropout: 0.0
+  hidden_size: 230
+  layers: 1
+  lr: 0.0277
+10-fold cross-validation results:
+  MAE: '2.4465101924317656'
+  R2: '0.7702244101958582'
+  RMSE: '3.394868869629262'
+args:
+  dropout: 0.1
+  hidden_size: 230
+  layers: 1
+  lr: 0.0277
+10-fold cross-validation results:
+  MAE: '2.424119746638069'
+  R2: '0.7764891763974425'
+  RMSE: '3.3475772371806585'
+args:
+  dropout: 0.0
+  hidden_size: 512
+  layers: 1
+  lr: 0.0277
+10-fold cross-validation results:
+  MAE: '2.410660346011622'
+  R2: '0.7760022696086717'
+  RMSE: '3.351435403334663'
+args:
+  dropout: 0.1
+  hidden_size: 512
+  layers: 1
+  lr: 0.0277
+10-fold cross-validation results:
+  MAE: '2.402824812960599'
+  R2: '0.777887978756325'
+  RMSE: '3.336447193135347'
+args:
+  dropout: 0.0
+  hidden_size: 1024
+  layers: 1
+  lr: 0.0277
+10-fold cross-validation results:
+  MAE: '2.4148148670104237'
+  R2: '0.7754462084269613'
+  RMSE: '3.3553709474262248'
+args:
+  dropout: 0.1
+  hidden_size: 1024
+  layers: 1
+  lr: 0.0277
+10-fold cross-validation results:
+  MAE: '2.448974497420933'
+  R2: '0.7712127812673488'
+  RMSE: '3.38655988970362'
+args:
+  dropout: 0.0
+  hidden_size: 230
+  layers: 2
+  lr: 0.0277
+10-fold cross-validation results:
+  MAE: '2.4320128531306358'
+  R2: '0.7718574145173077'
+  RMSE: '3.3824771223377494'
+args:
+  dropout: 0.1
+  hidden_size: 230
+  layers: 2
+  lr: 0.0277
+10-fold cross-validation results:
+  MAE: '2.4385975816323695'
+  R2: '0.7730048306023287'
+  RMSE: '3.374049687312307'
+args:
+  dropout: 0.0
+  hidden_size: 512
+  layers: 2
+  lr: 0.0277
+10-fold cross-validation results:
+  MAE: '2.401841670445566'
+  R2: '0.7755898674045729'
+  RMSE: '3.3549616493508276'
+args:
+  dropout: 0.1
+  hidden_size: 512
+  layers: 2
+  lr: 0.0277
+10-fold cross-validation results:
+  MAE: '2.401636662921787'
+  R2: '0.7779108319924963'
+  RMSE: '3.3370652981715287'
+args:
+  dropout: 0.0
+  hidden_size: 1024
+  layers: 2
+  lr: 0.0277
+10-fold cross-validation results:
+  MAE: '2.4077630487692967'
+  R2: '0.7740700997516524'
+  RMSE: '3.365930797219698'
+args:
+  dropout: 0.1
+  hidden_size: 1024
+  layers: 2
+  lr: 0.0277
+10-fold cross-validation results:
+  MAE: '2.4043296098447398'
+  R2: '0.7731949404515726'
+  RMSE: '3.34257608857522'
+args:
+  dropout: 0.0
+  hidden_size: 2048
+  layers: 1
+  lr: 0.0277
+10-fold cross-validation results:
+  MAE: started...
+  R2: '151'
+  RMSE: '151'
+args:
+  dropout: 0.0
+  hidden_size: 2048
+  layers: 1
+  lr: 0.0277
+10-fold cross-validation results:
+  MAE: started...
+  R2: '151'
+  RMSE: '151'
+args:
+  dropout: 0.0
+  hidden_size: 2048
+  layers: 1
+  lr: 0.0277
+10-fold cross-validation results:
+  MAE: '2.409111137700696'
+  R2: '0.7739877349119031'
+  RMSE: '3.3379320904657606'
+args:
+  dropout: 0.0
+  hidden_size: 2048
+  layers: 1
+  lr: 0.0277
+10-fold cross-validation results:
+  MAE: '2.4051188294884858'
+  R2: '0.773676113372427'
+  RMSE: '3.3404561616333686'
+args:
+  dropout: 0.0
+  hidden_size: 2048
+  layers: 1
+  lr: 0.0277
+10-fold cross-validation results:
+  MAE: '2.392212537848713'
+  R2: '0.7725065280761241'
+  RMSE: '3.3501878923132793'
+args:
+  dropout: 0.0
+  hidden_size: 2048
+  layers: 4
+  lr: 0.0277
+10-fold cross-validation results:
+  MAE: '2.518379690615293'
+  R2: '0.7504671250636908'
+  RMSE: '3.5145413759478217'
+args:
+  dropout: 0.0
+  hidden_size: 2048
+  layers: 1
+  lr: 0.0277

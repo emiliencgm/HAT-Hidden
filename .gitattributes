@@ -1,0 +1,2 @@
+emilien/trainset_surrogate_model.pkl filter=lfs diff=lfs merge=lfs -text
+surrogate_model/qmdesc_wrap/model.pt filter=lfs diff=lfs merge=lfs -text
