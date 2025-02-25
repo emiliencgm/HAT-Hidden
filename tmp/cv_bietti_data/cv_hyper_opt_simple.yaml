@@ -1,0 +1,16 @@
+10-fold cross-validation results:
+  MAE: '0.47131612850018134'
+  R2: '0.6321163771449618'
+  RMSE: '0.5784391036248471'
+args:
+  dropout: 0.0
+  ensemble_size: 4
+  features:
+  - rad_atom1_hidden
+  - rad_atom2_hidden
+  hidden_size: 1024
+  layers: 1
+  lr: 0.0277
+  max_epochs: 100
+  random_state: 0
+  transfer_learning: false

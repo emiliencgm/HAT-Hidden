@@ -37,7 +37,7 @@ def hyperopt(args) -> None:
     Runs hyperparameter optimization on a Chemprop model.
 
     Hyperparameter optimization optimizes the following parameters:
-
+    # TODO Hyperparams search range
     * :code:`hidden_size`: The hidden size of the neural network layers is selected from {300, 400, ..., 1800}
     * :code:`depth`: The number of message passing iterations is selected from {2, 3, 4, 5, 6}
     * :code:`dropout`: The dropout probability is selected from {0.0, 0.05, ..., 0.4}

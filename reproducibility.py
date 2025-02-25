@@ -9,6 +9,7 @@ from utils.baseline.final_functions import get_accuracy_linear_regression, get_a
 from utils.tantillo.final_functions import add_pred_tantillo
 from utils.omega.final_functions import exp_data_corr
 from utils.common import prepare_df
+from emilien.utils_hidden import reproduce_RMechDB
 
 if __name__ == '__main__':
 
@@ -49,7 +50,25 @@ if __name__ == '__main__':
     df_train_tantillo = prepare_df(df_train_tantillo, features)
     df_test_tantillo = prepare_df(df_test_tantillo, features)
     get_accuracy_linear_regression(df_train_tantillo, df_test_tantillo, logger, 'DFT_Barrier')
-
+    
+    #========== TODO FFNN on tantillo implemented by Emilien. ==========
+    # NOTE change inputs "--hidden-size 200 --features Buried_Vol s_rad" in run_train()
+    # change inputs "--features Buried_Vol s_rad" in run_reactivity()
+    # change df = pd.read_pickle(args.pred_file) of reactivity_model.predict.py
+    
+    # df_train_tantillo.to_pickle('tmp/tantillo_data/input_tantillo_train_valid.pkl')
+    # df_test_tantillo.to_pickle('tmp/tantillo_data/input_steroids_tantillo_test.pkl')
+    
+    # run_train(save_dir='tmp/reprd_tantillo_data_emilien', data_path='tmp/tantillo_data/input_tantillo_train_valid.pkl', trained_dir='reactivity_model/results/final_model_4/', transfer_learning=False, target_column='DFT_Barrier', ensemble_size=4, batch_size=64)
+    
+    # run_reactivity(trained_dir='tmp/reprd_tantillo_data_emilien', target_column='DFT_Barrier', ensemble_size=4, input_file='tantillo_data/input_steroids_tantillo_test.pkl')
+    
+    # df_tantillo_pred = pd.read_csv('tmp/pred.csv')
+    # mae, rmse, r2 = get_stats(df_test_tantillo['DFT_Barrier'], df_tantillo_pred['DG_TS_tunn'])
+    # logger.info("Tantillo 4 ensemble of 200-neuron FFNN from scratch")
+    # logger.info(f'RMSE, MAE and R^2 for NN with a learned-VB representation: {rmse} {mae} {r2}')
+    
+    
     # omega dataset (DOI: https://doi.org/10.1021/acsomega.2c03252)
     logger = create_logger('omega_data.log')
     logger.info('********************************')
@@ -89,7 +108,7 @@ if __name__ == '__main__':
     mae, rmse, r2 = read_log('tmp/cv_omega_TF_1/ffn_train.log')
     logger.info("1 ensemble and transfer learning")
     logger.info(f'10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: {rmse} {mae} {r2}')
-
+    # Exp. Omega  selectivity.=========
     run_train(save_dir='tmp/final_model_omega_4', data_path='tmp/input_ffnn.pkl', target_column='G_act', batch_size=24)
     run_train(save_dir='tmp/final_model_omega_1', data_path='tmp/input_ffnn.pkl', target_column='G_act', batch_size=24, ensemble_size=1, trained_dir='reactivity_model/results/final_model_1/')
 
@@ -199,4 +218,8 @@ if __name__ == '__main__':
     df_bietti_pred = pd.read_csv('tmp/pred.csv')
     df_bietti = pd.read_csv('tmp/omega_data/clean_data_omega_exp.csv')
     exp_data_corr(exp_path='tmp/omega_data/clean_data_omega_exp.csv', pred_path='tmp/pred.csv', logger=logger)
+    
+    # RMechDB Dataset
+    # TODO implemented by Emilien
+    # reproduce_RMechDB()
     

@@ -158,3 +158,146 @@ Surrogate model done
 CV done
 Results in tmp/cv_rmechdb_data/ffn_train.log
 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 2.3149480682829915 1.833881172712145 0.7652759974734968
+********************************
+======= In-HOUSE DATASET =======
+Surrogate model done
+CV done
+Results in tmp/cv_in-house_data/ffn_train.log
+10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 3.325079552461323 2.393374432940627 0.7757631350543746
+********************************
+======= In-HOUSE DATASET =======
+Surrogate model done
+CV done
+Results in tmp/cv_in-house_data/ffn_train.log
+10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 6.620102426932905 4.9698520541790625 0.12326838812686192
+********************************
+======= TANTILLO DATASET =======
+Surrogate model done
+training done
+Results in tmp/cv_tantillo_data/ffn_train.log
+Upper bound of RMSE, MAE and R^2 for NN with a hidden representation: 1.6659555817583007 1.3808041506994828 -0.23058556933741614
+********************************
+======= In-HOUSE DATASET =======
+Surrogate model done
+CV done
+Results in tmp/cv_in-house_data/ffn_train.log
+10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 3.3467170003083817 2.3953721409223467 0.7728223174033422
+********************************
+======= RMechDB DATASET =======
+Surrogate model done
+CV done
+Results in tmp/cv_rmechdb_data/ffn_train.log
+10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 3.149188750088734 2.3358213485362898 0.5939032343885756
+********************************
+======= RMechDB DATASET =======
+4 ensemble(s), batch_size: 64, random_state: 0
+<<pure>> 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 2.4560875213568503 2.0256853745546524 0.672328828139903
+4 ensemble(s), batch_size: 64, random_state: 0
+<<water>> 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 1.8062081765928641 1.5119851546272698 0.8317454164562095
+4 ensemble(s), batch_size: 64, random_state: 0
+<<water_peroxide>> 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 1.7670539066123443 1.5009861089268133 0.8401325824690318
+********************************
+======= In-HOUSE DATASET =======
+Surrogate model done
+CV done
+Results in tmp/cv_in-house_data/ffn_train.log
+10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 3.435925127944393 2.487546917617271 0.7599733002448864
+********************************
+======= RMechDB DATASET =======
+Surrogate model done
+CV done
+Results in tmp/cv_rmechdb_data/ffn_train.log
+10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 2.2424470509699885 1.765916052407059 0.7700808145686209
+********************************
+======= In-HOUSE DATASET, M1's hidden size: 1200=======
+Surrogate model done
+CV done
+Results in tmp/cv_in-house_data/ffn_train.log
+10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 3.3420550451030104 2.419086466684642 0.7740024858359424
+********************************
+======= In-HOUSE DATASET, M1's hidden size: 1200=======
+Surrogate model done
+CV done
+Results in tmp/cv_in-house_data/ffn_train.log
+10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 3.3456210510534823 2.4035922795231395 0.7731675386456278
+********************************
+======= In-HOUSE DATASET, M1's hidden size: 1200=======
+Surrogate model done
+CV done
+Results in tmp/cv_in-house_data/ffn_train.log
+10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 3.4448924336171 2.5189744447971147 0.7605085359187633
+********************************
+======= In-HOUSE DATASET, M1's hidden size: 1200=======
+Surrogate model done
+********************************
+======= In-HOUSE DATASET, M1's hidden size: 1200=======
+Surrogate model done
+CV done
+Results in tmp/cv_in-house_data/ffn_train.log
+10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 3.4608487706011366 2.5333394378644636 0.7579901818867978
+********************************
+======= In-HOUSE DATASET, M1's hidden size: 1200=======
+Surrogate model done
+CV done
+Results in tmp/cv_in-house_data/ffn_train.log
+10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 3.4483609400059487 2.5142598369333364 0.7600807740089083
+********************************
+======= In-HOUSE DATASET, M1's hidden size: 1200=======
+Surrogate model done
+CV done
+Results in tmp/cv_in-house_data/ffn_train.log
+10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 3.405822301826164 2.4875191635869056 0.7655945920768351
+********************************
+======= In-HOUSE DATASET, M1's hidden size: 1200=======
+Surrogate model done
+CV done
+Results in tmp/cv_in-house_data/ffn_train.log
+10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 3.3871592876026155 2.470319985156692 0.7683422970701901
+********************************
+======= In-HOUSE DATASET, M1's hidden size: 1200=======
+Surrogate model done
+CV done
+Results in tmp/cv_in-house_data/ffn_train.log
+10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 3.3772473426919083 2.4575207141547413 0.7696673291112649
+********************************
+======= In-HOUSE DATASET, M1's hidden size: 1200=======
+Surrogate model done
+CV done
+Results in tmp/cv_in-house_data/ffn_train.log
+10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 3.3828649320870925 2.4619575997415004 0.7688786216647806
+********************************
+======= In-HOUSE DATASET, M1's hidden size: 1200=======
+Surrogate model done
+CV done
+Results in tmp/cv_in-house_data/ffn_train.log
+10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 3.3797898868729797 2.4599134401218974 0.7692352150916826
+********************************
+======= In-HOUSE DATASET, M1's hidden size: 1200=======
+Surrogate model done
+CV done
+Results in tmp/cv_in-house_data/ffn_train.log
+10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 3.4011629307570908 2.482318221075887 0.7658650504298061
+********************************
+======= In-HOUSE DATASET, M1's hidden size: 1200=======
+Surrogate model done
+CV done
+Results in tmp/cv_in-house_data/ffn_train.log
+10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 3.399800402952588 2.479717762522646 0.7664390562217764
+********************************
+======= In-HOUSE DATASET, M1's hidden size: 1200=======
+Surrogate model done
+CV done
+Results in tmp/cv_in-house_data/ffn_train.log
+10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 3.366128861144669 2.4402760228689706 0.7709805138782635
+********************************
+======= In-HOUSE DATASET, M1's hidden size: 1200=======
+Surrogate model done
+CV done
+Results in tmp/cv_in-house_data/ffn_train.log
+10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 3.347479386340602 2.4310603935397475 0.7733694480091329
+********************************
+======= In-HOUSE DATASET, M1's hidden size: 1200=======
+Surrogate model done
+CV done
+Results in tmp/cv_in-house_data/ffn_train.log
+10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 3.3493491405539353 2.4286631061502897 0.7734046382246899

@@ -1,0 +1,60 @@
+10-fold cross-validation results:
+  MAE: '2.062944690580053'
+  R2: '0.6370791436761676'
+  RMSE: '2.924183966170962'
+args:
+  dropout: 0.0
+  ensemble_size: 4
+  features:
+  - mol1_hidden
+  - rad1_hidden
+  - mol2_hidden
+  - rad2_hidden
+  - rad_atom1_hidden
+  - rad_atom2_hidden
+  hidden_size: 230
+  layers: 0
+  lr: 0.0277
+  max_epochs: 100
+  random_state: 0
+  transfer_learning: false
+10-fold cross-validation results:
+  MAE: '2.3358213485362898'
+  R2: '0.5939032343885756'
+  RMSE: '3.149188750088734'
+args:
+  dropout: 0.0
+  ensemble_size: 4
+  features:
+  - mol1_hidden
+  - rad1_hidden
+  - mol2_hidden
+  - rad2_hidden
+  - rad_atom1_hidden
+  - rad_atom2_hidden
+  hidden_size: 1024
+  layers: 1
+  lr: 0.0277
+  max_epochs: 100
+  random_state: 0
+  transfer_learning: true
+10-fold cross-validation results:
+  MAE: '1.765916052407059'
+  R2: '0.7700808145686209'
+  RMSE: '2.2424470509699885'
+args:
+  dropout: 0.0
+  ensemble_size: 4
+  features:
+  - mol1_hidden
+  - rad1_hidden
+  - mol2_hidden
+  - rad2_hidden
+  - rad_atom1_hidden
+  - rad_atom2_hidden
+  hidden_size: 230
+  layers: 0
+  lr: 0.0277
+  max_epochs: 100
+  random_state: 0
+  transfer_learning: true

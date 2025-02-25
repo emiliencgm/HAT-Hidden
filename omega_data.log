@@ -1,0 +1,28 @@
+********************************
+======= OMEGA DATASET =======
+CV done
+Results in tmp/cv_omega_60test/ffn_train.log
+10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation (60 test): 1.2288198351110664 1.0078384666007516 0.8008120781531101
+********************************
+======= OMEGA DATASET =======
+CV done
+Results in tmp/cv_omega_60test/ffn_train.log
+10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 1.2288198351110664 1.0078384666007516 0.8008120781531101
+********************************
+======= OMEGA DATASET =======
+CV done
+Results in tmp/cv_omega_60test/ffn_train.log
+10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 1.4441995557271539 1.1863932259058794 0.7248905188972558
+********************************
+======= OMEGA_EXP DATASET =======
+args: Namespace(dataset='omega_exp', hidden_size=1024, layers=1, dropout=0.0, lr=0.0277, features=['mol1_hidden', 'rad1_hidden', 'mol2_hidden', 'rad2_hidden', 'rad_atom1_hidden', 'rad_atom2_hidden'], random_state=0, transfer_learning=True)
+RMSE, MAE and R^2 for NN (trained on Omega and predict on Omega_Exp) with a hidden representation: 1.4947117779399284 1.1148462234561876 0.48815132481999823
+********************************
+======= OMEGA DATASET =======
+CV done
+Results in tmp/cv_omega_60test/ffn_train.log
+10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 1.4441995557271539 1.1863932259058794 0.7248905188972558
+********************************
+======= OMEGA_EXP DATASET =======
+args: Namespace(dataset='omega_exp', hidden_size=1024, layers=2, dropout=0.0, lr=0.0277, features=['mol1_hidden', 'rad1_hidden', 'mol2_hidden', 'rad2_hidden', 'rad_atom1_hidden', 'rad_atom2_hidden'], random_state=0, transfer_learning=True)
+RMSE, MAE and R^2 for NN (trained on Omega and predict on Omega_Exp) with a hidden representation: 1.4947117779399284 1.1148462234561876 0.48815132481999823

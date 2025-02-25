@@ -1,0 +1,50 @@
+********************************
+======= RMechDB DATASET =======
+Surrogate model done
+CV done
+Results in tmp/cv_rmechdb_data/ffn_train.log
+10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 2.924183966170962 2.062944690580053 0.6370791436761676
+********************************
+======= RMechDB DATASET =======
+Surrogate model done
+CV done
+Results in tmp/cv_rmechdb_data/ffn_train.log
+10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 3.149188750088734 2.3358213485362898 0.5939032343885756
+********************************
+********************************
+======= RMechDB DATASET =======
+======= RMechDB DATASET =======
+4 ensemble(s), batch_size: 64, random_state: 0
+4 ensemble(s), batch_size: 64, random_state: 0
+<<pure>> 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 2.4560875213568503 2.0256853745546524 0.672328828139903
+<<pure>> 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 2.4560875213568503 2.0256853745546524 0.672328828139903
+4 ensemble(s), batch_size: 64, random_state: 0
+4 ensemble(s), batch_size: 64, random_state: 0
+<<water>> 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 1.8062081765928641 1.5119851546272698 0.8317454164562095
+<<water>> 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 1.8062081765928641 1.5119851546272698 0.8317454164562095
+4 ensemble(s), batch_size: 64, random_state: 0
+4 ensemble(s), batch_size: 64, random_state: 0
+<<water_peroxide>> 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 1.7670539066123443 1.5009861089268133 0.8401325824690318
+<<water_peroxide>> 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 1.7670539066123443 1.5009861089268133 0.8401325824690318
+********************************
+======= RMechDB DATASET =======
+4 ensemble(s), batch_size: 64, random_state: 1
+<<pure>> 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 2.5430867015272143 2.061483176815666 0.46631557469164253
+4 ensemble(s), batch_size: 64, random_state: 1
+<<water>> 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 1.8157755014092554 1.4966749260513932 0.7895904987934577
+4 ensemble(s), batch_size: 64, random_state: 1
+<<water_peroxide>> 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 1.6397734451905233 1.3411212000402546 0.8173467384248143
+********************************
+======= RMechDB DATASET =======
+4 ensemble(s), batch_size: 64, random_state: 2
+<<pure>> 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 2.41880035273878 1.9879299749492048 0.6528328529891048
+4 ensemble(s), batch_size: 64, random_state: 2
+<<water>> 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 1.7566029449966802 1.4888139938132927 0.8224065250138152
+4 ensemble(s), batch_size: 64, random_state: 2
+<<water_peroxide>> 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 1.7381214558632145 1.4580491211229623 0.8268269645286572
+********************************
+======= RMechDB DATASET =======
+Surrogate model done
+CV done
+Results in tmp/cv_rmechdb_data/ffn_train.log
+10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 2.2424470509699885 1.765916052407059 0.7700808145686209

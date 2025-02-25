@@ -1,0 +1,98 @@
+********************************
+======= TANTILLO DATASET =======
+Surrogate model done
+training done
+Results in tmp/cv_tantillo_data/ffn_train.log
+Upper bound of RMSE, MAE and R^2 for NN with a hidden representation: 1.262896334206153 1.140453742638513 0.29283560322777136
+********************************
+======= TANTILLO DATASET =======
+Surrogate model done
+training done
+Results in tmp/cv_tantillo_data/ffn_train.log
+Upper bound of RMSE, MAE and R^2 for NN with a hidden representation: 1.4892301087413817 1.35092167648192 0.016648922020829238
+********************************
+======= TANTILLO DATASET =======
+Surrogate model done
+training done
+Results in tmp/cv_tantillo_data/ffn_train.log
+Upper bound of RMSE, MAE and R^2 for NN with a hidden representation: 1.3413727054165827 1.1856683442062936 0.20221859014447485
+********************************
+======= TANTILLO DATASET =======
+Surrogate model done
+training done
+Results in tmp/cv_tantillo_data/ffn_train.log
+Upper bound of RMSE, MAE and R^2 for NN with a hidden representation: 1.3943687745809794 1.1989707750047227 0.13793447124680236
+********************************
+======= TANTILLO DATASET =======
+Surrogate model done
+training done
+Results in tmp/cv_tantillo_data/ffn_train.log
+Upper bound of RMSE, MAE and R^2 for NN with a hidden representation: 1.262896334206153 1.140453742638513 0.29283560322777136
+********************************
+======= TANTILLO DATASET =======
+Surrogate model done
+training done
+Results in tmp/cv_tantillo_data/ffn_train.log
+Upper bound of RMSE, MAE and R^2 for NN with a hidden representation: 1.2811666287971661 1.1535680137378295 0.27222653355019366
+********************************
+======= TANTILLO DATASET =======
+Surrogate model done
+training done
+Results in tmp/cv_tantillo_data/ffn_train.log
+Upper bound of RMSE, MAE and R^2 for NN with a hidden representation: 1.6659555817583007 1.3808041506994828 -0.23058556933741614
+********************************
+======= TANTILLO DATASET =======
+Surrogate model done
+training done
+Results in tmp/cv_tantillo_data/ffn_train.log
+Upper bound of RMSE, MAE and R^2 for NN with a hidden representation: 1.262896334206153 1.140453742638513 0.29283560322777136
+********************************
+======= TANTILLO DATASET =======
+Surrogate model done
+training done
+Results in tmp/cv_tantillo_data/ffn_train.log
+Upper bound of RMSE, MAE and R^2 for NN with a hidden representation: 1.3361537725856758 1.1872912714200696 0.20841443399146709
+********************************
+======= TANTILLO DATASET =======
+Surrogate model done
+RMSE, MAE and R^2 for linear regression: 1.3174062306897978 1.1192156634962502 0.23047203249831494
+********************************
+======= TANTILLO DATASET =======
+Surrogate model done
+RMSE, MAE and R^2 for linear regression: 1.3174062306897978 1.1192156634962502 0.23047203249831494
+********************************
+======= TANTILLO DATASET =======
+Surrogate model done
+RMSE, MAE and R^2 for linear regression: 1.3174062306897978 1.1192156634962502 0.23047203249831494
+********************************
+======= TANTILLO DATASET =======
+Surrogate model done
+RMSE, MAE and R^2 for linear regression: 1.3174062306897978 1.1192156634962502 0.23047203249831494
+********************************
+======= TANTILLO DATASET =======
+Surrogate model done
+RMSE, MAE and R^2 for linear regression: 1.3174062306897978 1.1192156634962502 0.23047203249831494
+********************************
+======= TANTILLO DATASET =======
+Surrogate model done
+RMSE, MAE and R^2 for linear regression: 1.3174062306897978 1.1192156634962502 0.23047203249831494
+Tantillo 4 ensemble of 2-neuron FFNN from scratch
+RMSE, MAE and R^2 for NN with a learned-VB representation: 1.959954564441821 1.7771781335485324 -0.7032444774456335
+********************************
+======= TANTILLO DATASET =======
+Surrogate model done
+RMSE, MAE and R^2 for linear regression: 1.3174062306897978 1.1192156634962502 0.23047203249831494
+Tantillo 4 ensemble of 2-neuron FFNN from scratch
+RMSE, MAE and R^2 for NN with a learned-VB representation: 1.625798768068282 1.3417890334276585 -0.17197557952286835
+********************************
+======= TANTILLO DATASET =======
+Surrogate model done
+RMSE, MAE and R^2 for linear regression: 1.3174062306897978 1.1192156634962502 0.23047203249831494
+Tantillo 4 ensemble of 2-neuron FFNN from scratch
+RMSE, MAE and R^2 for NN with a learned-VB representation: 1.2230339033052697 1.1107698106615516 0.33677334159151473
+********************************
+======= TANTILLO DATASET =======
+Surrogate model done
+RMSE, MAE and R^2 for linear regression: 1.3174062306897978 1.1192156634962502 0.23047203249831494
+Tantillo 4 ensemble of 2-neuron FFNN from scratch
+RMSE, MAE and R^2 for NN with a learned-VB representation: 0.9772515639987719 0.9146044499825315 0.5765542967335817

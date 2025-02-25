@@ -1,11 +1,13 @@
 import os
 import subprocess
 
-def run_surrogate(test_file='tmp/species_reactivity_dataset.csv'):
+def run_surrogate(test_file='tmp/species_reactivity_dataset.csv', chk_path = "surrogate_model/qmdesc_wrap/model.pt"):
+    '''
+    Changed by Emilien, now checkpoint_path can be modified and its default value is still the original model.
+    '''
 
         path = "surrogate_model/predict.py"
         test_path = f"{test_file}"
-        chk_path = "surrogate_model/qmdesc_wrap/model.pt"
         preds_path = "tmp/preds_surrogate.pkl"
         inputs = f"--test_path {test_path} --checkpoint_path {chk_path} --preds_path {preds_path}"
 
@@ -21,6 +23,7 @@ def run_reactivity(trained_dir = 'reactivity_model/results/final_model_4/', targ
     pred_file = f"tmp/{input_file}"
     save_dir = "tmp/"
     inputs = f"--pred_file {pred_file} --trained_dir {trained_dir} --save_dir {save_dir} --ensemble_size {ensemble_size} --target_column {target_column}"
+    # inputs = f"--pred_file {pred_file} --trained_dir {trained_dir} --save_dir {save_dir} --ensemble_size {ensemble_size} --target_column {target_column} --features Buried_Vol s_rad" #TODO
 
     with open('out_file', 'a') as out:
         subprocess.run(f"python {path} {inputs}", shell=True, stdout=out, stderr=out)
@@ -70,6 +73,7 @@ def run_train(save_dir,
      
     path = f"reactivity_model/train.py"
     inputs = f" --data_path {data_path} --save_dir {save_dir} --ensemble_size {ensemble_size} --target_column {target_column} --batch-size {batch_size}"
+    # inputs = f" --data_path {data_path} --save_dir {save_dir} --ensemble_size {ensemble_size} --target_column {target_column} --batch-size {batch_size} --hidden-size 200 --features Buried_Vol s_rad" #TODO
     if transfer_learning:
          inputs += f" --trained_dir {trained_dir} --transfer_learning"
 

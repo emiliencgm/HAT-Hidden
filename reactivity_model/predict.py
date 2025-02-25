@@ -36,6 +36,8 @@ if __name__ == '__main__':
 
     # Get dataset tmp/input_ffnn.csv
     df = pd.read_csv(args.pred_file, index_col=0)
+    #TODO
+    # df = pd.read_pickle(args.pred_file)
 
     predicted_activation_energies_ind = []
 
