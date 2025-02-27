@@ -14,7 +14,7 @@ from emilien.utils_hidden import reproduce_RMechDB
 if __name__ == '__main__':
 
     # cross-validation in-house HAT dataset
-    logger = create_logger('own_dataset.log')
+    logger = create_logger('reproduce_javier.log')
     logger.info('********************************')
     logger.info('======= In-HOUSE DATASET =======')
     df = pd.read_csv('tmp/own_dataset/reactivity_database_corrected.csv', index_col=0)
@@ -36,7 +36,7 @@ if __name__ == '__main__':
     logger.info(f'10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation and 4 ensembles: {rmse} {mae} {r2}')
 
     # tantillo dataset (DOI: https://doi.org/10.1002/cmtd.202100108)
-    logger = create_logger('tantillo_data.log')
+    # logger = create_logger('tantillo_data.log')
     logger.info('********************************')
     logger.info('======= TANTILLO DATASET =======')
     features = ['s_rad', 'Buried_Vol']
@@ -70,7 +70,7 @@ if __name__ == '__main__':
     
     
     # omega dataset (DOI: https://doi.org/10.1021/acsomega.2c03252)
-    logger = create_logger('omega_data.log')
+    # logger = create_logger('omega_data.log')
     logger.info('********************************')
     logger.info('======= OMEGA DATASET =======')
     features = ['dG_forward', 'dG_reverse', 'q_reac0', 'qH_reac0', 'q_reac1', 's_reac1', 'q_prod0', 's_prod0', 'q_prod1', 'qH_prod1', 'BV_reac1', 'BV_prod0', 'fr_dG_forward', 'fr_dG_reverse']
@@ -135,7 +135,7 @@ if __name__ == '__main__':
     create_input_ffnn('tmp/preds_surrogate.pkl', 'tmp/omega_data/clean_data_omega_exp.csv', 'gibbs_exp', 'tmp/omega_data/additional_data_omega.pkl', output='input_ffnn_bietti')
     
     # cross-validation Hong data (DOI https://doi.org/10.1039/D1QO01325D) Photoredox HAT ^60
-    logger = create_logger('hong_data.log')
+    # logger = create_logger('hong_data.log')
     logger.info('********************************')
     logger.info('======= HONG DATASET =======')
     df_hong = pd.read_csv('tmp/hong_data/training_hong_clean.csv', index_col=0)

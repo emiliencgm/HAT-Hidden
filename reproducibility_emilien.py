@@ -1,5 +1,5 @@
 import pandas as pd
-from utils.log import create_logger
+from utils.log import create_logger_emilien
 from utils.input_for_pred import create_input_pred
 from utils.run_models import run_surrogate, run_cv, run_train, run_reactivity
 from utils.create_input_ffnn import create_input_ffnn
@@ -12,14 +12,23 @@ from utils.common import prepare_df
 from emilien.utils_hidden import reproduce_RMechDB
 import argparse
 
+from data_manager import update_dataset
 # NOTE 用于验证猜想：改变M1的hidden_size时，根据desc预测和根据hidden预测的M2的性能变化趋势会有不同——hidden space可能更加鲁棒，因此不需要特别准确的desc预测结果也可以预测activation energy。
 
 def reproduce(hidden_size_M1=1200):
     
+    data_manager_file_path = 'reproduce_4_FFNN.pkl'
+    
     checkpoint_path = f"surrogate_model/output_h{hidden_size_M1}_b50_e100/model_0/model.pt"
     
     # cross-validation in-house HAT dataset
-    logger = create_logger('own_dataset.log')
+    logger = create_logger_emilien(f'reproduce_emilien.log')
+    
+    logger_simple = create_logger_emilien(f'reproduce_emilien_simple.log')
+    logger_simple.info('='*30)
+    logger_simple.info('Only the results that are expected to be of interset are recorded here.')
+    logger_simple.info(f'hidden size of M1: {hidden_size_M1}')
+    
     logger.info('********************************')
     logger.info(f'======= In-HOUSE DATASET M1 hidden_size={hidden_size_M1} =======')
     df = pd.read_csv('tmp/own_dataset/reactivity_database_corrected.csv', index_col=0)
@@ -39,9 +48,12 @@ def reproduce(hidden_size_M1=1200):
     logger.info('Results in tmp/cv_own_dataset_4/ffn_train.log')
     mae, rmse, r2 = read_log('tmp/cv_own_dataset_4/ffn_train.log')
     logger.info(f'10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation and 4 ensembles: {rmse} {mae} {r2}')
+    logger_simple.info('**********IN-HOUSE**********')
+    logger_simple.info(f'10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation and **4** ensembles: {rmse} {mae} {r2}')
+    update_dataset(file_path=data_manager_file_path, dataset_name='in-house', h=hidden_size_M1, rmse=rmse, mae=mae, r2=r2)
 
     # tantillo dataset (DOI: https://doi.org/10.1002/cmtd.202100108)
-    logger = create_logger('tantillo_data.log')
+    # logger = create_logger('tantillo_data.log')
     logger.info('********************************')
     logger.info(f'======= TANTILLO DATASET  M1 hidden_size={hidden_size_M1}=======')
     features = ['s_rad', 'Buried_Vol']
@@ -55,6 +67,8 @@ def reproduce(hidden_size_M1=1200):
     df_train_tantillo = prepare_df(df_train_tantillo, features)
     df_test_tantillo = prepare_df(df_test_tantillo, features)
     get_accuracy_linear_regression(df_train_tantillo, df_test_tantillo, logger, 'DFT_Barrier')
+    logger_simple.info('**********TANTILLO**********')
+    get_accuracy_linear_regression(df_train_tantillo, df_test_tantillo, logger_simple, 'DFT_Barrier')
     
     #========== TODO FFNN on tantillo implemented by Emilien. ==========
     # NOTE change inputs "--hidden-size 200 --features Buried_Vol s_rad" in run_train()
@@ -72,10 +86,13 @@ def reproduce(hidden_size_M1=1200):
     # mae, rmse, r2 = get_stats(df_test_tantillo['DFT_Barrier'], df_tantillo_pred['DG_TS_tunn'])
     # logger.info("Tantillo 4 ensemble of 200-neuron FFNN from scratch")
     # logger.info(f'RMSE, MAE and R^2 for NN with a learned-VB representation: {rmse} {mae} {r2}')
+    # logger_simple.info('**********TANTILLO**********')
+    # logger_simple.info(f'RMSE, MAE and R^2 for NN with a learned-VB representation and 4 ensembles: {rmse} {mae} {r2}')
+    # update_dataset(file_path=data_manager_file_path, dataset_name='tantillo', h=hidden_size_M1, rmse=rmse, mae=mae, r2=r2)
     
     
     # omega dataset (DOI: https://doi.org/10.1021/acsomega.2c03252)
-    logger = create_logger('omega_data.log')
+    # logger = create_logger('omega_data.log')
     logger.info('********************************')
     logger.info(f'======= OMEGA DATASET M1 hidden_size={hidden_size_M1} =======')
     features = ['dG_forward', 'dG_reverse', 'q_reac0', 'qH_reac0', 'q_reac1', 's_reac1', 'q_prod0', 's_prod0', 'q_prod1', 'qH_prod1', 'BV_reac1', 'BV_prod0', 'fr_dG_forward', 'fr_dG_reverse']
@@ -94,6 +111,10 @@ def reproduce(hidden_size_M1=1200):
     get_accuracy_linear_regression(df_train, df_test, logger, 'G_act')
     parameters_rf = {'n_estimators': 300, 'max_features': 1, 'min_samples_leaf': 1}
     get_accuracy_rf_descriptors(df_train, df_test, logger, parameters_rf, 'G_act')
+    
+    logger_simple.info('**********OMEGA***********')
+    get_accuracy_rf_descriptors(df_train, df_test, logger_simple, parameters_rf, 'G_act')
+
     df_train.to_csv('tmp/omega_data/train_valid_set.csv')
     df_test.to_csv('tmp/omega_data/test_set.csv')
     df_test.to_pickle('tmp/omega_data/test_set.pkl')
@@ -101,6 +122,9 @@ def reproduce(hidden_size_M1=1200):
     mae, rmse, r2 = read_log('tmp/cv_omega_TF_4/ffn_train.log')
     logger.info("4 ensembles and transfer learning")
     logger.info(f'10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: {rmse} {mae} {r2}')
+    logger_simple.info(f'**4** ensembles and transfer learning on in-house, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: {rmse} {mae} {r2}')
+    update_dataset(file_path=data_manager_file_path, dataset_name='omega', h=hidden_size_M1, rmse=rmse, mae=mae, r2=r2)
+    
     run_cv(target_column='G_act', save_dir='tmp/cv_omega_no_TF_4', k_fold=10, ensemble_size=4, test_set='tmp/omega_data/test_set.pkl', train_valid_set='tmp/omega_data/train_valid_set.csv', random_state=0, batch_size=24)
     mae, rmse, r2 = read_log('tmp/cv_omega_no_TF_4/ffn_train.log')
     logger.info("4 ensembles")
@@ -113,6 +137,7 @@ def reproduce(hidden_size_M1=1200):
     mae, rmse, r2 = read_log('tmp/cv_omega_TF_1/ffn_train.log')
     logger.info("1 ensemble and transfer learning")
     logger.info(f'10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: {rmse} {mae} {r2}')
+    logger_simple.info(f'**1** ensemble and transfer learning on in-house, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: {rmse} {mae} {r2}')
     # Exp. Omega  selectivity.=========
     run_train(save_dir='tmp/final_model_omega_4', data_path='tmp/input_ffnn.pkl', target_column='G_act', batch_size=24)
     run_train(save_dir='tmp/final_model_omega_1', data_path='tmp/input_ffnn.pkl', target_column='G_act', batch_size=24, ensemble_size=1, trained_dir='reactivity_model/results/final_model_1/')
@@ -123,6 +148,8 @@ def reproduce(hidden_size_M1=1200):
     df_selectivity = prepare_df(df_selectivity, features)
     get_accuracy_linear_regression(df_train, df_selectivity, logger, 'G_act', print_pred=True, name_out='pred_selectivity_lm')
     get_accuracy_rf_descriptors(df_train, df_selectivity, logger, parameters_rf, 'G_act', print_pred=True, name_out='pred_selectivity_rf')
+    logger_simple.info('**********EXP OMEGA SELECTIVITY**********')
+    get_accuracy_rf_descriptors(df_train, df_selectivity, logger_simple, parameters_rf, 'G_act', print_pred=True, name_out='pred_selectivity_rf')
     df_selectivity.to_pickle('tmp/input_ffnn_selectivity.pkl')
     df_selectivity.to_csv('tmp/input_ffnn_selectivity.csv')
     run_reactivity(trained_dir='tmp/final_model_omega_4/', target_column='G_act', ensemble_size=4, input_file='input_ffnn_selectivity.csv')
@@ -130,17 +157,20 @@ def reproduce(hidden_size_M1=1200):
     mae, rmse, r2 = get_stats(df_selectivity['G_act'], df_selectivity_pred['DG_TS_tunn'])
     logger.info("Selectivity 4 ensemble")
     logger.info(f'RMSE, MAE and R^2 for NN with a learned-VB representation: {rmse} {mae} {r2}')
+    logger_simple.info(f'**4** ensembles and pre-trained on OMEGA, direct test RMSE, MAE and R^2 for NN with a learned-VB representation: {rmse} {mae} {r2}')
+    update_dataset(file_path=data_manager_file_path, dataset_name='selectivity', h=hidden_size_M1, rmse=rmse, mae=mae, r2=r2)
 
     run_reactivity(trained_dir='tmp/final_model_omega_1/', target_column='G_act', ensemble_size=1, input_file='input_ffnn_selectivity.csv')
     df_selectivity_pred = pd.read_csv('tmp/pred.csv')
     mae, rmse, r2 = get_stats(df_selectivity['G_act'], df_selectivity_pred['DG_TS_tunn'])
     logger.info("Selectivity 1 ensemble")
     logger.info(f'RMSE, MAE and R^2 for NN with a learned-VB representation: {rmse} {mae} {r2}')
+    logger_simple.info(f'**1** ensemble and pre-trained on OMEGA, direct test RMSE, MAE and R^2 for NN with a learned-VB representation: {rmse} {mae} {r2}')
 
     create_input_ffnn('tmp/preds_surrogate.pkl', 'tmp/omega_data/clean_data_omega_exp.csv', 'gibbs_exp', 'tmp/omega_data/additional_data_omega.pkl', output='input_ffnn_bietti')
     
     # cross-validation Hong data (DOI https://doi.org/10.1039/D1QO01325D) Photoredox HAT ^60
-    logger = create_logger('hong_data.log')
+    # logger = create_logger('hong_data.log')
     logger.info('********************************')
     logger.info(f'======= HONG DATASET M1 hidden_size={hidden_size_M1} =======')
     df_hong = pd.read_csv('tmp/hong_data/training_hong_clean.csv', index_col=0)
@@ -175,6 +205,9 @@ def reproduce(hidden_size_M1=1200):
     logger.info('Results in tmp/cv_hong_4/ffn_train.log')
     mae, rmse, r2 = read_log('tmp/cv_hong_4/ffn_train.log')
     logger.info(f'5-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation, all datapoints, 4 ensembles and transfer learning:: {rmse} {mae} {r2}')
+    logger_simple.info('**********HONG**********')
+    logger_simple.info(f'5-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation, all datapoints, 4 ensembles and transfer learning on in-house: {rmse} {mae} {r2}')
+    update_dataset(file_path=data_manager_file_path, dataset_name='hong', h=hidden_size_M1, rmse=rmse, mae=mae, r2=r2)
 
     df_hong_desc = pd.read_pickle('tmp/input_ffnn.pkl')
     df_hong = pd.read_csv('tmp/reactivity_database_mapped.csv')
@@ -199,6 +232,7 @@ def reproduce(hidden_size_M1=1200):
     get_cross_val_accuracy_ada_boost_regression(df=df_hong_intersection, logger=logger, n_fold=5, split_dir='tmp/cv_hong/splits', target_column='Barrier')
     logger.info(f'Model with a learned-VB representation')
     get_cross_val_accuracy_rf_descriptors(df=df_hong_desc, logger=logger, n_fold=5, parameters=parameters_rf, split_dir='tmp/cv_hong/splits', target_column='DG_TS')
+    get_cross_val_accuracy_rf_descriptors(df=df_hong_desc, logger=logger_simple, n_fold=5, parameters=parameters_rf, split_dir='tmp/cv_hong/splits', target_column='DG_TS')
 
     run_train(save_dir='tmp/final_model_hong_4', data_path='tmp/input_ffnn.pkl', target_column='DG_TS', batch_size=32)
     run_train(save_dir='tmp/final_model_hong_1', data_path='tmp/input_ffnn.pkl', target_column='DG_TS', batch_size=32, ensemble_size=1, trained_dir='reactivity_model/results/final_model_1/')
@@ -207,6 +241,9 @@ def reproduce(hidden_size_M1=1200):
     mae, rmse, r2 = read_log('tmp/cv_hong_bietti_4/ffn_train.log')
     logger.info("4 ensembles and transfer learning on Bietti Set")
     logger.info(f'10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: {rmse} {mae} {r2}')
+    logger_simple.info('**********BIETTI**********')
+    logger_simple.info(f'**4** ensembles and transfer learning on Hong, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: {rmse} {mae} {r2}')
+    update_dataset(file_path=data_manager_file_path, dataset_name='bietti', h=hidden_size_M1, rmse=rmse, mae=mae, r2=r2)
     run_cv(data_path='tmp/input_ffnn_bietti.pkl', target_column='gibbs_exp', save_dir='tmp/cv_hong_bietti_1', transfer_learning=True, batch_size=5, ensemble_size=1, trained_dir='tmp/final_model_hong_1/', random_state=0)
     mae, rmse, r2 = read_log('tmp/cv_hong_bietti_1/ffn_train.log')
     logger.info("1 ensemble and transfer learning on Bietti Set")
@@ -226,7 +263,7 @@ def reproduce(hidden_size_M1=1200):
     
     # RMechDB Dataset (No additioanl DFT used in this test)
     # TODO implemented by Emilien
-    logger = create_logger('rmechdb_data.log')
+    # logger = create_logger('rmechdb_data.log')
     logger.info('********************************')
     logger.info(f'======= RMechDB DATASET M1 hidden_size={hidden_size_M1}=======')
     df_rmechdb = pd.read_pickle('tmp/rmechdb_data/clean_data_RMechDB.pkl')
@@ -243,6 +280,9 @@ def reproduce(hidden_size_M1=1200):
     mae, rmse, r2 = read_log('tmp/cv_rmechdb_data/ffn_train.log')
     logger.info(f"{ensemble_size} ensemble(s), batch_size: {batch_size}, random_state: {random_state}")
     logger.info(f'<<pure>> 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: {rmse} {mae} {r2}')
+    logger_simple.info('**********RMECHDB**********')
+    logger_simple.info(f'<<pure>> **4** ensembles and transfer learning on in-house (hidden size of FFNN is expected to be 2 by Javier, but now 200~230 seems better?), 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: {rmse} {mae} {r2}')
+    update_dataset(file_path=data_manager_file_path, dataset_name='rmechdb', h=hidden_size_M1, rmse=rmse, mae=mae, r2=r2)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()

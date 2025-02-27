@@ -1,0 +1,266 @@
+********************************
+======= In-HOUSE DATASET =======
+Surrogate model done
+CV done
+Results in tmp/cv_own_dataset/ffn_train.log
+10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 2.782090085871114 1.9797423315773965 0.8438653570300925
+CV done
+Results in tmp/cv_own_dataset_4/ffn_train.log
+10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation and 4 ensembles: 2.753542103111531 1.9541501966743025 0.8470742187511613
+********************************
+======= TANTILLO DATASET =======
+Surrogate model done
+RMSE, MAE and R^2 for linear regression: 1.3174062306897978 1.1192156634962502 0.23047203249831494
+********************************
+======= OMEGA DATASET =======
+Train set
+RMSE, MAE and R^2 for linear regression: 1.2866803413037062 1.0199634871379222 0.7593886465071025
+Test set
+RMSE, MAE and R^2 for linear regression: 1.595778008397917 1.251535404651164 0.6641304513303201
+RMSE, MAE, and R^2 for RF: 1.3516232959819694 1.1581930710150765 0.7590444043845184
+4 ensembles and transfer learning
+10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 1.5633452104491732 1.2343333354020989 0.6775621972605658
+4 ensembles
+10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 2.0323193886782254 1.684123331625867 0.4524970835137408
+1 ensemble
+10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 2.015665030174419 1.6606282015971972 0.45337576417151054
+1 ensemble and transfer learning
+10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 1.5454980660830713 1.2164869683672936 0.6839649667896198
+RMSE, MAE and R^2 for linear regression: 2.834673963685679 1.8142742549747921 -0.8409114533830602
+RMSE, MAE, and R^2 for RF: 1.3041340465118463 0.9818536626020847 0.6103531799726429
+Selectivity 4 ensemble
+RMSE, MAE and R^2 for NN with a learned-VB representation: 1.3445521218548473 1.0824193609438697 0.5858268366674206
+Selectivity 1 ensemble
+RMSE, MAE and R^2 for NN with a learned-VB representation: 1.2618103709226518 1.0076445999240777 0.6352335761627721
+********************************
+======= HONG DATASET =======
+Surrogate model done
+CV done with 25 datapoints
+Results in tmp/cv_hong_25/ffn_train.log
+5-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation and 25 datapoints: 3.629474924093801 2.7309402447566216 0.4446122661855211
+CV done with 25 datapoints, 4 ensembles and transfer learning
+Results in tmp/cv_hong_25_4_TF/ffn_train.log
+5-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation, 25 datapoints, 4 ensembles and transfer learning: 2.1508774695445614 1.6189616714588193 0.805998386211788
+CV done with 50 datapoints
+Results in tmp/cv_hong_50/ffn_train.log
+5-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation and 50 datapoints: 2.5427257648465202 1.8946963002893213 0.7200593061577356
+CV done with 50 datapoints, 4 ensembles and transfer learning
+Results in tmp/cv_hong_50_4_TF/ffn_train.log
+5-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation, 50 datapoints, 4 ensembles and transfer learning: 1.9825913296108695 1.4296283689108007 0.8348249593104992
+CV done with 100 datapoints
+Results in tmp/cv_hong_100/ffn_train.log
+5-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation and 100 datapoints: 2.0000574956832287 1.4416476329820287 0.8284130706323296
+CV done with 100 datapoints, 4 ensembles and transfer learning
+Results in tmp/cv_hong_100_4_TF/ffn_train.log
+5-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation, 100 datapoints, 4 ensembles and transfer learning: 1.8629895090230533 1.3303429727772802 0.8540432792256623
+CV done with 200 datapoints
+Results in tmp/cv_hong_200/ffn_train.log
+5-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation and 200 datapoints: 1.6765493300338115 1.1462002002338587 0.8803961316470165
+CV done with 200 datapoints, 4 ensembles and transfer learning
+Results in tmp/cv_hong_200_4_TF/ffn_train.log
+5-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation, 200 datapoints, 4 ensembles and transfer learning: 1.6385826487327808 1.1431512829301562 0.8864429076651147
+CV done with 300 datapoints
+Results in tmp/cv_hong_300/ffn_train.log
+5-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation and 300 datapoints: 1.5975143511711718 1.1123161725781303 0.8910049792533824
+CV done with 300 datapoints, 4 ensembles and transfer learning
+Results in tmp/cv_hong_300_4_TF/ffn_train.log
+5-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation, 300 datapoints, 4 ensembles and transfer learning: 1.5636507401517747 1.078555096617792 0.8965146557477095
+CV done with 400 datapoints
+Results in tmp/cv_hong_400/ffn_train.log
+5-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation and 400 datapoints: 1.537589264531779 1.0561752835269118 0.8992306231427808
+CV done with 400 datapoints, 4 ensembles and transfer learning
+Results in tmp/cv_hong_400_4_TF/ffn_train.log
+5-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation, 400 datapoints, 4 ensembles and transfer learning: 1.519409653103374 1.0437356147244183 0.9022498719421238
+CV done
+Results in tmp/cv_hong/ffn_train.log
+5-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation and all datapoints: 1.537589264531779 1.0561752835269118 0.8992306231427808
+CV done with 4 ensembles and transfer learning
+Results in tmp/cv_hong_4/ffn_train.log
+5-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation, all datapoints, 4 ensembles and transfer learning:: 1.533152161530367 1.0492624103834285 0.8996118570068605
+======== 5-fold CV with RF and AdaBoost ========
+Datapoints: 25
+AdaBoost with 50 descriptors
+5-fold CV RMSE, MAE and R^2 for AdaBoost: 2.491704898985972 1.7041772138680031 0.6952343116003952
+Model with a learned-VB representation
+5-fold CV RMSE, MAE and R^2 for RF: 2.491929647475591 1.7762664160400998 0.7249350511296633
+Datapoints: 50
+AdaBoost with 50 descriptors
+5-fold CV RMSE, MAE and R^2 for AdaBoost: 1.7651905279199442 1.1880267243291194 0.864914816722
+Model with a learned-VB representation
+5-fold CV RMSE, MAE and R^2 for RF: 1.9762939751712971 1.3550114437791083 0.8313743454801175
+Datapoints: 100
+AdaBoost with 50 descriptors
+5-fold CV RMSE, MAE and R^2 for AdaBoost: 1.3181552729330543 0.9099225512528474 0.9260460339980531
+Model with a learned-VB representation
+5-fold CV RMSE, MAE and R^2 for RF: 1.752697106340919 1.1789983295368256 0.8698072079563328
+Datapoints: 200
+AdaBoost with 50 descriptors
+5-fold CV RMSE, MAE and R^2 for AdaBoost: 1.1171837959090936 0.7656930290162773 0.9452753186768396
+Model with a learned-VB representation
+5-fold CV RMSE, MAE and R^2 for RF: 1.5884251789385946 1.0204259023354565 0.8890500328346572
+Datapoints: 300
+AdaBoost with 50 descriptors
+5-fold CV RMSE, MAE and R^2 for AdaBoost: 0.9711476682729723 0.6766240446796002 0.9613329754298174
+Model with a learned-VB representation
+5-fold CV RMSE, MAE and R^2 for RF: 1.445682012261932 0.972259964726631 0.9133705766406347
+Datapoints: 400
+AdaBoost with 50 descriptors
+5-fold CV RMSE, MAE and R^2 for AdaBoost: 0.93883919835322 0.6442098477665401 0.9630205143696262
+Model with a learned-VB representation
+5-fold CV RMSE, MAE and R^2 for RF: 1.433830698131898 0.9522421407501053 0.9120795705428428
+AdaBoost with 50 descriptors
+5-fold CV RMSE, MAE and R^2 for AdaBoost: 0.9361409759270162 0.6436869776302852 0.9632330919106519
+Model with a learned-VB representation
+5-fold CV RMSE, MAE and R^2 for RF: 1.420675895016522 0.9403852507374632 0.9137086284936714
+4 ensembles and transfer learning on Bietti Set
+10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 0.7927200551448524 0.6719909911468191 0.43618064341655793
+1 ensemble and transfer learning on Bietti Set
+10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 0.9698417453435955 0.8451088407562383 -0.2906759606352449
+Coefficient and intercept: [[0.66595662]]   [9.69132719]
+RMSE, MAE and R^2: 1.1999148413148464   1.0380227680589451   -0.49616632060835464
+Coefficient and intercept: [[0.59417081]]   [10.35589235]
+RMSE, MAE and R^2: 1.2612769873230043   1.1136307407723371   -1.0766782697383372
+********************************
+======= In-HOUSE DATASET =======
+Surrogate model done
+CV done
+Results in tmp/cv_own_dataset/ffn_train.log
+10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 2.7821050457915737 1.9797373978853496 0.8438634072547011
+CV done
+Results in tmp/cv_own_dataset_4/ffn_train.log
+10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation and 4 ensembles: 2.7535557435348696 1.9541602853554596 0.8470727764024015
+********************************
+======= TANTILLO DATASET =======
+Surrogate model done
+RMSE, MAE and R^2 for linear regression: 1.3174062306897978 1.1192156634962502 0.23047203249831494
+********************************
+======= OMEGA DATASET =======
+Train set
+RMSE, MAE and R^2 for linear regression: 1.2866803413037062 1.0199634871379222 0.7593886465071025
+Test set
+RMSE, MAE and R^2 for linear regression: 1.595778008397917 1.251535404651164 0.6641304513303201
+RMSE, MAE, and R^2 for RF: 1.3876573181823926 1.2109906984904752 0.7460254847821667
+4 ensembles and transfer learning
+10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 1.5633452104491732 1.2343333354020989 0.6775621972605658
+********************************
+======= In-HOUSE DATASET =======
+Surrogate model done
+CV done
+Results in tmp/cv_own_dataset/ffn_train.log
+10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 2.7821140740939474 1.979748278861998 0.8438622225791971
+CV done
+Results in tmp/cv_own_dataset_4/ffn_train.log
+10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation and 4 ensembles: 2.7535527713942107 1.9541649485516455 0.8470731216126944
+********************************
+======= TANTILLO DATASET =======
+Surrogate model done
+RMSE, MAE and R^2 for linear regression: 1.3174062306897978 1.1192156634962502 0.23047203249831494
+********************************
+======= OMEGA DATASET =======
+Train set
+RMSE, MAE and R^2 for linear regression: 1.2866803413037062 1.0199634871379222 0.7593886465071025
+Test set
+RMSE, MAE and R^2 for linear regression: 1.595778008397917 1.251535404651164 0.6641304513303201
+RMSE, MAE, and R^2 for RF: 1.3372259852970347 1.1568307852294193 0.7641503186135803
+4 ensembles and transfer learning
+10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 1.5633452104491732 1.2343333354020989 0.6775621972605658
+4 ensembles
+10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 2.0323193886782254 1.684123331625867 0.4524970835137408
+1 ensemble
+10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 2.015665030174419 1.6606282015971972 0.45337576417151054
+1 ensemble and transfer learning
+10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 1.5454980660830713 1.2164869683672936 0.6839649667896198
+RMSE, MAE and R^2 for linear regression: 2.834673963685679 1.8142742549747921 -0.8409114533830602
+RMSE, MAE, and R^2 for RF: 1.2782006285402063 0.9388023867475982 0.6256957797666828
+Selectivity 4 ensemble
+RMSE, MAE and R^2 for NN with a learned-VB representation: 1.3445521218548473 1.0824193609438697 0.5858268366674206
+Selectivity 1 ensemble
+RMSE, MAE and R^2 for NN with a learned-VB representation: 1.2618103709226518 1.0076445999240777 0.6352335761627721
+********************************
+======= HONG DATASET =======
+Surrogate model done
+CV done with 25 datapoints
+Results in tmp/cv_hong_25/ffn_train.log
+5-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation and 25 datapoints: 3.629496219300484 2.730973821078922 0.4446062875680795
+CV done with 25 datapoints, 4 ensembles and transfer learning
+Results in tmp/cv_hong_25_4_TF/ffn_train.log
+5-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation, 25 datapoints, 4 ensembles and transfer learning: 2.1504297320225656 1.6190703675248859 0.806076443420419
+CV done with 50 datapoints
+Results in tmp/cv_hong_50/ffn_train.log
+5-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation and 50 datapoints: 2.542730614618668 1.894708864592971 0.7200584092691535
+CV done with 50 datapoints, 4 ensembles and transfer learning
+Results in tmp/cv_hong_50_4_TF/ffn_train.log
+5-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation, 50 datapoints, 4 ensembles and transfer learning: 1.9826011609906165 1.4296257393347638 0.834823202252968
+CV done with 100 datapoints
+Results in tmp/cv_hong_100/ffn_train.log
+5-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation and 100 datapoints: 2.0000681690840194 1.4416598500784996 0.8284111378130055
+CV done with 100 datapoints, 4 ensembles and transfer learning
+Results in tmp/cv_hong_100_4_TF/ffn_train.log
+5-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation, 100 datapoints, 4 ensembles and transfer learning: 1.8629356624329154 1.3302708709781286 0.8540511959702387
+CV done with 200 datapoints
+Results in tmp/cv_hong_200/ffn_train.log
+5-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation and 200 datapoints: 1.6765481086825826 1.1461906117006553 0.8803962448572641
+CV done with 200 datapoints, 4 ensembles and transfer learning
+Results in tmp/cv_hong_200_4_TF/ffn_train.log
+5-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation, 200 datapoints, 4 ensembles and transfer learning: 1.6386032653137312 1.1431686183568426 0.8864404360588816
+CV done with 300 datapoints
+Results in tmp/cv_hong_300/ffn_train.log
+5-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation and 300 datapoints: 1.597602365851311 1.1123546598209468 0.8909936324143626
+CV done with 300 datapoints, 4 ensembles and transfer learning
+Results in tmp/cv_hong_300_4_TF/ffn_train.log
+5-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation, 300 datapoints, 4 ensembles and transfer learning: 1.5635815919630212 1.0784244197088315 0.8965243684127302
+CV done with 400 datapoints
+Results in tmp/cv_hong_400/ffn_train.log
+5-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation and 400 datapoints: 1.5376121032923153 1.0561882209223865 0.8992271439265682
+CV done with 400 datapoints, 4 ensembles and transfer learning
+Results in tmp/cv_hong_400_4_TF/ffn_train.log
+5-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation, 400 datapoints, 4 ensembles and transfer learning: 1.5194342520918447 1.0437910134096104 0.9022468062693692
+CV done
+Results in tmp/cv_hong/ffn_train.log
+5-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation and all datapoints: 1.5376121032923153 1.0561882209223865 0.8992271439265682
+CV done with 4 ensembles and transfer learning
+Results in tmp/cv_hong_4/ffn_train.log
+5-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation, all datapoints, 4 ensembles and transfer learning:: 1.5331883513026248 1.049292338659122 0.8996076040186823
+======== 5-fold CV with RF and AdaBoost ========
+Datapoints: 25
+AdaBoost with 50 descriptors
+5-fold CV RMSE, MAE and R^2 for AdaBoost: 2.496104754565647 1.702765037593985 0.6899009902409604
+Model with a learned-VB representation
+5-fold CV RMSE, MAE and R^2 for RF: 2.492604283085336 1.7813239348370924 0.7253566811464248
+Datapoints: 50
+AdaBoost with 50 descriptors
+5-fold CV RMSE, MAE and R^2 for AdaBoost: 1.7585888088774397 1.189637946329563 0.8657230719221889
+Model with a learned-VB representation
+5-fold CV RMSE, MAE and R^2 for RF: 2.029819137879511 1.3864924817032596 0.822109567104605
+Datapoints: 100
+AdaBoost with 50 descriptors
+5-fold CV RMSE, MAE and R^2 for AdaBoost: 1.3171661229843146 0.9126888129587446 0.9261804515771177
+Model with a learned-VB representation
+5-fold CV RMSE, MAE and R^2 for RF: 1.7705932429025097 1.1773170842824598 0.8671395829339085
+Datapoints: 200
+AdaBoost with 50 descriptors
+5-fold CV RMSE, MAE and R^2 for AdaBoost: 1.1155501779732446 0.7635161004953996 0.9454644270733106
+Model with a learned-VB representation
+5-fold CV RMSE, MAE and R^2 for RF: 1.5896101744310054 1.017788747346072 0.8888454592590691
+Datapoints: 300
+AdaBoost with 50 descriptors
+5-fold CV RMSE, MAE and R^2 for AdaBoost: 0.9682508081365493 0.674129923574368 0.9615926525033117
+Model with a learned-VB representation
+5-fold CV RMSE, MAE and R^2 for RF: 1.4386967615581634 0.967596119929453 0.9140133598750806
+Datapoints: 400
+AdaBoost with 50 descriptors
+5-fold CV RMSE, MAE and R^2 for AdaBoost: 0.9326015275380557 0.6447039305028796 0.9634914743852645
+Model with a learned-VB representation
+5-fold CV RMSE, MAE and R^2 for RF: 1.4374894092574815 0.949632248209018 0.9113400632148754
+AdaBoost with 50 descriptors
+5-fold CV RMSE, MAE and R^2 for AdaBoost: 0.935784676422738 0.6404022729667086 0.9632588267265187
+Model with a learned-VB representation
+5-fold CV RMSE, MAE and R^2 for RF: 1.4228809676480936 0.9374781658238517 0.9132163392826627
+4 ensembles and transfer learning on Bietti Set
+10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 0.7930377482395411 0.6722897805193296 0.4360948659576601
+1 ensemble and transfer learning on Bietti Set
+10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 0.9698530236450044 0.8451167716183632 -0.29073691071442387
+Coefficient and intercept: [[0.67073949]]   [9.64814844]
+RMSE, MAE and R^2: 1.2055526658593592   1.0424553849370934   -0.48879714358965254
+Coefficient and intercept: [[0.59418707]]   [10.35577824]
+RMSE, MAE and R^2: 1.2614646837992578   1.1138197263973275   -1.0771827549147188

@@ -10,3 +10,11 @@ RMSE, MAE and R^2 for NN (trained on Omega and predict on Omega_Exp) with a hidd
 ======= OMEGA_EXP DATASET =======
 args: Namespace(dataset='omega_exp', hidden_size=1024, layers=2, dropout=0.0, lr=0.0277, features=['mol1_hidden', 'rad1_hidden', 'mol2_hidden', 'rad2_hidden', 'rad_atom1_hidden', 'rad_atom2_hidden'], random_state=0, transfer_learning=True)
 RMSE, MAE and R^2 for NN (trained on Omega and predict on Omega_Exp) with a hidden representation: 1.4947117779399284 1.1148462234561876 0.48815132481999823
+********************************
+======= OMEGA_EXP DATASET, M1's hidden size: 100 =======
+args: Namespace(dataset='omega_exp', hidden_size=1024, layers=0, dropout=0.0, lr=0.0277, features=['mol1_hidden', 'rad1_hidden', 'mol2_hidden', 'rad2_hidden', 'rad_atom1_hidden', 'rad_atom2_hidden'], random_state=0, transfer_learning=True, chk_path='surrogate_model/output_h100_b50_e100/model_0/model.pt', chk_path_hidden=100, fine_tune=0)
+RMSE, MAE and R^2 for NN (trained on Omega and predict on Omega_Exp) with a hidden representation: 1.9642793665318077 1.5357115842472202 0.11603884723104074
+********************************
+======= OMEGA_EXP DATASET, M1's hidden size: 200 =======
+args: Namespace(dataset='omega_exp', hidden_size=1024, layers=0, dropout=0.0, lr=0.0277, features=['mol1_hidden', 'rad1_hidden', 'mol2_hidden', 'rad2_hidden', 'rad_atom1_hidden', 'rad_atom2_hidden'], random_state=0, transfer_learning=True, chk_path='surrogate_model/output_h200_b50_e100/model_0/model.pt', chk_path_hidden=200, fine_tune=0)
+RMSE, MAE and R^2 for NN (trained on Omega and predict on Omega_Exp) with a hidden representation: 1.9642793665318077 1.5357115842472202 0.11603884723104074

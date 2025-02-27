@@ -1,0 +1,120 @@
+2025-02-26 18:03:36,452 - INFO - ********************************
+2025-02-26 18:03:36,452 - INFO - ======= TANTILLO DATASET, M1's hidden size: 100 =======
+2025-02-26 18:03:41,348 - INFO - Surrogate model done
+2025-02-26 18:03:54,964 - INFO - training done
+2025-02-26 18:03:54,964 - INFO - Results in tmp/cv_tantillo_data/ffn_train.log
+2025-02-26 18:03:54,965 - INFO - Upper bound of RMSE, MAE and R^2 for NN with a hidden representation: 1.262896334206153 1.140453742638513 0.29283560322777136
+2025-02-26 18:39:28,182 - INFO - ********************************
+2025-02-26 18:39:28,183 - INFO - ======= TANTILLO DATASET, M1's hidden size: 200 =======
+2025-02-26 18:39:33,109 - INFO - Surrogate model done
+2025-02-26 18:39:47,207 - INFO - training done
+2025-02-26 18:39:47,208 - INFO - Results in tmp/cv_tantillo_data/ffn_train.log
+2025-02-26 18:39:47,208 - INFO - Upper bound of RMSE, MAE and R^2 for NN with a hidden representation: 1.262896334206153 1.140453742638513 0.29283560322777136
+2025-02-26 19:13:43,964 - INFO - ********************************
+2025-02-26 19:13:43,964 - INFO - ======= TANTILLO DATASET, M1's hidden size: 300 =======
+2025-02-26 19:13:48,890 - INFO - Surrogate model done
+2025-02-26 19:14:02,701 - INFO - training done
+2025-02-26 19:14:02,701 - INFO - Results in tmp/cv_tantillo_data/ffn_train.log
+2025-02-26 19:14:02,701 - INFO - Upper bound of RMSE, MAE and R^2 for NN with a hidden representation: 1.262896334206153 1.140453742638513 0.29283560322777136
+2025-02-26 19:48:27,983 - INFO - ********************************
+2025-02-26 19:48:27,983 - INFO - ======= TANTILLO DATASET, M1's hidden size: 400 =======
+2025-02-26 19:48:32,925 - INFO - Surrogate model done
+2025-02-26 19:48:47,486 - INFO - training done
+2025-02-26 19:48:47,486 - INFO - Results in tmp/cv_tantillo_data/ffn_train.log
+2025-02-26 19:48:47,487 - INFO - Upper bound of RMSE, MAE and R^2 for NN with a hidden representation: 1.262896334206153 1.140453742638513 0.29283560322777136
+2025-02-26 20:24:03,669 - INFO - ********************************
+2025-02-26 20:24:03,669 - INFO - ======= TANTILLO DATASET, M1's hidden size: 500 =======
+2025-02-26 20:24:08,679 - INFO - Surrogate model done
+2025-02-26 20:24:23,401 - INFO - training done
+2025-02-26 20:24:23,402 - INFO - Results in tmp/cv_tantillo_data/ffn_train.log
+2025-02-26 20:24:23,402 - INFO - Upper bound of RMSE, MAE and R^2 for NN with a hidden representation: 1.262896334206153 1.140453742638513 0.29283560322777136
+2025-02-26 20:59:50,047 - INFO - ********************************
+2025-02-26 20:59:50,047 - INFO - ======= TANTILLO DATASET, M1's hidden size: 600 =======
+2025-02-26 20:59:55,093 - INFO - Surrogate model done
+2025-02-26 21:00:09,633 - INFO - training done
+2025-02-26 21:00:09,633 - INFO - Results in tmp/cv_tantillo_data/ffn_train.log
+2025-02-26 21:00:09,633 - INFO - Upper bound of RMSE, MAE and R^2 for NN with a hidden representation: 1.262896334206153 1.140453742638513 0.29283560322777136
+2025-02-26 21:35:19,762 - INFO - ********************************
+2025-02-26 21:35:19,762 - INFO - ======= TANTILLO DATASET, M1's hidden size: 700 =======
+2025-02-26 21:35:24,680 - INFO - Surrogate model done
+2025-02-26 21:35:39,365 - INFO - training done
+2025-02-26 21:35:39,365 - INFO - Results in tmp/cv_tantillo_data/ffn_train.log
+2025-02-26 21:35:39,366 - INFO - Upper bound of RMSE, MAE and R^2 for NN with a hidden representation: 1.262896334206153 1.140453742638513 0.29283560322777136
+2025-02-26 22:11:25,874 - INFO - ********************************
+2025-02-26 22:11:25,874 - INFO - ======= TANTILLO DATASET, M1's hidden size: 800 =======
+2025-02-26 22:11:30,887 - INFO - Surrogate model done
+2025-02-26 22:11:45,458 - INFO - training done
+2025-02-26 22:11:45,458 - INFO - Results in tmp/cv_tantillo_data/ffn_train.log
+2025-02-26 22:11:45,458 - INFO - Upper bound of RMSE, MAE and R^2 for NN with a hidden representation: 1.262896334206153 1.140453742638513 0.29283560322777136
+2025-02-26 22:47:46,667 - INFO - ********************************
+2025-02-26 22:47:46,667 - INFO - ======= TANTILLO DATASET, M1's hidden size: 900 =======
+2025-02-26 22:47:51,561 - INFO - Surrogate model done
+2025-02-26 22:48:06,225 - INFO - training done
+2025-02-26 22:48:06,225 - INFO - Results in tmp/cv_tantillo_data/ffn_train.log
+2025-02-26 22:48:06,226 - INFO - Upper bound of RMSE, MAE and R^2 for NN with a hidden representation: 1.262896334206153 1.140453742638513 0.29283560322777136
+2025-02-26 23:24:00,938 - INFO - ********************************
+2025-02-26 23:24:00,938 - INFO - ======= TANTILLO DATASET, M1's hidden size: 1000 =======
+2025-02-26 23:24:05,872 - INFO - Surrogate model done
+2025-02-26 23:24:20,767 - INFO - training done
+2025-02-26 23:24:20,767 - INFO - Results in tmp/cv_tantillo_data/ffn_train.log
+2025-02-26 23:24:20,767 - INFO - Upper bound of RMSE, MAE and R^2 for NN with a hidden representation: 1.262896334206153 1.140453742638513 0.29283560322777136
+2025-02-27 00:00:52,718 - INFO - ********************************
+2025-02-27 00:00:52,718 - INFO - ======= TANTILLO DATASET, M1's hidden size: 1100 =======
+2025-02-27 00:00:57,628 - INFO - Surrogate model done
+2025-02-27 00:01:12,649 - INFO - training done
+2025-02-27 00:01:12,650 - INFO - Results in tmp/cv_tantillo_data/ffn_train.log
+2025-02-27 00:01:12,650 - INFO - Upper bound of RMSE, MAE and R^2 for NN with a hidden representation: 1.262896334206153 1.140453742638513 0.29283560322777136
+2025-02-27 00:37:16,868 - INFO - ********************************
+2025-02-27 00:37:16,868 - INFO - ======= TANTILLO DATASET, M1's hidden size: 1200 =======
+2025-02-27 00:37:21,827 - INFO - Surrogate model done
+2025-02-27 00:37:36,571 - INFO - training done
+2025-02-27 00:37:36,571 - INFO - Results in tmp/cv_tantillo_data/ffn_train.log
+2025-02-27 00:37:36,572 - INFO - Upper bound of RMSE, MAE and R^2 for NN with a hidden representation: 1.262896334206153 1.140453742638513 0.29283560322777136
+2025-02-27 01:14:25,404 - INFO - ********************************
+2025-02-27 01:14:25,404 - INFO - ======= TANTILLO DATASET, M1's hidden size: 1300 =======
+2025-02-27 01:14:30,386 - INFO - Surrogate model done
+2025-02-27 01:14:45,350 - INFO - training done
+2025-02-27 01:14:45,351 - INFO - Results in tmp/cv_tantillo_data/ffn_train.log
+2025-02-27 01:14:45,351 - INFO - Upper bound of RMSE, MAE and R^2 for NN with a hidden representation: 1.262896334206153 1.140453742638513 0.29283560322777136
+2025-02-27 01:50:58,062 - INFO - ********************************
+2025-02-27 01:50:58,062 - INFO - ======= TANTILLO DATASET, M1's hidden size: 1400 =======
+2025-02-27 01:51:02,975 - INFO - Surrogate model done
+2025-02-27 01:51:17,699 - INFO - training done
+2025-02-27 01:51:17,699 - INFO - Results in tmp/cv_tantillo_data/ffn_train.log
+2025-02-27 01:51:17,699 - INFO - Upper bound of RMSE, MAE and R^2 for NN with a hidden representation: 1.262896334206153 1.140453742638513 0.29283560322777136
+2025-02-27 02:27:15,546 - INFO - ********************************
+2025-02-27 02:27:15,547 - INFO - ======= TANTILLO DATASET, M1's hidden size: 1500 =======
+2025-02-27 02:27:20,514 - INFO - Surrogate model done
+2025-02-27 02:27:35,374 - INFO - training done
+2025-02-27 02:27:35,374 - INFO - Results in tmp/cv_tantillo_data/ffn_train.log
+2025-02-27 02:27:35,374 - INFO - Upper bound of RMSE, MAE and R^2 for NN with a hidden representation: 1.262896334206153 1.140453742638513 0.29283560322777136
+2025-02-27 03:02:26,532 - INFO - ********************************
+2025-02-27 03:02:26,532 - INFO - ======= TANTILLO DATASET, M1's hidden size: 1600 =======
+2025-02-27 03:02:31,512 - INFO - Surrogate model done
+2025-02-27 03:02:46,342 - INFO - training done
+2025-02-27 03:02:46,342 - INFO - Results in tmp/cv_tantillo_data/ffn_train.log
+2025-02-27 03:02:46,343 - INFO - Upper bound of RMSE, MAE and R^2 for NN with a hidden representation: 1.262896334206153 1.140453742638513 0.29283560322777136
+2025-02-27 03:39:47,564 - INFO - ********************************
+2025-02-27 03:39:47,564 - INFO - ======= TANTILLO DATASET, M1's hidden size: 1700 =======
+2025-02-27 03:39:52,490 - INFO - Surrogate model done
+2025-02-27 03:40:06,734 - INFO - training done
+2025-02-27 03:40:06,734 - INFO - Results in tmp/cv_tantillo_data/ffn_train.log
+2025-02-27 03:40:06,735 - INFO - Upper bound of RMSE, MAE and R^2 for NN with a hidden representation: 1.262896334206153 1.140453742638513 0.29283560322777136
+2025-02-27 04:17:59,338 - INFO - ********************************
+2025-02-27 04:17:59,338 - INFO - ======= TANTILLO DATASET, M1's hidden size: 1800 =======
+2025-02-27 04:18:04,566 - INFO - Surrogate model done
+2025-02-27 04:18:19,839 - INFO - training done
+2025-02-27 04:18:19,839 - INFO - Results in tmp/cv_tantillo_data/ffn_train.log
+2025-02-27 04:18:19,839 - INFO - Upper bound of RMSE, MAE and R^2 for NN with a hidden representation: 1.262896334206153 1.140453742638513 0.29283560322777136
+2025-02-27 04:55:28,461 - INFO - ********************************
+2025-02-27 04:55:28,461 - INFO - ======= TANTILLO DATASET, M1's hidden size: 1900 =======
+2025-02-27 04:55:33,408 - INFO - Surrogate model done
+2025-02-27 04:55:48,264 - INFO - training done
+2025-02-27 04:55:48,264 - INFO - Results in tmp/cv_tantillo_data/ffn_train.log
+2025-02-27 04:55:48,264 - INFO - Upper bound of RMSE, MAE and R^2 for NN with a hidden representation: 1.262896334206153 1.140453742638513 0.29283560322777136
+2025-02-27 05:32:52,143 - INFO - ********************************
+2025-02-27 05:32:52,143 - INFO - ======= TANTILLO DATASET, M1's hidden size: 2000 =======
+2025-02-27 05:32:57,098 - INFO - Surrogate model done
+2025-02-27 05:33:11,550 - INFO - training done
+2025-02-27 05:33:11,550 - INFO - Results in tmp/cv_tantillo_data/ffn_train.log
+2025-02-27 05:33:11,551 - INFO - Upper bound of RMSE, MAE and R^2 for NN with a hidden representation: 1.262896334206153 1.140453742638513 0.29283560322777136

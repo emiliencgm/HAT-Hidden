@@ -1,0 +1,100 @@
+2025-02-26 17:51:24,621 - INFO - ********************************
+2025-02-26 17:51:24,621 - INFO - ======= OMEGA DATASET, M1's hidden size: 100 =======
+2025-02-26 18:00:03,953 - INFO - CV done
+2025-02-26 18:00:03,953 - INFO - Results in tmp/cv_omega_60test/ffn_train.log
+2025-02-26 18:00:03,953 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 1.3090301171537448 1.0868275216803183 0.7739394740079998
+2025-02-26 18:33:30,112 - INFO - ********************************
+2025-02-26 18:33:30,112 - INFO - ======= OMEGA DATASET, M1's hidden size: 200 =======
+2025-02-26 18:36:06,753 - INFO - CV done
+2025-02-26 18:36:06,753 - INFO - Results in tmp/cv_omega_60test/ffn_train.log
+2025-02-26 18:36:06,754 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 1.4379125822422467 1.182329371183384 0.7272809729228831
+2025-02-26 19:07:47,344 - INFO - ********************************
+2025-02-26 19:07:47,345 - INFO - ======= OMEGA DATASET, M1's hidden size: 300 =======
+2025-02-26 19:10:17,420 - INFO - CV done
+2025-02-26 19:10:17,420 - INFO - Results in tmp/cv_omega_60test/ffn_train.log
+2025-02-26 19:10:17,421 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 1.4450861681467506 1.1863527960362918 0.7245271486601009
+2025-02-26 19:42:21,403 - INFO - ********************************
+2025-02-26 19:42:21,403 - INFO - ======= OMEGA DATASET, M1's hidden size: 400 =======
+2025-02-26 19:44:59,734 - INFO - CV done
+2025-02-26 19:44:59,734 - INFO - Results in tmp/cv_omega_60test/ffn_train.log
+2025-02-26 19:44:59,735 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 1.437203575147398 1.1813586089569965 0.7275466978015548
+2025-02-26 20:17:44,445 - INFO - ********************************
+2025-02-26 20:17:44,445 - INFO - ======= OMEGA DATASET, M1's hidden size: 500 =======
+2025-02-26 20:20:29,766 - INFO - CV done
+2025-02-26 20:20:29,766 - INFO - Results in tmp/cv_omega_60test/ffn_train.log
+2025-02-26 20:20:29,766 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 1.4456731842575752 1.1852382787745168 0.7243159194272584
+2025-02-26 20:53:45,013 - INFO - ********************************
+2025-02-26 20:53:45,013 - INFO - ======= OMEGA DATASET, M1's hidden size: 600 =======
+2025-02-26 20:56:19,718 - INFO - CV done
+2025-02-26 20:56:19,719 - INFO - Results in tmp/cv_omega_60test/ffn_train.log
+2025-02-26 20:56:19,719 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 1.4361210612828106 1.1799498369630255 0.7279579278773184
+2025-02-26 21:29:07,596 - INFO - ********************************
+2025-02-26 21:29:07,596 - INFO - ======= OMEGA DATASET, M1's hidden size: 700 =======
+2025-02-26 21:31:43,334 - INFO - CV done
+2025-02-26 21:31:43,334 - INFO - Results in tmp/cv_omega_60test/ffn_train.log
+2025-02-26 21:31:43,335 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 1.437763026894638 1.1817918157465768 0.7273405332698684
+2025-02-26 22:05:02,748 - INFO - ********************************
+2025-02-26 22:05:02,748 - INFO - ======= OMEGA DATASET, M1's hidden size: 800 =======
+2025-02-26 22:07:46,413 - INFO - CV done
+2025-02-26 22:07:46,413 - INFO - Results in tmp/cv_omega_60test/ffn_train.log
+2025-02-26 22:07:46,414 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 1.4407778043021398 1.1839076891028804 0.7261909266577242
+2025-02-26 22:41:16,438 - INFO - ********************************
+2025-02-26 22:41:16,438 - INFO - ======= OMEGA DATASET, M1's hidden size: 900 =======
+2025-02-26 22:44:12,533 - INFO - CV done
+2025-02-26 22:44:12,533 - INFO - Results in tmp/cv_omega_60test/ffn_train.log
+2025-02-26 22:44:12,534 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 1.435279176494237 1.1744313914549054 0.7282694946918165
+2025-02-26 23:17:36,765 - INFO - ********************************
+2025-02-26 23:17:36,765 - INFO - ======= OMEGA DATASET, M1's hidden size: 1000 =======
+2025-02-26 23:20:21,989 - INFO - CV done
+2025-02-26 23:20:21,989 - INFO - Results in tmp/cv_omega_60test/ffn_train.log
+2025-02-26 23:20:21,990 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 1.4454391750857611 1.1875556636472717 0.724410100498036
+2025-02-26 23:54:17,006 - INFO - ********************************
+2025-02-26 23:54:17,006 - INFO - ======= OMEGA DATASET, M1's hidden size: 1100 =======
+2025-02-26 23:57:14,868 - INFO - CV done
+2025-02-26 23:57:14,868 - INFO - Results in tmp/cv_omega_60test/ffn_train.log
+2025-02-26 23:57:14,870 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 1.4345386717994022 1.1743977507335468 0.72855072417662
+2025-02-27 00:30:56,459 - INFO - ********************************
+2025-02-27 00:30:56,459 - INFO - ======= OMEGA DATASET, M1's hidden size: 1200 =======
+2025-02-27 00:33:36,167 - INFO - CV done
+2025-02-27 00:33:36,167 - INFO - Results in tmp/cv_omega_60test/ffn_train.log
+2025-02-27 00:33:36,169 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 1.4359935653692752 1.1786449582645313 0.7279846566870697
+2025-02-27 01:07:52,656 - INFO - ********************************
+2025-02-27 01:07:52,656 - INFO - ======= OMEGA DATASET, M1's hidden size: 1300 =======
+2025-02-27 01:10:47,444 - INFO - CV done
+2025-02-27 01:10:47,444 - INFO - Results in tmp/cv_omega_60test/ffn_train.log
+2025-02-27 01:10:47,445 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 1.4427788314110803 1.1815444405484374 0.725412894308012
+2025-02-27 01:44:37,865 - INFO - ********************************
+2025-02-27 01:44:37,865 - INFO - ======= OMEGA DATASET, M1's hidden size: 1400 =======
+2025-02-27 01:47:20,602 - INFO - CV done
+2025-02-27 01:47:20,602 - INFO - Results in tmp/cv_omega_60test/ffn_train.log
+2025-02-27 01:47:20,604 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 1.437640087870499 1.1814154538067991 0.7273824259091628
+2025-02-27 02:20:52,534 - INFO - ********************************
+2025-02-27 02:20:52,534 - INFO - ======= OMEGA DATASET, M1's hidden size: 1500 =======
+2025-02-27 02:23:30,962 - INFO - CV done
+2025-02-27 02:23:30,962 - INFO - Results in tmp/cv_omega_60test/ffn_train.log
+2025-02-27 02:23:30,963 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 1.4402456141581708 1.1826700663664516 0.7263725523050564
+2025-02-27 02:56:04,685 - INFO - ********************************
+2025-02-27 02:56:04,685 - INFO - ======= OMEGA DATASET, M1's hidden size: 1600 =======
+2025-02-27 02:58:49,040 - INFO - CV done
+2025-02-27 02:58:49,040 - INFO - Results in tmp/cv_omega_60test/ffn_train.log
+2025-02-27 02:58:49,042 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 1.436931871658836 1.1809759083331135 0.7276519022713303
+2025-02-27 03:33:22,268 - INFO - ********************************
+2025-02-27 03:33:22,268 - INFO - ======= OMEGA DATASET, M1's hidden size: 1700 =======
+2025-02-27 03:36:07,692 - INFO - CV done
+2025-02-27 03:36:07,692 - INFO - Results in tmp/cv_omega_60test/ffn_train.log
+2025-02-27 03:36:07,693 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 1.4468078402088551 1.1887973733991095 0.7238973994610127
+2025-02-27 04:11:17,110 - INFO - ********************************
+2025-02-27 04:11:17,110 - INFO - ======= OMEGA DATASET, M1's hidden size: 1800 =======
+2025-02-27 04:14:11,153 - INFO - CV done
+2025-02-27 04:14:11,153 - INFO - Results in tmp/cv_omega_60test/ffn_train.log
+2025-02-27 04:14:11,154 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 1.449389816605687 1.1861210346926183 0.7228917849605305
+2025-02-27 04:48:44,542 - INFO - ********************************
+2025-02-27 04:48:44,542 - INFO - ======= OMEGA DATASET, M1's hidden size: 1900 =======
+2025-02-27 04:51:46,604 - INFO - CV done
+2025-02-27 04:51:46,604 - INFO - Results in tmp/cv_omega_60test/ffn_train.log
+2025-02-27 04:51:46,605 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 1.4358018204295786 1.1756925753114777 0.7280742275692222
+2025-02-27 05:26:29,224 - INFO - ********************************
+2025-02-27 05:26:29,224 - INFO - ======= OMEGA DATASET, M1's hidden size: 2000 =======
+2025-02-27 05:29:10,175 - INFO - CV done
+2025-02-27 05:29:10,175 - INFO - Results in tmp/cv_omega_60test/ffn_train.log
+2025-02-27 05:29:10,177 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 1.4373380667941331 1.1806939283219093 0.7274939726758847

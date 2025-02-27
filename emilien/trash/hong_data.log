@@ -1,0 +1,120 @@
+2025-02-26 18:00:17,974 - INFO - ********************************
+2025-02-26 18:00:17,974 - INFO - ======= HONG DATASET, M1's hidden size: 100 =======
+2025-02-26 18:00:23,309 - INFO - Surrogate model done
+2025-02-26 18:02:08,110 - INFO - CV done
+2025-02-26 18:02:08,110 - INFO - Results in tmp/cv_hong_data/ffn_train.log
+2025-02-26 18:02:08,111 - INFO - 5-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 0.8308363237540659 0.5934103652336511 0.9696476884897901
+2025-02-26 18:36:20,749 - INFO - ********************************
+2025-02-26 18:36:20,749 - INFO - ======= HONG DATASET, M1's hidden size: 200 =======
+2025-02-26 18:36:26,127 - INFO - Surrogate model done
+2025-02-26 18:38:03,376 - INFO - CV done
+2025-02-26 18:38:03,376 - INFO - Results in tmp/cv_hong_data/ffn_train.log
+2025-02-26 18:38:03,376 - INFO - 5-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 0.8371981198737416 0.5971339253382357 0.9690798599720143
+2025-02-26 19:10:31,626 - INFO - ********************************
+2025-02-26 19:10:31,626 - INFO - ======= HONG DATASET, M1's hidden size: 300 =======
+2025-02-26 19:10:36,980 - INFO - Surrogate model done
+2025-02-26 19:12:18,789 - INFO - CV done
+2025-02-26 19:12:18,789 - INFO - Results in tmp/cv_hong_data/ffn_train.log
+2025-02-26 19:12:18,789 - INFO - 5-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 0.8278151700638338 0.5896906271254145 0.9698731396099995
+2025-02-26 19:45:13,608 - INFO - ********************************
+2025-02-26 19:45:13,608 - INFO - ======= HONG DATASET, M1's hidden size: 400 =======
+2025-02-26 19:45:18,952 - INFO - Surrogate model done
+2025-02-26 19:47:00,288 - INFO - CV done
+2025-02-26 19:47:00,289 - INFO - Results in tmp/cv_hong_data/ffn_train.log
+2025-02-26 19:47:00,289 - INFO - 5-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 0.8292052973716574 0.5921579511735595 0.9697262565456024
+2025-02-26 20:20:43,836 - INFO - ********************************
+2025-02-26 20:20:43,837 - INFO - ======= HONG DATASET, M1's hidden size: 500 =======
+2025-02-26 20:20:49,158 - INFO - Surrogate model done
+2025-02-26 20:22:32,810 - INFO - CV done
+2025-02-26 20:22:32,810 - INFO - Results in tmp/cv_hong_data/ffn_train.log
+2025-02-26 20:22:32,811 - INFO - 5-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 0.8301435267578166 0.5912292895534732 0.9696888432552679
+2025-02-26 20:56:33,515 - INFO - ********************************
+2025-02-26 20:56:33,516 - INFO - ======= HONG DATASET, M1's hidden size: 600 =======
+2025-02-26 20:56:38,847 - INFO - Surrogate model done
+2025-02-26 20:58:20,706 - INFO - CV done
+2025-02-26 20:58:20,706 - INFO - Results in tmp/cv_hong_data/ffn_train.log
+2025-02-26 20:58:20,706 - INFO - 5-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 0.8308372778888689 0.592574791379233 0.9696318335115439
+2025-02-26 21:31:57,166 - INFO - ********************************
+2025-02-26 21:31:57,166 - INFO - ======= HONG DATASET, M1's hidden size: 700 =======
+2025-02-26 21:32:02,452 - INFO - Surrogate model done
+2025-02-26 21:33:51,403 - INFO - CV done
+2025-02-26 21:33:51,403 - INFO - Results in tmp/cv_hong_data/ffn_train.log
+2025-02-26 21:33:51,404 - INFO - 5-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 0.8271523278494015 0.5921204761565348 0.9698959499818398
+2025-02-26 22:08:00,271 - INFO - ********************************
+2025-02-26 22:08:00,271 - INFO - ======= HONG DATASET, M1's hidden size: 800 =======
+2025-02-26 22:08:05,690 - INFO - Surrogate model done
+2025-02-26 22:09:56,245 - INFO - CV done
+2025-02-26 22:09:56,245 - INFO - Results in tmp/cv_hong_data/ffn_train.log
+2025-02-26 22:09:56,246 - INFO - 5-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 0.8341986899230343 0.597653721817152 0.969334010659383
+2025-02-26 22:44:26,718 - INFO - ********************************
+2025-02-26 22:44:26,719 - INFO - ======= HONG DATASET, M1's hidden size: 900 =======
+2025-02-26 22:44:32,065 - INFO - Surrogate model done
+2025-02-26 22:46:15,223 - INFO - CV done
+2025-02-26 22:46:15,223 - INFO - Results in tmp/cv_hong_data/ffn_train.log
+2025-02-26 22:46:15,223 - INFO - 5-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 0.8392949652243455 0.5991095931336081 0.9689455316208953
+2025-02-26 23:20:36,148 - INFO - ********************************
+2025-02-26 23:20:36,148 - INFO - ======= HONG DATASET, M1's hidden size: 1000 =======
+2025-02-26 23:20:41,473 - INFO - Surrogate model done
+2025-02-26 23:22:30,729 - INFO - CV done
+2025-02-26 23:22:30,729 - INFO - Results in tmp/cv_hong_data/ffn_train.log
+2025-02-26 23:22:30,730 - INFO - 5-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 0.8321159071456232 0.5962037527740552 0.9695307570919376
+2025-02-26 23:57:28,584 - INFO - ********************************
+2025-02-26 23:57:28,584 - INFO - ======= HONG DATASET, M1's hidden size: 1100 =======
+2025-02-26 23:57:33,906 - INFO - Surrogate model done
+2025-02-26 23:59:22,662 - INFO - CV done
+2025-02-26 23:59:22,663 - INFO - Results in tmp/cv_hong_data/ffn_train.log
+2025-02-26 23:59:22,663 - INFO - 5-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 0.8328836550374875 0.5956140148168003 0.9694138375147435
+2025-02-27 00:33:50,355 - INFO - ********************************
+2025-02-27 00:33:50,355 - INFO - ======= HONG DATASET, M1's hidden size: 1200 =======
+2025-02-27 00:33:55,859 - INFO - Surrogate model done
+2025-02-27 00:35:43,366 - INFO - CV done
+2025-02-27 00:35:43,367 - INFO - Results in tmp/cv_hong_data/ffn_train.log
+2025-02-27 00:35:43,367 - INFO - 5-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 0.8321289428818254 0.5948748797884236 0.969532521065387
+2025-02-27 01:11:01,295 - INFO - ********************************
+2025-02-27 01:11:01,295 - INFO - ======= HONG DATASET, M1's hidden size: 1300 =======
+2025-02-27 01:11:06,644 - INFO - Surrogate model done
+2025-02-27 01:12:49,772 - INFO - CV done
+2025-02-27 01:12:49,772 - INFO - Results in tmp/cv_hong_data/ffn_train.log
+2025-02-27 01:12:49,773 - INFO - 5-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 0.8351190889493557 0.5966055430170076 0.9693069940128396
+2025-02-27 01:47:34,525 - INFO - ********************************
+2025-02-27 01:47:34,525 - INFO - ======= HONG DATASET, M1's hidden size: 1400 =======
+2025-02-27 01:47:39,932 - INFO - Surrogate model done
+2025-02-27 01:49:27,067 - INFO - CV done
+2025-02-27 01:49:27,067 - INFO - Results in tmp/cv_hong_data/ffn_train.log
+2025-02-27 01:49:27,068 - INFO - 5-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 0.8346982622033255 0.5967599466757816 0.9693626663465761
+2025-02-27 02:23:44,939 - INFO - ********************************
+2025-02-27 02:23:44,939 - INFO - ======= HONG DATASET, M1's hidden size: 1500 =======
+2025-02-27 02:23:50,272 - INFO - Surrogate model done
+2025-02-27 02:25:45,059 - INFO - CV done
+2025-02-27 02:25:45,059 - INFO - Results in tmp/cv_hong_data/ffn_train.log
+2025-02-27 02:25:45,060 - INFO - 5-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 0.8309751218036767 0.5941028614459848 0.9695983491693678
+2025-02-27 02:59:03,072 - INFO - ********************************
+2025-02-27 02:59:03,072 - INFO - ======= HONG DATASET, M1's hidden size: 1600 =======
+2025-02-27 02:59:08,477 - INFO - Surrogate model done
+2025-02-27 03:00:52,465 - INFO - CV done
+2025-02-27 03:00:52,466 - INFO - Results in tmp/cv_hong_data/ffn_train.log
+2025-02-27 03:00:52,466 - INFO - 5-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 0.837708710467556 0.6009581593469446 0.9690993560621781
+2025-02-27 03:36:21,648 - INFO - ********************************
+2025-02-27 03:36:21,648 - INFO - ======= HONG DATASET, M1's hidden size: 1700 =======
+2025-02-27 03:36:27,019 - INFO - Surrogate model done
+2025-02-27 03:38:13,872 - INFO - CV done
+2025-02-27 03:38:13,872 - INFO - Results in tmp/cv_hong_data/ffn_train.log
+2025-02-27 03:38:13,873 - INFO - 5-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 0.8314348224160837 0.5940573649669119 0.9695899504175213
+2025-02-27 04:14:25,122 - INFO - ********************************
+2025-02-27 04:14:25,122 - INFO - ======= HONG DATASET, M1's hidden size: 1800 =======
+2025-02-27 04:14:30,504 - INFO - Surrogate model done
+2025-02-27 04:16:24,071 - INFO - CV done
+2025-02-27 04:16:24,071 - INFO - Results in tmp/cv_hong_data/ffn_train.log
+2025-02-27 04:16:24,072 - INFO - 5-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 0.8307697344439635 0.5940293734870699 0.9696109175161775
+2025-02-27 04:52:00,572 - INFO - ********************************
+2025-02-27 04:52:00,572 - INFO - ======= HONG DATASET, M1's hidden size: 1900 =======
+2025-02-27 04:52:05,944 - INFO - Surrogate model done
+2025-02-27 04:53:54,922 - INFO - CV done
+2025-02-27 04:53:54,922 - INFO - Results in tmp/cv_hong_data/ffn_train.log
+2025-02-27 04:53:54,923 - INFO - 5-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 0.8358364018682085 0.5964308619711348 0.9692585596996175
+2025-02-27 05:29:24,204 - INFO - ********************************
+2025-02-27 05:29:24,204 - INFO - ======= HONG DATASET, M1's hidden size: 2000 =======
+2025-02-27 05:29:29,575 - INFO - Surrogate model done
+2025-02-27 05:31:20,295 - INFO - CV done
+2025-02-27 05:31:20,295 - INFO - Results in tmp/cv_hong_data/ffn_train.log
+2025-02-27 05:31:20,296 - INFO - 5-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 0.8332672864321568 0.5965917429138239 0.969381357690055

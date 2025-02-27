@@ -1,0 +1,440 @@
+2025-02-26 18:08:02,156 - INFO - ==============================
+2025-02-26 18:08:02,156 - INFO - Only the results that are expected to be of interset are recorded here.
+2025-02-26 18:08:02,156 - INFO - hidden size of M1: 100
+2025-02-26 18:11:02,141 - INFO - **********IN-HOUSE**********
+2025-02-26 18:11:02,141 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation and **4** ensembles: 2.962685392322979 2.117911189481249 0.8227415912096202
+2025-02-26 18:11:07,242 - INFO - **********TANTILLO**********
+2025-02-26 18:11:07,247 - INFO - RMSE, MAE and R^2 for linear regression: 1.3856755633718052 1.1157681239633528 0.14865008215842146
+2025-02-26 18:11:12,813 - INFO - **********OMEGA***********
+2025-02-26 18:11:12,981 - INFO - RMSE, MAE, and R^2 for RF: 1.5975554828700702 1.3918653300968606 0.663381810814196
+2025-02-26 18:12:32,752 - INFO - **4** ensembles and transfer learning on in-house, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 1.6118564325645384 1.2886533278558252 0.6572738436659492
+2025-02-26 18:14:41,274 - INFO - **1** ensemble and transfer learning on in-house, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 1.6140134398528982 1.2979175853442264 0.6546821931149948
+2025-02-26 18:14:52,570 - INFO - **********EXP OMEGA SELECTIVITY**********
+2025-02-26 18:14:52,737 - INFO - RMSE, MAE, and R^2 for RF: 1.3746611382848273 1.0309582814209735 0.5670697014892686
+2025-02-26 18:14:55,132 - INFO - **4** ensembles and pre-trained on OMEGA, direct test RMSE, MAE and R^2 for NN with a learned-VB representation: 1.215284893928197 1.0056790922242484 0.6616369979622247
+2025-02-26 18:14:57,622 - INFO - **1** ensemble and pre-trained on OMEGA, direct test RMSE, MAE and R^2 for NN with a learned-VB representation: 1.1479280731584973 0.9392565563002868 0.6981049278813026
+2025-02-26 18:20:19,347 - INFO - **********HONG**********
+2025-02-26 18:20:19,347 - INFO - 5-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation, all datapoints, 4 ensembles and transfer learning on in-house: 1.5515962625829913 1.0514034865372026 0.8973509062764722
+2025-02-26 18:21:32,400 - INFO - 5-fold CV RMSE, MAE and R^2 for RF: 1.464568175298386 0.9327819005478293 0.9085264313452847
+2025-02-26 18:22:12,910 - INFO - **********BIETTI**********
+2025-02-26 18:22:12,910 - INFO - **4** ensembles and transfer learning on Hong, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 0.8715756542295665 0.7407656126990608 0.1714128258392054
+2025-02-26 18:22:53,924 - INFO - **********RMECHDB**********
+2025-02-26 18:22:53,924 - INFO - <<pure>> **4** ensembles and transfer learning on in-house (hidden size of FFNN is expected to be 2 by Javier, but now 200~230 seems better?), 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 2.5573637001582137 2.0702958866553636 0.6523053854134114
+2025-02-26 18:43:53,025 - INFO - ==============================
+2025-02-26 18:43:53,025 - INFO - Only the results that are expected to be of interset are recorded here.
+2025-02-26 18:43:53,026 - INFO - hidden size of M1: 200
+2025-02-26 18:47:06,602 - INFO - **********IN-HOUSE**********
+2025-02-26 18:47:06,602 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation and **4** ensembles: 2.885933510763519 2.0700195234821432 0.832808738025012
+2025-02-26 18:47:11,710 - INFO - **********TANTILLO**********
+2025-02-26 18:47:11,714 - INFO - RMSE, MAE and R^2 for linear regression: 1.4845897279618354 1.3076299897787569 0.022767538829641887
+2025-02-26 18:47:17,145 - INFO - **********OMEGA***********
+2025-02-26 18:47:17,315 - INFO - RMSE, MAE, and R^2 for RF: 1.7989405914816374 1.6035273952150244 0.5731656898384969
+2025-02-26 18:48:25,747 - INFO - **4** ensembles and transfer learning on in-house, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 1.8646136523010752 1.5336856983597635 0.5412769527001923
+2025-02-26 18:50:17,433 - INFO - **1** ensemble and transfer learning on in-house, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 1.8619709015318946 1.5347188764324464 0.5397593940676374
+2025-02-26 18:50:27,577 - INFO - **********EXP OMEGA SELECTIVITY**********
+2025-02-26 18:50:27,746 - INFO - RMSE, MAE, and R^2 for RF: 1.3319153029265434 0.9542004547162222 0.5935754929144574
+2025-02-26 18:50:30,135 - INFO - **4** ensembles and pre-trained on OMEGA, direct test RMSE, MAE and R^2 for NN with a learned-VB representation: 1.740001398002858 1.4427493172145676 0.3063732003112546
+2025-02-26 18:50:32,480 - INFO - **1** ensemble and pre-trained on OMEGA, direct test RMSE, MAE and R^2 for NN with a learned-VB representation: 1.7256193936195872 1.4552466164259452 0.317792175450901
+2025-02-26 18:54:50,739 - INFO - **********HONG**********
+2025-02-26 18:54:50,739 - INFO - 5-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation, all datapoints, 4 ensembles and transfer learning on in-house: 1.5633620891218034 1.064902189318956 0.8964979225245997
+2025-02-26 18:56:04,430 - INFO - 5-fold CV RMSE, MAE and R^2 for RF: 1.5304691681120164 0.9751101875263384 0.9009296503293734
+2025-02-26 18:56:45,451 - INFO - **********BIETTI**********
+2025-02-26 18:56:45,451 - INFO - **4** ensembles and transfer learning on Hong, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 0.7852303497024782 0.6559688063547812 0.3692967907957015
+2025-02-26 18:57:31,670 - INFO - **********RMECHDB**********
+2025-02-26 18:57:31,670 - INFO - <<pure>> **4** ensembles and transfer learning on in-house (hidden size of FFNN is expected to be 2 by Javier, but now 200~230 seems better?), 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 2.675521999867162 2.233140280730719 0.6150643629646517
+2025-02-26 19:18:07,545 - INFO - ==============================
+2025-02-26 19:18:07,545 - INFO - Only the results that are expected to be of interset are recorded here.
+2025-02-26 19:18:07,545 - INFO - hidden size of M1: 300
+2025-02-26 19:21:16,600 - INFO - **********IN-HOUSE**********
+2025-02-26 19:21:16,600 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation and **4** ensembles: 2.85104051806358 2.0385327314543202 0.836509595256631
+2025-02-26 19:21:21,690 - INFO - **********TANTILLO**********
+2025-02-26 19:21:21,694 - INFO - RMSE, MAE and R^2 for linear regression: 1.720078153368094 1.4450011654596164 -0.31184142846398855
+2025-02-26 19:21:27,129 - INFO - **********OMEGA***********
+2025-02-26 19:21:27,299 - INFO - RMSE, MAE, and R^2 for RF: 1.56224389238936 1.3757237195592913 0.6780982407575407
+2025-02-26 19:22:25,038 - INFO - **4** ensembles and transfer learning on in-house, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 2.1742339348819004 1.7516171318860434 0.3760417899671726
+2025-02-26 19:24:11,573 - INFO - **1** ensemble and transfer learning on in-house, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 2.600166387639974 2.0986068502957047 0.10388616312021877
+2025-02-26 19:24:22,315 - INFO - **********EXP OMEGA SELECTIVITY**********
+2025-02-26 19:24:22,485 - INFO - RMSE, MAE, and R^2 for RF: 1.4078804409442636 1.049633445115185 0.5458929741754387
+2025-02-26 19:24:25,230 - INFO - **4** ensembles and pre-trained on OMEGA, direct test RMSE, MAE and R^2 for NN with a learned-VB representation: 1.3588392756040362 1.07902082810117 0.576978099081688
+2025-02-26 19:24:27,722 - INFO - **1** ensemble and pre-trained on OMEGA, direct test RMSE, MAE and R^2 for NN with a learned-VB representation: 1.2960017597767417 0.9828165593637668 0.6151975285464581
+2025-02-26 19:29:01,351 - INFO - **********HONG**********
+2025-02-26 19:29:01,351 - INFO - 5-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation, all datapoints, 4 ensembles and transfer learning on in-house: 1.5454368847253033 1.0572310285850999 0.8982016536592614
+2025-02-26 19:30:14,361 - INFO - 5-fold CV RMSE, MAE and R^2 for RF: 1.4487717670664257 0.9343827749683946 0.9108899762435957
+2025-02-26 19:30:56,847 - INFO - **********BIETTI**********
+2025-02-26 19:30:56,847 - INFO - **4** ensembles and transfer learning on Hong, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 0.8311481076722631 0.6948500416514279 0.16680108064657387
+2025-02-26 19:31:46,222 - INFO - **********RMECHDB**********
+2025-02-26 19:31:46,222 - INFO - <<pure>> **4** ensembles and transfer learning on in-house (hidden size of FFNN is expected to be 2 by Javier, but now 200~230 seems better?), 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 2.886432255989702 2.4658480742098825 0.5235369123653488
+2025-02-26 19:53:00,946 - INFO - ==============================
+2025-02-26 19:53:00,946 - INFO - Only the results that are expected to be of interset are recorded here.
+2025-02-26 19:53:00,946 - INFO - hidden size of M1: 400
+2025-02-26 19:56:05,548 - INFO - **********IN-HOUSE**********
+2025-02-26 19:56:05,548 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation and **4** ensembles: 2.9451357255884147 2.135766706415736 0.8261193536675286
+2025-02-26 19:56:10,639 - INFO - **********TANTILLO**********
+2025-02-26 19:56:10,644 - INFO - RMSE, MAE and R^2 for linear regression: 1.159355282559482 0.9105970744497768 0.404038681223597
+2025-02-26 19:56:16,132 - INFO - **********OMEGA***********
+2025-02-26 19:56:16,300 - INFO - RMSE, MAE, and R^2 for RF: 1.4974278098660512 1.3098941497070922 0.7042549610294845
+2025-02-26 19:57:18,149 - INFO - **4** ensembles and transfer learning on in-house, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 1.770726875444155 1.4205969595846688 0.5857507859062424
+2025-02-26 19:59:09,555 - INFO - **1** ensemble and transfer learning on in-house, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 1.6455537115472652 1.3002460782148133 0.63851573563752
+2025-02-26 19:59:21,181 - INFO - **********EXP OMEGA SELECTIVITY**********
+2025-02-26 19:59:21,348 - INFO - RMSE, MAE, and R^2 for RF: 1.5554940458417013 1.1990041414629624 0.44567639044398843
+2025-02-26 19:59:23,771 - INFO - **4** ensembles and pre-trained on OMEGA, direct test RMSE, MAE and R^2 for NN with a learned-VB representation: 1.5370793480990408 1.3309414834736222 0.45872340900515873
+2025-02-26 19:59:26,177 - INFO - **1** ensemble and pre-trained on OMEGA, direct test RMSE, MAE and R^2 for NN with a learned-VB representation: 1.5292194246921258 1.3249711269516866 0.46424493922407684
+2025-02-26 20:04:08,242 - INFO - **********HONG**********
+2025-02-26 20:04:08,242 - INFO - 5-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation, all datapoints, 4 ensembles and transfer learning on in-house: 1.513315163387461 1.0412581154170135 0.901985699566439
+2025-02-26 20:05:21,313 - INFO - 5-fold CV RMSE, MAE and R^2 for RF: 1.3937994215819445 0.9046012747576906 0.916808664509835
+2025-02-26 20:06:12,183 - INFO - **********BIETTI**********
+2025-02-26 20:06:12,183 - INFO - **4** ensembles and transfer learning on Hong, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 0.8131781588174467 0.6685600957440405 0.3110273363506707
+2025-02-26 20:06:56,780 - INFO - **********RMECHDB**********
+2025-02-26 20:06:56,780 - INFO - <<pure>> **4** ensembles and transfer learning on in-house (hidden size of FFNN is expected to be 2 by Javier, but now 200~230 seems better?), 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 2.1072593033812415 1.7292551026144771 0.7573832125279745
+2025-02-26 20:28:39,481 - INFO - ==============================
+2025-02-26 20:28:39,481 - INFO - Only the results that are expected to be of interset are recorded here.
+2025-02-26 20:28:39,481 - INFO - hidden size of M1: 500
+2025-02-26 20:32:03,481 - INFO - **********IN-HOUSE**********
+2025-02-26 20:32:03,481 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation and **4** ensembles: 2.87554996775478 2.06477420552121 0.8333951781104524
+2025-02-26 20:32:08,575 - INFO - **********TANTILLO**********
+2025-02-26 20:32:08,579 - INFO - RMSE, MAE and R^2 for linear regression: 1.510106452308271 1.2416246152713972 -0.011113964574575697
+2025-02-26 20:32:14,158 - INFO - **********OMEGA***********
+2025-02-26 20:32:14,325 - INFO - RMSE, MAE, and R^2 for RF: 1.5136075360580503 1.3298318484608191 0.6978293756191863
+2025-02-26 20:33:31,044 - INFO - **4** ensembles and transfer learning on in-house, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 1.6616241942961814 1.3605332201416085 0.6358341889255986
+2025-02-26 20:35:35,941 - INFO - **1** ensemble and transfer learning on in-house, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 1.7772691875316151 1.4282590823632755 0.5829259096838711
+2025-02-26 20:35:48,186 - INFO - **********EXP OMEGA SELECTIVITY**********
+2025-02-26 20:35:48,352 - INFO - RMSE, MAE, and R^2 for RF: 1.2837240634647906 0.9020225862345186 0.6224538599334265
+2025-02-26 20:35:50,815 - INFO - **4** ensembles and pre-trained on OMEGA, direct test RMSE, MAE and R^2 for NN with a learned-VB representation: 1.6312092661376048 1.278706539591847 0.3903984960018315
+2025-02-26 20:35:53,247 - INFO - **1** ensemble and pre-trained on OMEGA, direct test RMSE, MAE and R^2 for NN with a learned-VB representation: 1.6990410935982716 1.3655381088009917 0.33864531227403905
+2025-02-26 20:40:25,585 - INFO - **********HONG**********
+2025-02-26 20:40:25,585 - INFO - 5-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation, all datapoints, 4 ensembles and transfer learning on in-house: 1.5320710660145755 1.032344418147254 0.8996444205087162
+2025-02-26 20:41:38,451 - INFO - 5-fold CV RMSE, MAE and R^2 for RF: 1.4393321871091285 0.9122542983565104 0.9115912406697657
+2025-02-26 20:42:15,059 - INFO - **********BIETTI**********
+2025-02-26 20:42:15,059 - INFO - **4** ensembles and transfer learning on Hong, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 0.7551351186806924 0.6440489646066012 0.44226336975163694
+2025-02-26 20:43:01,932 - INFO - **********RMECHDB**********
+2025-02-26 20:43:01,932 - INFO - <<pure>> **4** ensembles and transfer learning on in-house (hidden size of FFNN is expected to be 2 by Javier, but now 200~230 seems better?), 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 3.154478270494377 2.6347450407123345 0.5038983603894718
+2025-02-26 21:04:18,425 - INFO - ==============================
+2025-02-26 21:04:18,425 - INFO - Only the results that are expected to be of interset are recorded here.
+2025-02-26 21:04:18,425 - INFO - hidden size of M1: 600
+2025-02-26 21:07:31,373 - INFO - **********IN-HOUSE**********
+2025-02-26 21:07:31,373 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation and **4** ensembles: 2.80083393477502 2.024403839494486 0.841898153890444
+2025-02-26 21:07:36,454 - INFO - **********TANTILLO**********
+2025-02-26 21:07:36,458 - INFO - RMSE, MAE and R^2 for linear regression: 1.5129744769438909 1.211498944419274 -0.014958267775111223
+2025-02-26 21:07:41,954 - INFO - **********OMEGA***********
+2025-02-26 21:07:42,122 - INFO - RMSE, MAE, and R^2 for RF: 1.5415185953921011 1.3515666368312962 0.6865825193743765
+2025-02-26 21:08:55,932 - INFO - **4** ensembles and transfer learning on in-house, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 1.9940764305707224 1.631288476103134 0.4754777291775839
+2025-02-26 21:10:55,037 - INFO - **1** ensemble and transfer learning on in-house, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 1.9457398254791218 1.6095760998429711 0.4998544837643781
+2025-02-26 21:11:07,145 - INFO - **********EXP OMEGA SELECTIVITY**********
+2025-02-26 21:11:07,312 - INFO - RMSE, MAE, and R^2 for RF: 1.523703230932128 1.029142704061778 0.4681031147755367
+2025-02-26 21:11:10,021 - INFO - **4** ensembles and pre-trained on OMEGA, direct test RMSE, MAE and R^2 for NN with a learned-VB representation: 1.9791065765116411 1.676995421792985 0.10264345631214222
+2025-02-26 21:11:12,432 - INFO - **1** ensemble and pre-trained on OMEGA, direct test RMSE, MAE and R^2 for NN with a learned-VB representation: 2.03116144741561 1.7474913246677592 0.05481774440800702
+2025-02-26 21:15:42,333 - INFO - **********HONG**********
+2025-02-26 21:15:42,333 - INFO - 5-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation, all datapoints, 4 ensembles and transfer learning on in-house: 1.5443754646661199 1.0562575769684246 0.8983773045194943
+2025-02-26 21:16:55,606 - INFO - 5-fold CV RMSE, MAE and R^2 for RF: 1.4432016650157184 0.9106280920775388 0.9117479546244128
+2025-02-26 21:17:35,726 - INFO - **********BIETTI**********
+2025-02-26 21:17:35,726 - INFO - **4** ensembles and transfer learning on Hong, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 0.8741176272501414 0.7300015030479916 0.209150213672804
+2025-02-26 21:18:22,540 - INFO - **********RMECHDB**********
+2025-02-26 21:18:22,540 - INFO - <<pure>> **4** ensembles and transfer learning on in-house (hidden size of FFNN is expected to be 2 by Javier, but now 200~230 seems better?), 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 2.7989225770904214 2.37440625405496 0.5771501093381673
+2025-02-26 21:39:53,473 - INFO - ==============================
+2025-02-26 21:39:53,473 - INFO - Only the results that are expected to be of interset are recorded here.
+2025-02-26 21:39:53,473 - INFO - hidden size of M1: 700
+2025-02-26 21:43:16,118 - INFO - **********IN-HOUSE**********
+2025-02-26 21:43:16,118 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation and **4** ensembles: 2.7788343950428023 1.9734087795834214 0.8441948009754883
+2025-02-26 21:43:21,370 - INFO - **********TANTILLO**********
+2025-02-26 21:43:21,374 - INFO - RMSE, MAE and R^2 for linear regression: 1.3275735382304088 1.1510460221283718 0.2185482705517504
+2025-02-26 21:43:26,925 - INFO - **********OMEGA***********
+2025-02-26 21:43:27,093 - INFO - RMSE, MAE, and R^2 for RF: 1.7672487139461486 1.5662307328738228 0.5880722707443046
+2025-02-26 21:44:38,729 - INFO - **4** ensembles and transfer learning on in-house, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 1.6100732533064168 1.2391310461925695 0.657659191711532
+2025-02-26 21:46:39,567 - INFO - **1** ensemble and transfer learning on in-house, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 1.65201591681446 1.29483917325349 0.6337842172795797
+2025-02-26 21:46:51,516 - INFO - **********EXP OMEGA SELECTIVITY**********
+2025-02-26 21:46:51,684 - INFO - RMSE, MAE, and R^2 for RF: 1.4223555631061149 1.0763632325236296 0.5365071684794452
+2025-02-26 21:46:54,176 - INFO - **4** ensembles and pre-trained on OMEGA, direct test RMSE, MAE and R^2 for NN with a learned-VB representation: 1.8314651184292388 1.356392934647427 0.23153521007830657
+2025-02-26 21:46:56,608 - INFO - **1** ensemble and pre-trained on OMEGA, direct test RMSE, MAE and R^2 for NN with a learned-VB representation: 1.8398330548563049 1.3750185022471517 0.22449695989140306
+2025-02-26 21:51:41,107 - INFO - **********HONG**********
+2025-02-26 21:51:41,107 - INFO - 5-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation, all datapoints, 4 ensembles and transfer learning on in-house: 1.5182415408167123 1.0440686286187109 0.9013621060125894
+2025-02-26 21:52:54,174 - INFO - 5-fold CV RMSE, MAE and R^2 for RF: 1.3669774789115645 0.8935046828908556 0.9204339893455487
+2025-02-26 21:53:35,102 - INFO - **********BIETTI**********
+2025-02-26 21:53:35,102 - INFO - **4** ensembles and transfer learning on Hong, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 0.855264628706165 0.7292129243632297 0.28952107347835015
+2025-02-26 21:54:19,678 - INFO - **********RMECHDB**********
+2025-02-26 21:54:19,678 - INFO - <<pure>> **4** ensembles and transfer learning on in-house (hidden size of FFNN is expected to be 2 by Javier, but now 200~230 seems better?), 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 2.5350635644035586 2.0303480485142478 0.6475657220864814
+2025-02-26 22:16:16,348 - INFO - ==============================
+2025-02-26 22:16:16,348 - INFO - Only the results that are expected to be of interset are recorded here.
+2025-02-26 22:16:16,348 - INFO - hidden size of M1: 800
+2025-02-26 22:19:22,742 - INFO - **********IN-HOUSE**********
+2025-02-26 22:19:22,742 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation and **4** ensembles: 2.868844446393603 2.0184976817453406 0.8338916468169675
+2025-02-26 22:19:27,889 - INFO - **********TANTILLO**********
+2025-02-26 22:19:27,893 - INFO - RMSE, MAE and R^2 for linear regression: 1.3370002955172418 1.083401988767015 0.20741109497794274
+2025-02-26 22:19:33,520 - INFO - **********OMEGA***********
+2025-02-26 22:19:33,690 - INFO - RMSE, MAE, and R^2 for RF: 1.37392816687033 1.2026263216065751 0.7510261509391032
+2025-02-26 22:20:49,118 - INFO - **4** ensembles and transfer learning on in-house, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 1.5724838208723289 1.2589565162496879 0.6737472408177592
+2025-02-26 22:22:53,868 - INFO - **1** ensemble and transfer learning on in-house, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 1.492787395802821 1.1931565551405476 0.704987693114312
+2025-02-26 22:23:07,116 - INFO - **********EXP OMEGA SELECTIVITY**********
+2025-02-26 22:23:07,285 - INFO - RMSE, MAE, and R^2 for RF: 1.3927286042991318 0.9701146427660002 0.5556147239080749
+2025-02-26 22:23:09,984 - INFO - **4** ensembles and pre-trained on OMEGA, direct test RMSE, MAE and R^2 for NN with a learned-VB representation: 1.8336401531799247 1.5306263088636005 0.22970887978180743
+2025-02-26 22:23:12,421 - INFO - **1** ensemble and pre-trained on OMEGA, direct test RMSE, MAE and R^2 for NN with a learned-VB representation: 1.866860038631963 1.5996914777495193 0.20154547015583524
+2025-02-26 22:27:45,760 - INFO - **********HONG**********
+2025-02-26 22:27:45,761 - INFO - 5-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation, all datapoints, 4 ensembles and transfer learning on in-house: 1.5412305884699342 1.0286283984483782 0.8986676285380553
+2025-02-26 22:28:59,055 - INFO - 5-fold CV RMSE, MAE and R^2 for RF: 1.4685614234389899 0.9341266224188791 0.9084494349324007
+2025-02-26 22:29:41,346 - INFO - **********BIETTI**********
+2025-02-26 22:29:41,346 - INFO - **4** ensembles and transfer learning on Hong, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 0.6988375145342124 0.5753905856398608 0.4199581751282806
+2025-02-26 22:30:33,469 - INFO - **********RMECHDB**********
+2025-02-26 22:30:33,469 - INFO - <<pure>> **4** ensembles and transfer learning on in-house (hidden size of FFNN is expected to be 2 by Javier, but now 200~230 seems better?), 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 2.5079355079002386 2.04723990741988 0.6683350623177511
+2025-02-26 22:52:25,498 - INFO - ==============================
+2025-02-26 22:52:25,498 - INFO - Only the results that are expected to be of interset are recorded here.
+2025-02-26 22:52:25,498 - INFO - hidden size of M1: 900
+2025-02-26 22:55:46,279 - INFO - **********IN-HOUSE**********
+2025-02-26 22:55:46,279 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation and **4** ensembles: 2.8124630418913728 1.9939647133731413 0.8403833492041928
+2025-02-26 22:55:51,435 - INFO - **********TANTILLO**********
+2025-02-26 22:55:51,439 - INFO - RMSE, MAE and R^2 for linear regression: 1.8159978786940312 1.5764869087537086 -0.4622298853489959
+2025-02-26 22:55:57,087 - INFO - **********OMEGA***********
+2025-02-26 22:55:57,254 - INFO - RMSE, MAE, and R^2 for RF: 1.7703931362122458 1.5724603588538073 0.5866051008559601
+2025-02-26 22:57:03,293 - INFO - **4** ensembles and transfer learning on in-house, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 1.691307323719596 1.3396871212608332 0.6224885094517314
+2025-02-26 22:58:57,957 - INFO - **1** ensemble and transfer learning on in-house, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 1.6291524316990267 1.2950736654826733 0.6491350766539158
+2025-02-26 22:59:09,198 - INFO - **********EXP OMEGA SELECTIVITY**********
+2025-02-26 22:59:09,365 - INFO - RMSE, MAE, and R^2 for RF: 1.376066156439543 0.9662684602771959 0.5661842675943256
+2025-02-26 22:59:11,772 - INFO - **4** ensembles and pre-trained on OMEGA, direct test RMSE, MAE and R^2 for NN with a learned-VB representation: 2.1010524065749565 1.8682232994843868 -0.011347582144621837
+2025-02-26 22:59:14,149 - INFO - **1** ensemble and pre-trained on OMEGA, direct test RMSE, MAE and R^2 for NN with a learned-VB representation: 2.099702933186365 1.881663174635403 -0.010048853608581432
+2025-02-26 23:03:46,892 - INFO - **********HONG**********
+2025-02-26 23:03:46,892 - INFO - 5-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation, all datapoints, 4 ensembles and transfer learning on in-house: 1.523231983438893 1.045283841315519 0.901178312103255
+2025-02-26 23:05:00,153 - INFO - 5-fold CV RMSE, MAE and R^2 for RF: 1.426492128316872 0.9429609934681837 0.9135183920656033
+2025-02-26 23:05:42,582 - INFO - **********BIETTI**********
+2025-02-26 23:05:42,582 - INFO - **4** ensembles and transfer learning on Hong, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 0.8639528284126925 0.7519451322888191 0.14008070359388408
+2025-02-26 23:06:30,102 - INFO - **********RMECHDB**********
+2025-02-26 23:06:30,102 - INFO - <<pure>> **4** ensembles and transfer learning on in-house (hidden size of FFNN is expected to be 2 by Javier, but now 200~230 seems better?), 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 3.0221682008852806 2.521860140173319 0.5000204391232324
+2025-02-26 23:28:53,246 - INFO - ==============================
+2025-02-26 23:28:53,246 - INFO - Only the results that are expected to be of interset are recorded here.
+2025-02-26 23:28:53,246 - INFO - hidden size of M1: 1000
+2025-02-26 23:31:46,769 - INFO - **********IN-HOUSE**********
+2025-02-26 23:31:46,769 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation and **4** ensembles: 2.8530701329915584 2.0390288992771355 0.8355116173570698
+2025-02-26 23:31:51,939 - INFO - **********TANTILLO**********
+2025-02-26 23:31:51,943 - INFO - RMSE, MAE and R^2 for linear regression: 1.628145728379851 1.406505117976753 -0.17536168801046403
+2025-02-26 23:31:57,516 - INFO - **********OMEGA***********
+2025-02-26 23:31:57,691 - INFO - RMSE, MAE, and R^2 for RF: 1.4037376338114573 1.2168651849441254 0.7401052144637209
+2025-02-26 23:33:10,508 - INFO - **4** ensembles and transfer learning on in-house, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 1.6725612241029968 1.3467337869599256 0.6308946542218662
+2025-02-26 23:35:18,717 - INFO - **1** ensemble and transfer learning on in-house, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 1.6088767707327798 1.2652814462234243 0.6571803000280021
+2025-02-26 23:35:29,490 - INFO - **********EXP OMEGA SELECTIVITY**********
+2025-02-26 23:35:29,656 - INFO - RMSE, MAE, and R^2 for RF: 1.2978085635347174 0.9641188521224019 0.6141238460582832
+2025-02-26 23:35:32,370 - INFO - **4** ensembles and pre-trained on OMEGA, direct test RMSE, MAE and R^2 for NN with a learned-VB representation: 1.992316727359911 1.661237230390423 0.09062411613422372
+2025-02-26 23:35:34,743 - INFO - **1** ensemble and pre-trained on OMEGA, direct test RMSE, MAE and R^2 for NN with a learned-VB representation: 2.1290509618688067 1.8492961303793811 -0.038481547923204795
+2025-02-26 23:40:25,777 - INFO - **********HONG**********
+2025-02-26 23:40:25,777 - INFO - 5-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation, all datapoints, 4 ensembles and transfer learning on in-house: 1.49851925579821 1.0251999783085073 0.9047020928268841
+2025-02-26 23:41:39,396 - INFO - 5-fold CV RMSE, MAE and R^2 for RF: 1.3948537528686746 0.9151094395280236 0.9177334974223482
+2025-02-26 23:42:21,072 - INFO - **********BIETTI**********
+2025-02-26 23:42:21,072 - INFO - **4** ensembles and transfer learning on Hong, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 0.7327857808824658 0.6187393160797411 0.36534596460511576
+2025-02-26 23:43:07,429 - INFO - **********RMECHDB**********
+2025-02-26 23:43:07,429 - INFO - <<pure>> **4** ensembles and transfer learning on in-house (hidden size of FFNN is expected to be 2 by Javier, but now 200~230 seems better?), 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 2.2718393117306106 1.868812555883076 0.7199814965345167
+2025-02-27 00:05:34,957 - INFO - ==============================
+2025-02-27 00:05:34,957 - INFO - Only the results that are expected to be of interset are recorded here.
+2025-02-27 00:05:34,957 - INFO - hidden size of M1: 1100
+2025-02-27 00:08:47,789 - INFO - **********IN-HOUSE**********
+2025-02-27 00:08:47,789 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation and **4** ensembles: 2.8454961683620947 2.0073344797682906 0.8369225315714319
+2025-02-27 00:08:52,969 - INFO - **********TANTILLO**********
+2025-02-27 00:08:52,973 - INFO - RMSE, MAE and R^2 for linear regression: 1.2640027840565908 1.0540366977582492 0.2915959374267023
+2025-02-27 00:08:58,479 - INFO - **********OMEGA***********
+2025-02-27 00:08:58,646 - INFO - RMSE, MAE, and R^2 for RF: 1.7771948131904118 1.58644415020786 0.5834225536582037
+2025-02-27 00:10:02,094 - INFO - **4** ensembles and transfer learning on in-house, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 2.2018613627738612 1.8473802002554394 0.36018862178679434
+2025-02-27 00:11:56,781 - INFO - **1** ensemble and transfer learning on in-house, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 2.0956309250049263 1.7475503151242162 0.41879746280689334
+2025-02-27 00:12:06,896 - INFO - **********EXP OMEGA SELECTIVITY**********
+2025-02-27 00:12:07,063 - INFO - RMSE, MAE, and R^2 for RF: 1.4576315102082271 1.0070849927777352 0.5132318361113377
+2025-02-27 00:12:09,472 - INFO - **4** ensembles and pre-trained on OMEGA, direct test RMSE, MAE and R^2 for NN with a learned-VB representation: 1.973353357297533 1.6854125225799317 0.10785306458566946
+2025-02-27 00:12:11,942 - INFO - **1** ensemble and pre-trained on OMEGA, direct test RMSE, MAE and R^2 for NN with a learned-VB representation: 2.0387541661566093 1.7712523218783123 0.04773813353992584
+2025-02-27 00:16:55,827 - INFO - **********HONG**********
+2025-02-27 00:16:55,827 - INFO - 5-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation, all datapoints, 4 ensembles and transfer learning on in-house: 1.5558952649193478 1.0598950852377553 0.8965954820142794
+2025-02-27 00:18:09,003 - INFO - 5-fold CV RMSE, MAE and R^2 for RF: 1.457497898835376 0.9416604403708388 0.9095736106283885
+2025-02-27 00:18:47,460 - INFO - **********BIETTI**********
+2025-02-27 00:18:47,460 - INFO - **4** ensembles and transfer learning on Hong, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 0.7431507096985175 0.6127713458965571 0.2355534967232516
+2025-02-27 00:19:34,470 - INFO - **********RMECHDB**********
+2025-02-27 00:19:34,470 - INFO - <<pure>> **4** ensembles and transfer learning on in-house (hidden size of FFNN is expected to be 2 by Javier, but now 200~230 seems better?), 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 2.4423578012345413 1.9606783485404258 0.6877890247873331
+2025-02-27 00:41:58,515 - INFO - ==============================
+2025-02-27 00:41:58,515 - INFO - Only the results that are expected to be of interset are recorded here.
+2025-02-27 00:41:58,515 - INFO - hidden size of M1: 1200
+2025-02-27 00:45:30,206 - INFO - **********IN-HOUSE**********
+2025-02-27 00:45:30,206 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation and **4** ensembles: 2.75006865155568 1.959004656372419 0.8475949155057559
+2025-02-27 00:45:35,431 - INFO - **********TANTILLO**********
+2025-02-27 00:45:35,435 - INFO - RMSE, MAE and R^2 for linear regression: 1.5447444327287383 1.2993354254980767 -0.05803067572582221
+2025-02-27 00:45:40,964 - INFO - **********OMEGA***********
+2025-02-27 00:45:41,134 - INFO - RMSE, MAE, and R^2 for RF: 1.307753593334235 1.1168046916992977 0.7744319821327168
+2025-02-27 00:46:52,146 - INFO - **4** ensembles and transfer learning on in-house, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 2.0282920300110936 1.692163364165577 0.45722062462853214
+2025-02-27 00:49:06,569 - INFO - **1** ensemble and transfer learning on in-house, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 2.021431301918113 1.7026597232302692 0.45974503585909937
+2025-02-27 00:49:16,055 - INFO - **********EXP OMEGA SELECTIVITY**********
+2025-02-27 00:49:16,223 - INFO - RMSE, MAE, and R^2 for RF: 1.371324618873743 0.99280133990164 0.5691687312990571
+2025-02-27 00:49:18,647 - INFO - **4** ensembles and pre-trained on OMEGA, direct test RMSE, MAE and R^2 for NN with a learned-VB representation: 2.3272476013062624 2.014526975878421 -0.24082876539289733
+2025-02-27 00:49:21,134 - INFO - **1** ensemble and pre-trained on OMEGA, direct test RMSE, MAE and R^2 for NN with a learned-VB representation: 2.30700046261273 2.0297434975609523 -0.21933217381605719
+2025-02-27 00:54:11,464 - INFO - **********HONG**********
+2025-02-27 00:54:11,464 - INFO - 5-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation, all datapoints, 4 ensembles and transfer learning on in-house: 1.5272121816622117 1.0249104664513475 0.9007127589009688
+2025-02-27 00:55:24,736 - INFO - 5-fold CV RMSE, MAE and R^2 for RF: 1.3922366156279629 0.9025239833544034 0.918088321999381
+2025-02-27 00:56:04,043 - INFO - **********BIETTI**********
+2025-02-27 00:56:04,043 - INFO - **4** ensembles and transfer learning on Hong, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 0.8199004836272994 0.6998692940820842 0.28011125966118644
+2025-02-27 00:56:56,194 - INFO - **********RMECHDB**********
+2025-02-27 00:56:56,194 - INFO - <<pure>> **4** ensembles and transfer learning on in-house (hidden size of FFNN is expected to be 2 by Javier, but now 200~230 seems better?), 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 3.044523141157963 2.4967300381926525 0.5205927270346508
+2025-02-27 01:19:00,966 - INFO - ==============================
+2025-02-27 01:19:00,966 - INFO - Only the results that are expected to be of interset are recorded here.
+2025-02-27 01:19:00,966 - INFO - hidden size of M1: 1300
+2025-02-27 01:22:26,891 - INFO - **********IN-HOUSE**********
+2025-02-27 01:22:26,891 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation and **4** ensembles: 2.769957340033154 1.9717928184939357 0.8456691948179766
+2025-02-27 01:22:32,098 - INFO - **********TANTILLO**********
+2025-02-27 01:22:32,102 - INFO - RMSE, MAE and R^2 for linear regression: 1.4024999170633075 1.2087911802864584 0.12785103328062308
+2025-02-27 01:22:37,806 - INFO - **********OMEGA***********
+2025-02-27 01:22:37,975 - INFO - RMSE, MAE, and R^2 for RF: 1.3233891195060614 1.137672561872962 0.7690059472064736
+2025-02-27 01:23:48,443 - INFO - **4** ensembles and transfer learning on in-house, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 1.8597023095692304 1.4035962202451477 0.5438140716028904
+2025-02-27 01:25:28,610 - INFO - **1** ensemble and transfer learning on in-house, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 1.8895056888208603 1.4173516373530133 0.528371034120716
+2025-02-27 01:25:39,673 - INFO - **********EXP OMEGA SELECTIVITY**********
+2025-02-27 01:25:39,842 - INFO - RMSE, MAE, and R^2 for RF: 1.429097202508696 1.1031831573925928 0.5321030563128036
+2025-02-27 01:25:42,339 - INFO - **4** ensembles and pre-trained on OMEGA, direct test RMSE, MAE and R^2 for NN with a learned-VB representation: 2.528442832273755 2.1324532879357565 -0.46464693701348936
+2025-02-27 01:25:44,716 - INFO - **1** ensemble and pre-trained on OMEGA, direct test RMSE, MAE and R^2 for NN with a learned-VB representation: 2.552101409871382 2.1808560757165965 -0.49218450220103915
+2025-02-27 01:30:15,467 - INFO - **********HONG**********
+2025-02-27 01:30:15,467 - INFO - 5-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation, all datapoints, 4 ensembles and transfer learning on in-house: 1.7188378528355632 1.1940723775255573 0.8738625512168386
+2025-02-27 01:31:29,216 - INFO - 5-fold CV RMSE, MAE and R^2 for RF: 1.3540011357121382 0.8900765960809099 0.9219434365125767
+2025-02-27 01:32:16,494 - INFO - **********BIETTI**********
+2025-02-27 01:32:16,494 - INFO - **4** ensembles and transfer learning on Hong, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 0.8042882337184896 0.6831725148689128 0.33528434883168223
+2025-02-27 01:33:06,487 - INFO - **********RMECHDB**********
+2025-02-27 01:33:06,487 - INFO - <<pure>> **4** ensembles and transfer learning on in-house (hidden size of FFNN is expected to be 2 by Javier, but now 200~230 seems better?), 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 2.7525723275203218 2.3079847233559705 0.5994724915002154
+2025-02-27 01:55:39,515 - INFO - ==============================
+2025-02-27 01:55:39,515 - INFO - Only the results that are expected to be of interset are recorded here.
+2025-02-27 01:55:39,515 - INFO - hidden size of M1: 1400
+2025-02-27 01:59:05,968 - INFO - **********IN-HOUSE**********
+2025-02-27 01:59:05,968 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation and **4** ensembles: 2.7921275132861756 1.9769102697584284 0.8426897383372639
+2025-02-27 01:59:11,186 - INFO - **********TANTILLO**********
+2025-02-27 01:59:11,190 - INFO - RMSE, MAE and R^2 for linear regression: 1.6514153558756686 1.4164362596363993 -0.20919855448254765
+2025-02-27 01:59:16,758 - INFO - **********OMEGA***********
+2025-02-27 01:59:16,926 - INFO - RMSE, MAE, and R^2 for RF: 1.136513315137428 0.9749489636748313 0.8296372132137568
+2025-02-27 02:00:25,297 - INFO - **4** ensembles and transfer learning on in-house, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 1.6182266062431825 1.3056752852146327 0.6545524536703908
+2025-02-27 02:02:27,019 - INFO - **1** ensemble and transfer learning on in-house, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 1.5438491545651507 1.2058819730546184 0.6855235119881502
+2025-02-27 02:02:38,635 - INFO - **********EXP OMEGA SELECTIVITY**********
+2025-02-27 02:02:38,803 - INFO - RMSE, MAE, and R^2 for RF: 1.3822733952805748 1.0676554016708886 0.56226167816704
+2025-02-27 02:02:41,384 - INFO - **4** ensembles and pre-trained on OMEGA, direct test RMSE, MAE and R^2 for NN with a learned-VB representation: 2.3264371854112027 2.111354026399778 -0.2399647298975358
+2025-02-27 02:02:43,851 - INFO - **1** ensemble and pre-trained on OMEGA, direct test RMSE, MAE and R^2 for NN with a learned-VB representation: 2.319073242236624 2.130445576181805 -0.23212735650798377
+2025-02-27 02:07:29,731 - INFO - **********HONG**********
+2025-02-27 02:07:29,731 - INFO - 5-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation, all datapoints, 4 ensembles and transfer learning on in-house: 1.5221497964001014 1.0443972308189635 0.9011398997639637
+2025-02-27 02:08:43,179 - INFO - 5-fold CV RMSE, MAE and R^2 for RF: 1.3667248249855835 0.8800170775389802 0.9205063845853652
+2025-02-27 02:09:26,363 - INFO - **********BIETTI**********
+2025-02-27 02:09:26,363 - INFO - **4** ensembles and transfer learning on Hong, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 0.7839881018251169 0.6696869554163842 0.2580533694518933
+2025-02-27 02:10:12,261 - INFO - **********RMECHDB**********
+2025-02-27 02:10:12,261 - INFO - <<pure>> **4** ensembles and transfer learning on in-house (hidden size of FFNN is expected to be 2 by Javier, but now 200~230 seems better?), 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 2.2073617741416127 1.7718026860827725 0.7420438061110457
+2025-02-27 02:31:55,807 - INFO - ==============================
+2025-02-27 02:31:55,807 - INFO - Only the results that are expected to be of interset are recorded here.
+2025-02-27 02:31:55,807 - INFO - hidden size of M1: 1500
+2025-02-27 02:35:10,878 - INFO - **********IN-HOUSE**********
+2025-02-27 02:35:10,878 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation and **4** ensembles: 2.7612065697834134 1.9412345740018278 0.8456488990725501
+2025-02-27 02:35:16,141 - INFO - **********TANTILLO**********
+2025-02-27 02:35:16,145 - INFO - RMSE, MAE and R^2 for linear regression: 1.5163866413072145 1.264719095498985 -0.01954143783265372
+2025-02-27 02:35:21,859 - INFO - **********OMEGA***********
+2025-02-27 02:35:22,028 - INFO - RMSE, MAE, and R^2 for RF: 1.607420351435549 1.420470288843937 0.6592117562099866
+2025-02-27 02:36:13,006 - INFO - **4** ensembles and transfer learning on in-house, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 1.8004747271475132 1.4574643980164819 0.5723790561655803
+2025-02-27 02:37:43,020 - INFO - **1** ensemble and transfer learning on in-house, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 1.7687843287106886 1.4392851275240852 0.5857243697298126
+2025-02-27 02:37:53,443 - INFO - **********EXP OMEGA SELECTIVITY**********
+2025-02-27 02:37:53,610 - INFO - RMSE, MAE, and R^2 for RF: 1.278396058692641 0.9398437491274714 0.625581312723976
+2025-02-27 02:37:56,134 - INFO - **4** ensembles and pre-trained on OMEGA, direct test RMSE, MAE and R^2 for NN with a learned-VB representation: 2.504663030937699 2.2814708944974567 -0.4372267155916345
+2025-02-27 02:37:58,504 - INFO - **1** ensemble and pre-trained on OMEGA, direct test RMSE, MAE and R^2 for NN with a learned-VB representation: 2.5558963521885207 2.3495188935713953 -0.49662552034562446
+2025-02-27 02:42:21,797 - INFO - **********HONG**********
+2025-02-27 02:42:21,797 - INFO - 5-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation, all datapoints, 4 ensembles and transfer learning on in-house: 1.58260832151092 1.0878938589544014 0.8933260846646729
+2025-02-27 02:43:35,329 - INFO - 5-fold CV RMSE, MAE and R^2 for RF: 1.423974876693984 0.9263024178255371 0.913740745371842
+2025-02-27 02:44:12,982 - INFO - **********BIETTI**********
+2025-02-27 02:44:12,982 - INFO - **4** ensembles and transfer learning on Hong, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 0.7244512372232089 0.6067401840777151 0.3515978373950079
+2025-02-27 02:45:06,637 - INFO - **********RMECHDB**********
+2025-02-27 02:45:06,637 - INFO - <<pure>> **4** ensembles and transfer learning on in-house (hidden size of FFNN is expected to be 2 by Javier, but now 200~230 seems better?), 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 2.561558665928422 2.12497712016059 0.6441773430571064
+2025-02-27 03:07:10,482 - INFO - ==============================
+2025-02-27 03:07:10,482 - INFO - Only the results that are expected to be of interset are recorded here.
+2025-02-27 03:07:10,482 - INFO - hidden size of M1: 1600
+2025-02-27 03:10:28,933 - INFO - **********IN-HOUSE**********
+2025-02-27 03:10:28,933 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation and **4** ensembles: 3.026442157763099 2.075529013334762 0.8104867116460405
+2025-02-27 03:10:34,186 - INFO - **********TANTILLO**********
+2025-02-27 03:10:34,190 - INFO - RMSE, MAE and R^2 for linear regression: 1.7896664379776783 1.449307789749027 -0.42013349129545485
+2025-02-27 03:10:39,784 - INFO - **********OMEGA***********
+2025-02-27 03:10:39,952 - INFO - RMSE, MAE, and R^2 for RF: 1.1502221171068527 0.9847393682492308 0.8255025408315104
+2025-02-27 03:11:52,243 - INFO - **4** ensembles and transfer learning on in-house, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 1.602438273043673 1.253679543524878 0.6612050354988306
+2025-02-27 03:13:50,676 - INFO - **1** ensemble and transfer learning on in-house, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 1.7122666766038048 1.347534614341563 0.6124500936058249
+2025-02-27 03:14:01,504 - INFO - **********EXP OMEGA SELECTIVITY**********
+2025-02-27 03:14:01,672 - INFO - RMSE, MAE, and R^2 for RF: 1.2558508279497702 0.9280761638745713 0.638671030301858
+2025-02-27 03:14:04,208 - INFO - **4** ensembles and pre-trained on OMEGA, direct test RMSE, MAE and R^2 for NN with a learned-VB representation: 1.7227453900596559 1.4882036309969926 0.3200627050779996
+2025-02-27 03:14:06,573 - INFO - **1** ensemble and pre-trained on OMEGA, direct test RMSE, MAE and R^2 for NN with a learned-VB representation: 1.6688665901091786 1.4487160083857298 0.3619276712792696
+2025-02-27 03:19:00,786 - INFO - **********HONG**********
+2025-02-27 03:19:00,786 - INFO - 5-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation, all datapoints, 4 ensembles and transfer learning on in-house: 1.5074385172780063 1.0379247113932646 0.9032953543132368
+2025-02-27 03:20:15,048 - INFO - 5-fold CV RMSE, MAE and R^2 for RF: 1.3281910812321367 0.876168088916983 0.9245091702146203
+2025-02-27 03:20:56,389 - INFO - **********BIETTI**********
+2025-02-27 03:20:56,389 - INFO - **4** ensembles and transfer learning on Hong, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 0.892350893262486 0.7473958099146913 0.24650622599599084
+2025-02-27 03:21:46,309 - INFO - **********RMECHDB**********
+2025-02-27 03:21:46,309 - INFO - <<pure>> **4** ensembles and transfer learning on in-house (hidden size of FFNN is expected to be 2 by Javier, but now 200~230 seems better?), 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 2.2182870152534475 1.770427315927794 0.7437274345554987
+2025-02-27 03:44:35,095 - INFO - ==============================
+2025-02-27 03:44:35,095 - INFO - Only the results that are expected to be of interset are recorded here.
+2025-02-27 03:44:35,095 - INFO - hidden size of M1: 1700
+2025-02-27 03:47:48,219 - INFO - **********IN-HOUSE**********
+2025-02-27 03:47:48,219 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation and **4** ensembles: 2.769551443677095 1.9619954396780563 0.845075778554137
+2025-02-27 03:47:53,442 - INFO - **********TANTILLO**********
+2025-02-27 03:47:53,446 - INFO - RMSE, MAE and R^2 for linear regression: 1.622231104971602 1.3732877211880397 -0.1668376418321067
+2025-02-27 03:47:59,201 - INFO - **********OMEGA***********
+2025-02-27 03:47:59,370 - INFO - RMSE, MAE, and R^2 for RF: 1.890502814989432 1.6915293426244247 0.5286100317296782
+2025-02-27 03:49:31,303 - INFO - **4** ensembles and transfer learning on in-house, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 1.6545188157079327 1.290073294518029 0.6387312415690174
+2025-02-27 03:51:42,024 - INFO - **1** ensemble and transfer learning on in-house, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 1.5740880807291304 1.2282101772835365 0.672000528089314
+2025-02-27 03:51:55,183 - INFO - **********EXP OMEGA SELECTIVITY**********
+2025-02-27 03:51:55,351 - INFO - RMSE, MAE, and R^2 for RF: 1.2848511049391356 0.9068555155826028 0.6217906380493831
+2025-02-27 03:51:58,008 - INFO - **4** ensembles and pre-trained on OMEGA, direct test RMSE, MAE and R^2 for NN with a learned-VB representation: 2.0835399425707952 1.89727440081839 0.005441504968306643
+2025-02-27 03:52:00,371 - INFO - **1** ensemble and pre-trained on OMEGA, direct test RMSE, MAE and R^2 for NN with a learned-VB representation: 2.132831041947205 1.9616405329984103 -0.04217242083946093
+2025-02-27 03:56:48,117 - INFO - **********HONG**********
+2025-02-27 03:56:48,117 - INFO - 5-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation, all datapoints, 4 ensembles and transfer learning on in-house: 1.5757878608708633 1.083700756680076 0.8942605471618336
+2025-02-27 03:58:01,961 - INFO - 5-fold CV RMSE, MAE and R^2 for RF: 1.4021769560636221 0.9132640381373788 0.9167578492694191
+2025-02-27 03:58:48,974 - INFO - **********BIETTI**********
+2025-02-27 03:58:48,974 - INFO - **4** ensembles and transfer learning on Hong, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 0.8000309064303824 0.697346104564164 0.34077440274978593
+2025-02-27 03:59:41,201 - INFO - **********RMECHDB**********
+2025-02-27 03:59:41,201 - INFO - <<pure>> **4** ensembles and transfer learning on in-house (hidden size of FFNN is expected to be 2 by Javier, but now 200~230 seems better?), 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 2.34631180715106 1.9024006047122461 0.7150476719687038
+2025-02-27 04:22:58,325 - INFO - ==============================
+2025-02-27 04:22:58,325 - INFO - Only the results that are expected to be of interset are recorded here.
+2025-02-27 04:22:58,325 - INFO - hidden size of M1: 1800
+2025-02-27 04:26:23,091 - INFO - **********IN-HOUSE**********
+2025-02-27 04:26:23,091 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation and **4** ensembles: 2.865295966695002 2.0452352223135364 0.8344246656935026
+2025-02-27 04:26:28,349 - INFO - **********TANTILLO**********
+2025-02-27 04:26:28,353 - INFO - RMSE, MAE and R^2 for linear regression: 2.2626074439377244 2.0405307540254607 -1.2698826501000888
+2025-02-27 04:26:34,102 - INFO - **********OMEGA***********
+2025-02-27 04:26:34,271 - INFO - RMSE, MAE, and R^2 for RF: 1.290712928232809 1.0950740626652355 0.7802722040046511
+2025-02-27 04:27:41,978 - INFO - **4** ensembles and transfer learning on in-house, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 1.522369909620601 1.1941545017194384 0.6937221621538587
+2025-02-27 04:29:47,938 - INFO - **1** ensemble and transfer learning on in-house, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 1.5153136561651448 1.1593661790384673 0.6895237894802341
+2025-02-27 04:29:59,203 - INFO - **********EXP OMEGA SELECTIVITY**********
+2025-02-27 04:29:59,370 - INFO - RMSE, MAE, and R^2 for RF: 1.2872695705928352 0.9663272814899045 0.620365496720687
+2025-02-27 04:30:01,864 - INFO - **4** ensembles and pre-trained on OMEGA, direct test RMSE, MAE and R^2 for NN with a learned-VB representation: 1.2862119256133573 0.9865102495112731 0.6209890701943372
+2025-02-27 04:30:04,246 - INFO - **1** ensemble and pre-trained on OMEGA, direct test RMSE, MAE and R^2 for NN with a learned-VB representation: 1.3013302209302149 0.9659674372749948 0.612026822818776
+2025-02-27 04:34:52,658 - INFO - **********HONG**********
+2025-02-27 04:34:52,658 - INFO - 5-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation, all datapoints, 4 ensembles and transfer learning on in-house: 1.5334635615388374 1.0322648382007267 0.8995825076139179
+2025-02-27 04:36:06,386 - INFO - 5-fold CV RMSE, MAE and R^2 for RF: 1.4700358539853713 0.9436461388537716 0.9076177311492613
+2025-02-27 04:36:46,305 - INFO - **********BIETTI**********
+2025-02-27 04:36:46,305 - INFO - **4** ensembles and transfer learning on Hong, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 0.7457367265371 0.630727078167479 0.3502483145931643
+2025-02-27 04:37:34,549 - INFO - **********RMECHDB**********
+2025-02-27 04:37:34,549 - INFO - <<pure>> **4** ensembles and transfer learning on in-house (hidden size of FFNN is expected to be 2 by Javier, but now 200~230 seems better?), 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 1.8596082884127774 1.4427981163610446 0.8152368501175568
+2025-02-27 05:00:06,752 - INFO - ==============================
+2025-02-27 05:00:06,752 - INFO - Only the results that are expected to be of interset are recorded here.
+2025-02-27 05:00:06,752 - INFO - hidden size of M1: 1900
+2025-02-27 05:03:31,231 - INFO - **********IN-HOUSE**********
+2025-02-27 05:03:31,231 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation and **4** ensembles: 2.7738902480391165 1.962699955971258 0.8444440239645463
+2025-02-27 05:03:36,516 - INFO - **********TANTILLO**********
+2025-02-27 05:03:36,520 - INFO - RMSE, MAE and R^2 for linear regression: 1.448252552303123 1.211187771649114 0.07002004624683023
+2025-02-27 05:03:42,288 - INFO - **********OMEGA***********
+2025-02-27 05:03:42,456 - INFO - RMSE, MAE, and R^2 for RF: 1.3314360966306258 1.1513455250877898 0.7661882496198007
+2025-02-27 05:05:00,180 - INFO - **4** ensembles and transfer learning on in-house, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 1.5482940369887008 1.2286666685192196 0.683761307827716
+2025-02-27 05:07:01,494 - INFO - **1** ensemble and transfer learning on in-house, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 1.574677570405471 1.2253395377860363 0.6720509930960084
+2025-02-27 05:07:13,548 - INFO - **********EXP OMEGA SELECTIVITY**********
+2025-02-27 05:07:13,715 - INFO - RMSE, MAE, and R^2 for RF: 1.3001909549905568 0.9176002122190581 0.6127058374760823
+2025-02-27 05:07:16,146 - INFO - **4** ensembles and pre-trained on OMEGA, direct test RMSE, MAE and R^2 for NN with a learned-VB representation: 1.3338465926770868 1.101785750643388 0.5923959996592842
+2025-02-27 05:07:18,546 - INFO - **1** ensemble and pre-trained on OMEGA, direct test RMSE, MAE and R^2 for NN with a learned-VB representation: 1.3897392836266416 1.173254665613134 0.5575203133442759
+2025-02-27 05:12:04,925 - INFO - **********HONG**********
+2025-02-27 05:12:04,925 - INFO - 5-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation, all datapoints, 4 ensembles and transfer learning on in-house: 1.5432506168224005 1.0449716072568023 0.8986223602824788
+2025-02-27 05:13:18,498 - INFO - 5-fold CV RMSE, MAE and R^2 for RF: 1.395919709086013 0.9163562473662029 0.9173193528172309
+2025-02-27 05:14:04,651 - INFO - **********BIETTI**********
+2025-02-27 05:14:04,651 - INFO - **4** ensembles and transfer learning on Hong, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 0.791674855799801 0.6591541576935869 0.3782194032200528
+2025-02-27 05:14:55,505 - INFO - **********RMECHDB**********
+2025-02-27 05:14:55,505 - INFO - <<pure>> **4** ensembles and transfer learning on in-house (hidden size of FFNN is expected to be 2 by Javier, but now 200~230 seems better?), 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 2.0897210551298135 1.6747814263249505 0.7623441807684217
+2025-02-27 05:37:49,320 - INFO - ==============================
+2025-02-27 05:37:49,320 - INFO - Only the results that are expected to be of interset are recorded here.
+2025-02-27 05:37:49,320 - INFO - hidden size of M1: 2000
+2025-02-27 05:41:12,007 - INFO - **********IN-HOUSE**********
+2025-02-27 05:41:12,007 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation and **4** ensembles: 2.7867568542500782 1.9706497550719717 0.8425718947704768
+2025-02-27 05:41:17,290 - INFO - **********TANTILLO**********
+2025-02-27 05:41:17,294 - INFO - RMSE, MAE and R^2 for linear regression: 1.4825472797913635 1.2253069640853784 0.025454575708637295
+2025-02-27 05:41:22,977 - INFO - **********OMEGA***********
+2025-02-27 05:41:23,145 - INFO - RMSE, MAE, and R^2 for RF: 1.425405026591133 1.2430531913951968 0.7320200811951987
+2025-02-27 05:42:39,783 - INFO - **4** ensembles and transfer learning on in-house, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 1.5835150369980433 1.2595418770552727 0.6691814626506344
+2025-02-27 05:44:51,667 - INFO - **1** ensemble and transfer learning on in-house, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 1.4974289195026762 1.1686436931489923 0.7039640965051106
+2025-02-27 05:45:01,734 - INFO - **********EXP OMEGA SELECTIVITY**********
+2025-02-27 05:45:01,901 - INFO - RMSE, MAE, and R^2 for RF: 1.2292239643414706 0.9094247941418513 0.6538305746531189
+2025-02-27 05:45:04,392 - INFO - **4** ensembles and pre-trained on OMEGA, direct test RMSE, MAE and R^2 for NN with a learned-VB representation: 1.457561264671158 1.2404426468177365 0.5132787512156656
+2025-02-27 05:45:06,857 - INFO - **1** ensemble and pre-trained on OMEGA, direct test RMSE, MAE and R^2 for NN with a learned-VB representation: 1.4940141142833658 1.279729204351225 0.4886290287960784
+2025-02-27 05:49:57,969 - INFO - **********HONG**********
+2025-02-27 05:49:57,969 - INFO - 5-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation, all datapoints, 4 ensembles and transfer learning on in-house: 1.5582583384909596 1.05844530761659 0.8966194557555663
+2025-02-27 05:51:12,092 - INFO - 5-fold CV RMSE, MAE and R^2 for RF: 1.4074994520193904 0.9192067846607671 0.915899894861355
+2025-02-27 05:51:57,398 - INFO - **********BIETTI**********
+2025-02-27 05:51:57,398 - INFO - **4** ensembles and transfer learning on Hong, 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 0.8822714421462878 0.777932873690085 0.12444609206942125
+2025-02-27 05:52:48,076 - INFO - **********RMECHDB**********
+2025-02-27 05:52:48,077 - INFO - <<pure>> **4** ensembles and transfer learning on in-house (hidden size of FFNN is expected to be 2 by Javier, but now 200~230 seems better?), 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 2.1866202125159235 1.728497193381036 0.7456396197246694

@@ -6,15 +6,15 @@ def run_surrogate(test_file='tmp/species_reactivity_dataset.csv', chk_path = "su
     Changed by Emilien, now checkpoint_path can be modified and its default value is still the original model.
     '''
 
-        path = "surrogate_model/predict.py"
-        test_path = f"{test_file}"
-        preds_path = "tmp/preds_surrogate.pkl"
-        inputs = f"--test_path {test_path} --checkpoint_path {chk_path} --preds_path {preds_path}"
+    path = "surrogate_model/predict.py"
+    test_path = f"{test_file}"
+    preds_path = "tmp/preds_surrogate.pkl"
+    inputs = f"--test_path {test_path} --checkpoint_path {chk_path} --preds_path {preds_path}"
 
-        with open('out_file', 'a') as out:
-            subprocess.run(f"python {path} {inputs}", shell=True, stdout=out, stderr=out)
+    with open('out_file', 'a') as out:
+        subprocess.run(f"python {path} {inputs}", shell=True, stdout=out, stderr=out)
 
-        return None
+    return None
 
 
 def run_reactivity(trained_dir = 'reactivity_model/results/final_model_4/', target_column='DG_TS_tunn', ensemble_size=4, input_file='input_ffnn.csv'):

@@ -48,3 +48,25 @@ Surrogate model done
 CV done
 Results in tmp/cv_rmechdb_data/ffn_train.log
 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 2.2424470509699885 1.765916052407059 0.7700808145686209
+********************************
+======= RMechDB DATASET, M1's hidden size: 100 =======
+Surrogate model done
+CV done
+Results in tmp/cv_rmechdb_data/ffn_train.log
+10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 2.608728966732929 1.9812785050535056 0.6813163429616855
+********************************
+======= RMechDB DATASET M1 hidden_size=100=======
+Surrogate model done
+4 ensemble(s), batch_size: 64, random_state: 0
+<<pure>> 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 2.5578653823539645 2.070600134343105 0.6521391841650357
+********************************
+======= RMechDB DATASET, M1's hidden size: 200 =======
+Surrogate model done
+CV done
+Results in tmp/cv_rmechdb_data/ffn_train.log
+10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 2.6962953828968055 2.0681341030988714 0.6817978363502304
+********************************
+======= RMechDB DATASET M1 hidden_size=200=======
+Surrogate model done
+4 ensemble(s), batch_size: 64, random_state: 0
+<<pure>> 10-fold CV RMSE, MAE and R^2 for NN with a learned-VB representation: 2.675677032867168 2.2332137623385795 0.6150064903835182

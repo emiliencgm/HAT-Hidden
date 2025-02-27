@@ -37,7 +37,7 @@ def reproduce_hidden(dataset='in_house', args=None, fine_tune=False):
             args.transfer_learning = False
             args.random_state = 0
         # Simple 10-fold CV
-        retrain_in_house(args)
+        rmse, mae, r2 = retrain_in_house(args)
             
     if dataset == 'omega':
         if not fine_tune:
@@ -49,7 +49,7 @@ def reproduce_hidden(dataset='in_house', args=None, fine_tune=False):
             args.transfer_learning = False
             args.random_state = 0
         # Pre-selected 60 for test and 238 for train-validation, "10-fold" to change validation set.
-        retrain_Omega_Alkoxy_reprod(args)
+        rmse, mae, r2 = retrain_Omega_Alkoxy_reprod(args)
             
     if dataset == 'omega_exp':
         if not fine_tune:
@@ -67,9 +67,11 @@ def reproduce_hidden(dataset='in_house', args=None, fine_tune=False):
             remove_folder(folder_path)
             file_path = f"tmp/cv_omega_60test/test_predicted_{i}.csv"
             remove_file(file_path)
-            
-        retrain_Omega_Alkoxy_reprod(args)
-        retrain_exp_Omega_alkoxy(args)
+        
+        args.transfer_learning = False
+        retrain_Omega_Alkoxy_reprod(args, if_log=False)
+        args.transfer_learning = True
+        rmse, mae, r2 = retrain_exp_Omega_alkoxy(args)
         
     
     if dataset == 'hong':
@@ -82,7 +84,7 @@ def reproduce_hidden(dataset='in_house', args=None, fine_tune=False):
             args.transfer_learning = False
             args.random_state = 0
         # simple 5-fold CV
-        retrain_Hong_Photoredox(args)
+        rmse, mae, r2 = retrain_Hong_Photoredox(args)
             
     if dataset == 'omega_bietti_hong':
         if not fine_tune:
@@ -90,12 +92,12 @@ def reproduce_hidden(dataset='in_house', args=None, fine_tune=False):
             args.layers = 1
             args.dropout = 0.0
             args.lr = 0.0277
-            args.features = ['rad_atom1_hidden','rad_atom2_hidden']
+            args.features = ['rad_atom1_hidden','rad_atom2_hidden'] # TODO can change
             args.transfer_learning = False # TODO seems to be negative transfer
             args.random_state = 0
         # pre-train on Hong and then 10-fold CV on bietti
         # retrain_Hong_Photoredox(args)
-        retrain_omega_bietti_hong(args)
+        rmse, mae, r2 = retrain_omega_bietti_hong(args)
             
     if dataset == 'tantillo':
         if not fine_tune:
@@ -108,7 +110,7 @@ def reproduce_hidden(dataset='in_house', args=None, fine_tune=False):
             args.random_state = 0
         # pre-selected 6 for test, randomly select 2 for validation and the left 16 for training from scratch or pre-trained on In-House.
         # retrain_in_house(args)
-        retrain_tantillo_Cytochrome_P450_reprod(args)
+        rmse, mae, r2 = retrain_tantillo_Cytochrome_P450_reprod(args)
 
     if dataset == 'rmechdb':
         if not fine_tune:
@@ -125,15 +127,19 @@ def reproduce_hidden(dataset='in_house', args=None, fine_tune=False):
             remove_folder(folder_path)
             file_path = f"tmp/cv_in-house_data/test_predicted_{i}.csv"
             remove_file(file_path)
-            
-        retrain_in_house(args)
-        retrain_RMechDB(args)
+        
+        args.transfer_learning = False
+        retrain_in_house(args, if_log=False)
+        args.transfer_learning = True
+        rmse, mae, r2 = retrain_RMechDB(args)
+        
+    return rmse, mae, r2
 
 
 if __name__ == '__main__':    
     parser = argparse.ArgumentParser()
     parser.add_argument("--dataset", default='in_house', type=str)
-    parser.add_argument("--hidden_size", default=1024, type=int)
+    parser.add_argument("--hidden_size", default=1024, type=int, help='hidden size of M2')
     parser.add_argument("--layers", default=1, type=int)
     parser.add_argument("--dropout", default=0.0, type=float)
     parser.add_argument("--lr", default=0.0277, type=float)
@@ -141,7 +147,7 @@ if __name__ == '__main__':
     parser.add_argument("--random_state", default=0, type=int)
     parser.add_argument("--transfer_learning", default=0, type=int)
     parser.add_argument("--chk_path", default="surrogate_model/qmdesc_wrap/model.pt", type=str)
-    parser.add_argument("--chk_path_hidden", default=1200, type=int)
+    parser.add_argument("--chk_path_hidden", default=1200, type=int, help='hidden size of M1')
     parser.add_argument("--fine_tune", default=0, type=int)
     args = parser.parse_args()
     
@@ -152,10 +158,11 @@ if __name__ == '__main__':
     else:
         raise Exception("transfer_learning argument error")
     
-    # TODO :
+    # TODO :NOTE
     args.chk_path = f"surrogate_model/output_h{args.chk_path_hidden}_b50_e100/model_0/model.pt"
     
-    reproduce_hidden(dataset=args.dataset, args=args, fine_tune=args.fine_tune)
+    rmse, mae, r2 = reproduce_hidden(dataset=args.dataset, args=args, fine_tune=args.fine_tune)
+    
     
 
 

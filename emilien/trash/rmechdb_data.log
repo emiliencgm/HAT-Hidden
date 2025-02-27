@@ -1,0 +1,120 @@
+2025-02-26 18:06:38,796 - INFO - ********************************
+2025-02-26 18:06:38,796 - INFO - ======= RMechDB DATASET, M1's hidden size: 100 =======
+2025-02-26 18:06:44,111 - INFO - Surrogate model done
+2025-02-26 18:07:54,650 - INFO - CV done
+2025-02-26 18:07:54,651 - INFO - Results in tmp/cv_rmechdb_data/ffn_train.log
+2025-02-26 18:07:54,651 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 2.2995557246953924 1.7884907008247253 0.7571367199319747
+2025-02-26 18:42:28,733 - INFO - ********************************
+2025-02-26 18:42:28,733 - INFO - ======= RMechDB DATASET, M1's hidden size: 200 =======
+2025-02-26 18:42:34,037 - INFO - Surrogate model done
+2025-02-26 18:43:45,538 - INFO - CV done
+2025-02-26 18:43:45,538 - INFO - Results in tmp/cv_rmechdb_data/ffn_train.log
+2025-02-26 18:43:45,538 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 2.2693806318140823 1.7550477484966827 0.7678141975132485
+2025-02-26 19:16:41,775 - INFO - ********************************
+2025-02-26 19:16:41,775 - INFO - ======= RMechDB DATASET, M1's hidden size: 300 =======
+2025-02-26 19:16:47,080 - INFO - Surrogate model done
+2025-02-26 19:18:00,245 - INFO - CV done
+2025-02-26 19:18:00,245 - INFO - Results in tmp/cv_rmechdb_data/ffn_train.log
+2025-02-26 19:18:00,246 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 2.2816837012745657 1.7682042053421914 0.7650767510604797
+2025-02-26 19:51:26,125 - INFO - ********************************
+2025-02-26 19:51:26,125 - INFO - ======= RMechDB DATASET, M1's hidden size: 400 =======
+2025-02-26 19:51:31,434 - INFO - Surrogate model done
+2025-02-26 19:52:53,753 - INFO - CV done
+2025-02-26 19:52:53,753 - INFO - Results in tmp/cv_rmechdb_data/ffn_train.log
+2025-02-26 19:52:53,753 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 2.2490954110459356 1.7865755826583793 0.7718578774179005
+2025-02-26 20:27:11,610 - INFO - ********************************
+2025-02-26 20:27:11,610 - INFO - ======= RMechDB DATASET, M1's hidden size: 500 =======
+2025-02-26 20:27:16,894 - INFO - Surrogate model done
+2025-02-26 20:28:32,225 - INFO - CV done
+2025-02-26 20:28:32,225 - INFO - Results in tmp/cv_rmechdb_data/ffn_train.log
+2025-02-26 20:28:32,226 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 2.276711068145601 1.7652520865434451 0.7663921499641368
+2025-02-26 21:02:56,866 - INFO - ********************************
+2025-02-26 21:02:56,866 - INFO - ======= RMechDB DATASET, M1's hidden size: 600 =======
+2025-02-26 21:03:02,138 - INFO - Surrogate model done
+2025-02-26 21:04:11,145 - INFO - CV done
+2025-02-26 21:04:11,145 - INFO - Results in tmp/cv_rmechdb_data/ffn_train.log
+2025-02-26 21:04:11,146 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 2.282708551736607 1.7749565191780732 0.764660702435749
+2025-02-26 21:38:21,220 - INFO - ********************************
+2025-02-26 21:38:21,220 - INFO - ======= RMechDB DATASET, M1's hidden size: 700 =======
+2025-02-26 21:38:26,497 - INFO - Surrogate model done
+2025-02-26 21:39:46,002 - INFO - CV done
+2025-02-26 21:39:46,002 - INFO - Results in tmp/cv_rmechdb_data/ffn_train.log
+2025-02-26 21:39:46,003 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 2.296632638535678 1.785249147396644 0.75752862008435
+2025-02-26 22:14:33,671 - INFO - ********************************
+2025-02-26 22:14:33,671 - INFO - ======= RMechDB DATASET, M1's hidden size: 800 =======
+2025-02-26 22:14:39,044 - INFO - Surrogate model done
+2025-02-26 22:16:09,044 - INFO - CV done
+2025-02-26 22:16:09,044 - INFO - Results in tmp/cv_rmechdb_data/ffn_train.log
+2025-02-26 22:16:09,045 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 2.3273832490028776 1.816959922413453 0.7580855837117897
+2025-02-26 22:50:48,774 - INFO - ********************************
+2025-02-26 22:50:48,774 - INFO - ======= RMechDB DATASET, M1's hidden size: 900 =======
+2025-02-26 22:50:54,162 - INFO - Surrogate model done
+2025-02-26 22:52:17,998 - INFO - CV done
+2025-02-26 22:52:17,999 - INFO - Results in tmp/cv_rmechdb_data/ffn_train.log
+2025-02-26 22:52:18,000 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 2.2516451770199573 1.7566010825764997 0.763264684300916
+2025-02-26 23:27:05,988 - INFO - ********************************
+2025-02-26 23:27:05,988 - INFO - ======= RMechDB DATASET, M1's hidden size: 1000 =======
+2025-02-26 23:27:11,296 - INFO - Surrogate model done
+2025-02-26 23:28:45,974 - INFO - CV done
+2025-02-26 23:28:45,974 - INFO - Results in tmp/cv_rmechdb_data/ffn_train.log
+2025-02-26 23:28:45,975 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 2.3184173339680543 1.8220345570065397 0.7606928753407836
+2025-02-27 00:03:59,547 - INFO - ********************************
+2025-02-27 00:03:59,547 - INFO - ======= RMechDB DATASET, M1's hidden size: 1100 =======
+2025-02-27 00:04:04,932 - INFO - Surrogate model done
+2025-02-27 00:05:27,671 - INFO - CV done
+2025-02-27 00:05:27,671 - INFO - Results in tmp/cv_rmechdb_data/ffn_train.log
+2025-02-27 00:05:27,672 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 2.2758720532218177 1.7649759461058891 0.7661140152225935
+2025-02-27 00:40:18,507 - INFO - ********************************
+2025-02-27 00:40:18,507 - INFO - ======= RMechDB DATASET, M1's hidden size: 1200 =======
+2025-02-27 00:40:23,803 - INFO - Surrogate model done
+2025-02-27 00:41:51,041 - INFO - CV done
+2025-02-27 00:41:51,041 - INFO - Results in tmp/cv_rmechdb_data/ffn_train.log
+2025-02-27 00:41:51,042 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 2.3269267049199245 1.828461573846171 0.7607372892933266
+2025-02-27 01:17:32,575 - INFO - ********************************
+2025-02-27 01:17:32,575 - INFO - ======= RMechDB DATASET, M1's hidden size: 1300 =======
+2025-02-27 01:17:37,910 - INFO - Surrogate model done
+2025-02-27 01:18:53,488 - INFO - CV done
+2025-02-27 01:18:53,488 - INFO - Results in tmp/cv_rmechdb_data/ffn_train.log
+2025-02-27 01:18:53,489 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 2.2683190986788677 1.7574057337304132 0.7678377495642088
+2025-02-27 01:54:06,241 - INFO - ********************************
+2025-02-27 01:54:06,241 - INFO - ======= RMechDB DATASET, M1's hidden size: 1400 =======
+2025-02-27 01:54:11,588 - INFO - Surrogate model done
+2025-02-27 01:55:32,005 - INFO - CV done
+2025-02-27 01:55:32,005 - INFO - Results in tmp/cv_rmechdb_data/ffn_train.log
+2025-02-27 01:55:32,007 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 2.2799587970390727 1.7700729939712634 0.7650669176028899
+2025-02-27 02:30:19,853 - INFO - ********************************
+2025-02-27 02:30:19,853 - INFO - ======= RMechDB DATASET, M1's hidden size: 1500 =======
+2025-02-27 02:30:25,210 - INFO - Surrogate model done
+2025-02-27 02:31:48,569 - INFO - CV done
+2025-02-27 02:31:48,569 - INFO - Results in tmp/cv_rmechdb_data/ffn_train.log
+2025-02-27 02:31:48,570 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 2.279516007055888 1.7695030843325656 0.7651561938082232
+2025-02-27 03:05:31,096 - INFO - ********************************
+2025-02-27 03:05:31,096 - INFO - ======= RMechDB DATASET, M1's hidden size: 1600 =======
+2025-02-27 03:05:36,387 - INFO - Surrogate model done
+2025-02-27 03:07:02,992 - INFO - CV done
+2025-02-27 03:07:02,992 - INFO - Results in tmp/cv_rmechdb_data/ffn_train.log
+2025-02-27 03:07:02,994 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 2.2443433720321946 1.7696240428842671 0.769466474817691
+2025-02-27 03:42:48,979 - INFO - ********************************
+2025-02-27 03:42:48,979 - INFO - ======= RMechDB DATASET, M1's hidden size: 1700 =======
+2025-02-27 03:42:54,285 - INFO - Surrogate model done
+2025-02-27 03:44:27,576 - INFO - CV done
+2025-02-27 03:44:27,576 - INFO - Results in tmp/cv_rmechdb_data/ffn_train.log
+2025-02-27 03:44:27,577 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 2.310598383758736 1.8309439514624177 0.7660497812676239
+2025-02-27 04:21:06,387 - INFO - ********************************
+2025-02-27 04:21:06,387 - INFO - ======= RMechDB DATASET, M1's hidden size: 1800 =======
+2025-02-27 04:21:11,725 - INFO - Surrogate model done
+2025-02-27 04:22:50,835 - INFO - CV done
+2025-02-27 04:22:50,835 - INFO - Results in tmp/cv_rmechdb_data/ffn_train.log
+2025-02-27 04:22:50,836 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 2.328633557264088 1.8353617219842253 0.7556627988131492
+2025-02-27 04:58:31,189 - INFO - ********************************
+2025-02-27 04:58:31,189 - INFO - ======= RMechDB DATASET, M1's hidden size: 1900 =======
+2025-02-27 04:58:36,532 - INFO - Surrogate model done
+2025-02-27 04:59:59,177 - INFO - CV done
+2025-02-27 04:59:59,178 - INFO - Results in tmp/cv_rmechdb_data/ffn_train.log
+2025-02-27 04:59:59,179 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 2.2791411451279555 1.7687117010506594 0.765392357195852
+2025-02-27 05:36:00,234 - INFO - ********************************
+2025-02-27 05:36:00,234 - INFO - ======= RMechDB DATASET, M1's hidden size: 2000 =======
+2025-02-27 05:36:05,588 - INFO - Surrogate model done
+2025-02-27 05:37:41,856 - INFO - CV done
+2025-02-27 05:37:41,856 - INFO - Results in tmp/cv_rmechdb_data/ffn_train.log
+2025-02-27 05:37:41,857 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 2.3084799658183264 1.8279288822171584 0.7672141826761083
