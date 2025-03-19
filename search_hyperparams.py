@@ -9,10 +9,8 @@ def search_best_hyperparams(dataset, chk_path_hidden):
     chk_path_hidden: int, hidden_size of M1
     '''
     # hyperparams that we search for 
-    # layers = [0, 1, 2]
-    layers = [0, 1]
-    # hidden_sizes = [128, 256, 512, 768, 1024, 1536, 2048]
-    hidden_sizes = [128, 256]
+    layers = [0, 1, 2]
+    hidden_sizes = [128, 256, 512, 768, 1024, 1536, 2048]
 
     results = []
     

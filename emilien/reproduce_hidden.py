@@ -44,7 +44,7 @@ def retrain_in_house(args, if_log=True):
     create_input_ffnn_hidden('tmp/preds_surrogate_hidden.pkl', 'tmp/reactivity_database_mapped.csv', 'dG_act_corrected')
 
     # hyper_opt_cv_hidden_in_house(args.layers, args.hidden_size, args.dropout, args.lr, logger, features=args.features)
-    rmse, mae, r2 = hyper_opt_cv_hidden(features=args.features, target_column='dG_act_corrected', save_dir=save_dir_in_house, k_fold=10, ensemble_size=4, data_path='tmp/input_ffnn_hidden.pkl', layers=args.layers, hidden_size_M2=args.hidden_size, dropout=args.dropout, lr=args.lr, logger=logger, random_state=args.random_state, hidden_size_M1=args.chk_path_hidden, dataset_name='in-house')
+    rmse, mae, r2 = hyper_opt_cv_hidden(features=args.features, target_column='dG_act_corrected', save_dir=save_dir_in_house, k_fold=10, ensemble_size=4, data_path='tmp/input_ffnn_hidden.pkl', layers=args.layers, hidden_size_M2=args.hidden_size, dropout=args.dropout, lr=args.lr, logger=logger, random_state=args.random_state, hidden_size_M1=args.chk_path_hidden, dataset_name='in-house', if_log=if_log)
     
     return rmse, mae, r2
 
@@ -70,7 +70,7 @@ def retrain_Omega_Alkoxy_reprod(args, if_log=True):
     df_train.to_pickle('tmp/omega_data/train_valid_set.pkl')
     df_test.to_pickle('tmp/omega_data/test_set.pkl')
     
-    rmse, mae, r2 = hyper_opt_cv_hidden(transfer_learning=args.transfer_learning, features=args.features, target_column='G_act', save_dir=save_dir_omega, k_fold=10, ensemble_size=4, random_state=args.random_state, test_set='tmp/omega_data/test_set.pkl', train_valid_set='tmp/omega_data/train_valid_set.pkl', layers=args.layers, hidden_size_M2=args.hidden_size, dropout=args.dropout, lr=args.lr, gpu=True, logger=logger, max_epochs=100, batch_size=64, hidden_size_M1=args.chk_path_hidden, dataset_name='omega')
+    rmse, mae, r2 = hyper_opt_cv_hidden(transfer_learning=args.transfer_learning, features=args.features, target_column='G_act', save_dir=save_dir_omega, k_fold=10, ensemble_size=4, random_state=args.random_state, test_set='tmp/omega_data/test_set.pkl', train_valid_set='tmp/omega_data/train_valid_set.pkl', layers=args.layers, hidden_size_M2=args.hidden_size, dropout=args.dropout, lr=args.lr, gpu=True, logger=logger, max_epochs=100, batch_size=64, hidden_size_M1=args.chk_path_hidden, dataset_name='omega', if_log=if_log)
 
     return rmse, mae, r2
     
@@ -107,7 +107,7 @@ def retrain_tantillo_Cytochrome_P450_reprod(args, if_log=True):
     # hyper_opt_up_hidden(save_dir='tmp/cv_tantillo_data', data_path = None, train_valid_set_path = 'tmp/tantillo_data/input_tantillo_hidden.pkl', test_set_path = 'tmp/tantillo_data/input_steroids_tantillo_hidden.pkl', trained_dir = 'tmp/cv_in-house_data/fold_0', transfer_learning = False, target_column='DFT_Barrier', ensemble_size=4, batch_size=64, layers = args.layers, hidden_size=args.hidden_size, dropout=args.dropout, lr=args.lr, random_state=0, lr_ratio=0.95, features=['mol1_hidden','rad2_hidden', 'rad_atom2_hidden'], max_epochs=100, gpu=True, logger=logger)
     
     #@@@ train : val : test = 16 : 2 : 6
-    rmse, mae, r2 = hyper_opt_up_hidden(save_dir=save_dir_tantillo, data_path = 'tmp/tantillo_data/input_tantillo_hidden.pkl', train_valid_set_path = None, test_set_path = 'tmp/tantillo_data/input_steroids_tantillo_hidden.pkl', trained_dir = trained_dir_in_house, transfer_learning = args.transfer_learning, target_column='DFT_Barrier', ensemble_size=4, batch_size=64, layers = args.layers, hidden_size_M2=args.hidden_size, dropout=args.dropout, lr=args.lr, random_state=args.random_state, lr_ratio=0.95, features=args.features, max_epochs=100, gpu=True, logger=logger, hidden_size_M1=args.chk_path_hidden, dataset_name='tantillo')
+    rmse, mae, r2 = hyper_opt_up_hidden(save_dir=save_dir_tantillo, data_path = 'tmp/tantillo_data/input_tantillo_hidden.pkl', train_valid_set_path = None, test_set_path = 'tmp/tantillo_data/input_steroids_tantillo_hidden.pkl', trained_dir = trained_dir_in_house, transfer_learning = args.transfer_learning, target_column='DFT_Barrier', ensemble_size=4, batch_size=64, layers = args.layers, hidden_size_M2=args.hidden_size, dropout=args.dropout, lr=args.lr, random_state=args.random_state, lr_ratio=0.95, features=args.features, max_epochs=100, gpu=True, logger=logger, hidden_size_M1=args.chk_path_hidden, dataset_name='tantillo', if_log=if_log)
 
     return rmse, mae, r2
 
@@ -129,7 +129,7 @@ def retrain_Hong_Photoredox(args, if_log=True):
     # logger.info('Results in tmp/cv_hong_data/ffn_train.log')
     # mae, rmse, r2 = read_log('tmp/cv_hong_data/ffn_train.log')
     # logger.info(f'5-fold CV RMSE, MAE and R^2 for NN with a learned-VB hidden representation, all datapoints, 4 ensembles and no transfer learning (5-fold!!!): {rmse} {mae} {r2}')
-    rmse, mae, r2 = hyper_opt_cv_hidden(data_path='tmp/input_ffnn_hidden.pkl', target_column='DG_TS', save_dir=save_dir_hong, k_fold=5, ensemble_size=4, layers=args.layers, hidden_size_M2=args.hidden_size, dropout=args.dropout, lr=args.lr, features=args.features, logger=logger, random_state=args.random_state, hidden_size_M1=args.chk_path_hidden, dataset_name='hong')
+    rmse, mae, r2 = hyper_opt_cv_hidden(data_path='tmp/input_ffnn_hidden.pkl', target_column='DG_TS', save_dir=save_dir_hong, k_fold=5, ensemble_size=4, layers=args.layers, hidden_size_M2=args.hidden_size, dropout=args.dropout, lr=args.lr, features=args.features, logger=logger, random_state=args.random_state, hidden_size_M1=args.chk_path_hidden, dataset_name='hong', if_log=if_log)
     
     return rmse, mae, r2
 
@@ -155,7 +155,8 @@ def retrain_exp_Omega_alkoxy(args, if_log=True):
     logger.info(f"args: {args}")
     logger.info(f'RMSE, MAE and R^2 for NN (**4** ensembles trained on Omega and predict on Omega_Exp) with a hidden representation: {rmse} {mae} {r2}')
     
-    update_dataset(file_path=data_manager_file_path, dataset_name='selectivity', h=args.chk_path_hidden, rmse=rmse, mae=mae, r2=r2)
+    if if_log:
+        update_dataset(file_path=data_manager_file_path, dataset_name='selectivity', h=args.chk_path_hidden, rmse=rmse, mae=mae, r2=r2)
     
     return rmse, mae, r2
     
@@ -173,7 +174,7 @@ def retrain_omega_bietti_hong(args, if_log=True):
     predict_hidden(test_file='tmp/omega_data/species_reactivity_omega_dataset.csv', chk_path=args.chk_path)
     create_input_ffnn_hidden('tmp/preds_surrogate_hidden.pkl', 'tmp/omega_data/clean_data_omega_exp.csv', 'gibbs_exp')
     # NOTE Seems to be negative transfer
-    rmse, mae, r2 = hyper_opt_cv_hidden(transfer_learning=args.transfer_learning, trained_dir=trained_dir_hong, features=args.features, target_column='gibbs_exp', save_dir=save_dir_bietti, k_fold=10, ensemble_size=4, data_path='tmp/input_ffnn_hidden.pkl', layers=args.layers, hidden_size_M2=args.hidden_size, dropout=args.dropout, lr=args.lr, logger=logger, random_state=args.random_state, hidden_size_M1=args.chk_path_hidden, dataset_name='bietti')
+    rmse, mae, r2 = hyper_opt_cv_hidden(transfer_learning=args.transfer_learning, trained_dir=trained_dir_hong, features=args.features, target_column='gibbs_exp', save_dir=save_dir_bietti, k_fold=10, ensemble_size=4, data_path='tmp/input_ffnn_hidden.pkl', layers=args.layers, hidden_size_M2=args.hidden_size, dropout=args.dropout, lr=args.lr, logger=logger, random_state=args.random_state, hidden_size_M1=args.chk_path_hidden, dataset_name='bietti', if_log=if_log)
     
     return rmse, mae, r2
     
@@ -189,7 +190,7 @@ def retrain_RMechDB(args, if_log=True):
     predict_hidden(chk_path=args.chk_path)
     logger.info('Surrogate model done')
     create_input_ffnn_hidden('tmp/preds_surrogate_hidden.pkl', 'tmp/reactivity_database_mapped.csv', 'DG_TS_tunn')
-    rmse, mae, r2 = hyper_opt_cv_hidden(transfer_learning=args.transfer_learning, trained_dir=trained_dir_in_house, data_path='tmp/input_ffnn_hidden.pkl', target_column='DG_TS_tunn', save_dir=save_dir_rmechdb, k_fold=10, ensemble_size=4, layers=args.layers, hidden_size_M2=args.hidden_size, dropout=args.dropout, lr=args.lr, features=args.features, logger=logger, random_state=args.random_state, hidden_size_M1=args.chk_path_hidden, dataset_name='rmechdb')  
+    rmse, mae, r2 = hyper_opt_cv_hidden(transfer_learning=args.transfer_learning, trained_dir=trained_dir_in_house, data_path='tmp/input_ffnn_hidden.pkl', target_column='DG_TS_tunn', save_dir=save_dir_rmechdb, k_fold=10, ensemble_size=4, layers=args.layers, hidden_size_M2=args.hidden_size, dropout=args.dropout, lr=args.lr, features=args.features, logger=logger, random_state=args.random_state, hidden_size_M1=args.chk_path_hidden, dataset_name='rmechdb', if_log=if_log)  
     
     return rmse, mae, r2  
     

@@ -1,0 +1,900 @@
+2025-02-27 17:51:35,447 INFO: Args:
+!!python/object:argparse.Namespace
+batch_size: 64
+csv_file: null
+data_path: null
+debug: false
+delta_ML: false
+dropout: 0.0
+ensemble_size: 4
+features:
+- mol1_hidden
+- rad1_hidden
+- mol2_hidden
+- rad2_hidden
+- rad_atom1_hidden
+- rad_atom2_hidden
+gpu: false
+hidden_size: 230
+host: 127.0.0.1
+layers: 0
+learning_rate: 0.0277
+lr_ratio: 0.95
+max_epochs: 100
+mode: client
+port: 57546
+pred_file: tmp/input_ffnn_selectivity_hidden.pkl
+random_state: 0
+rxn_id_column: rxn_id
+save_dir: tmp/omega_exp_data
+splits:
+- 80
+- 10
+- 10
+target_column: G_act
+test_set_path: null
+train_valid_set_path: null
+trained_dir: tmp/cv_omega_60test/fold_0
+transfer_learning: false
+
+2025-02-27 17:51:35,489 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_0.ckpt
+2025-02-27 17:51:35,804 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_1.ckpt
+2025-02-27 17:51:35,829 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_2.ckpt
+2025-02-27 17:51:35,854 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_3.ckpt
+2025-02-27 17:51:35,860 INFO: Predictions done
+2025-02-27 17:51:35,860 INFO: Save in tmp/omega_exp_data/pred.csv
+2025-02-27 18:18:24,550 INFO: Args:
+!!python/object:argparse.Namespace
+batch_size: 64
+csv_file: null
+data_path: null
+debug: false
+delta_ML: false
+dropout: 0.0
+ensemble_size: 4
+features:
+- mol1_hidden
+- rad1_hidden
+- mol2_hidden
+- rad2_hidden
+- rad_atom1_hidden
+- rad_atom2_hidden
+gpu: false
+hidden_size: 230
+host: 127.0.0.1
+layers: 0
+learning_rate: 0.0277
+lr_ratio: 0.95
+max_epochs: 100
+mode: client
+port: 57546
+pred_file: tmp/input_ffnn_selectivity_hidden.pkl
+random_state: 0
+rxn_id_column: rxn_id
+save_dir: tmp/omega_exp_data
+splits:
+- 80
+- 10
+- 10
+target_column: G_act
+test_set_path: null
+train_valid_set_path: null
+trained_dir: tmp/cv_omega_60test/fold_0
+transfer_learning: false
+
+2025-02-27 18:18:24,608 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_0.ckpt
+2025-02-27 18:18:24,926 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_1.ckpt
+2025-02-27 18:18:24,946 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_2.ckpt
+2025-02-27 18:18:24,969 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_3.ckpt
+2025-02-27 18:18:24,974 INFO: Predictions done
+2025-02-27 18:18:24,974 INFO: Save in tmp/omega_exp_data/pred.csv
+2025-02-27 18:46:51,579 INFO: Args:
+!!python/object:argparse.Namespace
+batch_size: 64
+csv_file: null
+data_path: null
+debug: false
+delta_ML: false
+dropout: 0.0
+ensemble_size: 4
+features:
+- mol1_hidden
+- rad1_hidden
+- mol2_hidden
+- rad2_hidden
+- rad_atom1_hidden
+- rad_atom2_hidden
+gpu: false
+hidden_size: 230
+host: 127.0.0.1
+layers: 0
+learning_rate: 0.0277
+lr_ratio: 0.95
+max_epochs: 100
+mode: client
+port: 57546
+pred_file: tmp/input_ffnn_selectivity_hidden.pkl
+random_state: 0
+rxn_id_column: rxn_id
+save_dir: tmp/omega_exp_data
+splits:
+- 80
+- 10
+- 10
+target_column: G_act
+test_set_path: null
+train_valid_set_path: null
+trained_dir: tmp/cv_omega_60test/fold_0
+transfer_learning: false
+
+2025-02-27 18:46:51,605 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_0.ckpt
+2025-02-27 18:46:51,918 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_1.ckpt
+2025-02-27 18:46:51,946 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_2.ckpt
+2025-02-27 18:46:51,975 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_3.ckpt
+2025-02-27 18:46:51,980 INFO: Predictions done
+2025-02-27 18:46:51,980 INFO: Save in tmp/omega_exp_data/pred.csv
+2025-02-27 19:17:29,107 INFO: Args:
+!!python/object:argparse.Namespace
+batch_size: 64
+csv_file: null
+data_path: null
+debug: false
+delta_ML: false
+dropout: 0.0
+ensemble_size: 4
+features:
+- mol1_hidden
+- rad1_hidden
+- mol2_hidden
+- rad2_hidden
+- rad_atom1_hidden
+- rad_atom2_hidden
+gpu: false
+hidden_size: 230
+host: 127.0.0.1
+layers: 0
+learning_rate: 0.0277
+lr_ratio: 0.95
+max_epochs: 100
+mode: client
+port: 57546
+pred_file: tmp/input_ffnn_selectivity_hidden.pkl
+random_state: 0
+rxn_id_column: rxn_id
+save_dir: tmp/omega_exp_data
+splits:
+- 80
+- 10
+- 10
+target_column: G_act
+test_set_path: null
+train_valid_set_path: null
+trained_dir: tmp/cv_omega_60test/fold_0
+transfer_learning: false
+
+2025-02-27 19:17:29,171 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_0.ckpt
+2025-02-27 19:17:29,496 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_1.ckpt
+2025-02-27 19:17:29,522 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_2.ckpt
+2025-02-27 19:17:29,548 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_3.ckpt
+2025-02-27 19:17:29,553 INFO: Predictions done
+2025-02-27 19:17:29,553 INFO: Save in tmp/omega_exp_data/pred.csv
+2025-02-27 19:49:27,301 INFO: Args:
+!!python/object:argparse.Namespace
+batch_size: 64
+csv_file: null
+data_path: null
+debug: false
+delta_ML: false
+dropout: 0.0
+ensemble_size: 4
+features:
+- mol1_hidden
+- rad1_hidden
+- mol2_hidden
+- rad2_hidden
+- rad_atom1_hidden
+- rad_atom2_hidden
+gpu: false
+hidden_size: 230
+host: 127.0.0.1
+layers: 0
+learning_rate: 0.0277
+lr_ratio: 0.95
+max_epochs: 100
+mode: client
+port: 57546
+pred_file: tmp/input_ffnn_selectivity_hidden.pkl
+random_state: 0
+rxn_id_column: rxn_id
+save_dir: tmp/omega_exp_data
+splits:
+- 80
+- 10
+- 10
+target_column: G_act
+test_set_path: null
+train_valid_set_path: null
+trained_dir: tmp/cv_omega_60test/fold_0
+transfer_learning: false
+
+2025-02-27 19:49:27,369 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_0.ckpt
+2025-02-27 19:49:27,626 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_1.ckpt
+2025-02-27 19:49:27,655 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_2.ckpt
+2025-02-27 19:49:27,684 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_3.ckpt
+2025-02-27 19:49:27,689 INFO: Predictions done
+2025-02-27 19:49:27,689 INFO: Save in tmp/omega_exp_data/pred.csv
+2025-02-27 20:24:55,831 INFO: Args:
+!!python/object:argparse.Namespace
+batch_size: 64
+csv_file: null
+data_path: null
+debug: false
+delta_ML: false
+dropout: 0.0
+ensemble_size: 4
+features:
+- mol1_hidden
+- rad1_hidden
+- mol2_hidden
+- rad2_hidden
+- rad_atom1_hidden
+- rad_atom2_hidden
+gpu: false
+hidden_size: 230
+host: 127.0.0.1
+layers: 0
+learning_rate: 0.0277
+lr_ratio: 0.95
+max_epochs: 100
+mode: client
+port: 57546
+pred_file: tmp/input_ffnn_selectivity_hidden.pkl
+random_state: 0
+rxn_id_column: rxn_id
+save_dir: tmp/omega_exp_data
+splits:
+- 80
+- 10
+- 10
+target_column: G_act
+test_set_path: null
+train_valid_set_path: null
+trained_dir: tmp/cv_omega_60test/fold_0
+transfer_learning: false
+
+2025-02-27 20:24:55,903 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_0.ckpt
+2025-02-27 20:24:56,227 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_1.ckpt
+2025-02-27 20:24:56,269 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_2.ckpt
+2025-02-27 20:24:56,304 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_3.ckpt
+2025-02-27 20:24:56,309 INFO: Predictions done
+2025-02-27 20:24:56,309 INFO: Save in tmp/omega_exp_data/pred.csv
+2025-02-27 21:00:32,505 INFO: Args:
+!!python/object:argparse.Namespace
+batch_size: 64
+csv_file: null
+data_path: null
+debug: false
+delta_ML: false
+dropout: 0.0
+ensemble_size: 4
+features:
+- mol1_hidden
+- rad1_hidden
+- mol2_hidden
+- rad2_hidden
+- rad_atom1_hidden
+- rad_atom2_hidden
+gpu: false
+hidden_size: 230
+host: 127.0.0.1
+layers: 0
+learning_rate: 0.0277
+lr_ratio: 0.95
+max_epochs: 100
+mode: client
+port: 57546
+pred_file: tmp/input_ffnn_selectivity_hidden.pkl
+random_state: 0
+rxn_id_column: rxn_id
+save_dir: tmp/omega_exp_data
+splits:
+- 80
+- 10
+- 10
+target_column: G_act
+test_set_path: null
+train_valid_set_path: null
+trained_dir: tmp/cv_omega_60test/fold_0
+transfer_learning: false
+
+2025-02-27 21:00:32,552 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_0.ckpt
+2025-02-27 21:00:32,876 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_1.ckpt
+2025-02-27 21:00:32,926 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_2.ckpt
+2025-02-27 21:00:32,965 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_3.ckpt
+2025-02-27 21:00:32,970 INFO: Predictions done
+2025-02-27 21:00:32,970 INFO: Save in tmp/omega_exp_data/pred.csv
+2025-02-27 21:37:09,489 INFO: Args:
+!!python/object:argparse.Namespace
+batch_size: 64
+csv_file: null
+data_path: null
+debug: false
+delta_ML: false
+dropout: 0.0
+ensemble_size: 4
+features:
+- mol1_hidden
+- rad1_hidden
+- mol2_hidden
+- rad2_hidden
+- rad_atom1_hidden
+- rad_atom2_hidden
+gpu: false
+hidden_size: 230
+host: 127.0.0.1
+layers: 0
+learning_rate: 0.0277
+lr_ratio: 0.95
+max_epochs: 100
+mode: client
+port: 57546
+pred_file: tmp/input_ffnn_selectivity_hidden.pkl
+random_state: 0
+rxn_id_column: rxn_id
+save_dir: tmp/omega_exp_data
+splits:
+- 80
+- 10
+- 10
+target_column: G_act
+test_set_path: null
+train_valid_set_path: null
+trained_dir: tmp/cv_omega_60test/fold_0
+transfer_learning: false
+
+2025-02-27 21:37:09,568 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_0.ckpt
+2025-02-27 21:37:09,906 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_1.ckpt
+2025-02-27 21:37:09,982 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_2.ckpt
+2025-02-27 21:37:10,066 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_3.ckpt
+2025-02-27 21:37:10,075 INFO: Predictions done
+2025-02-27 21:37:10,075 INFO: Save in tmp/omega_exp_data/pred.csv
+2025-02-27 22:15:07,617 INFO: Args:
+!!python/object:argparse.Namespace
+batch_size: 64
+csv_file: null
+data_path: null
+debug: false
+delta_ML: false
+dropout: 0.0
+ensemble_size: 4
+features:
+- mol1_hidden
+- rad1_hidden
+- mol2_hidden
+- rad2_hidden
+- rad_atom1_hidden
+- rad_atom2_hidden
+gpu: false
+hidden_size: 230
+host: 127.0.0.1
+layers: 0
+learning_rate: 0.0277
+lr_ratio: 0.95
+max_epochs: 100
+mode: client
+port: 57546
+pred_file: tmp/input_ffnn_selectivity_hidden.pkl
+random_state: 0
+rxn_id_column: rxn_id
+save_dir: tmp/omega_exp_data
+splits:
+- 80
+- 10
+- 10
+target_column: G_act
+test_set_path: null
+train_valid_set_path: null
+trained_dir: tmp/cv_omega_60test/fold_0
+transfer_learning: false
+
+2025-02-27 22:15:07,671 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_0.ckpt
+2025-02-27 22:15:08,017 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_1.ckpt
+2025-02-27 22:15:08,060 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_2.ckpt
+2025-02-27 22:15:08,107 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_3.ckpt
+2025-02-27 22:15:08,113 INFO: Predictions done
+2025-02-27 22:15:08,113 INFO: Save in tmp/omega_exp_data/pred.csv
+2025-02-27 22:55:00,869 INFO: Args:
+!!python/object:argparse.Namespace
+batch_size: 64
+csv_file: null
+data_path: null
+debug: false
+delta_ML: false
+dropout: 0.0
+ensemble_size: 4
+features:
+- mol1_hidden
+- rad1_hidden
+- mol2_hidden
+- rad2_hidden
+- rad_atom1_hidden
+- rad_atom2_hidden
+gpu: false
+hidden_size: 230
+host: 127.0.0.1
+layers: 0
+learning_rate: 0.0277
+lr_ratio: 0.95
+max_epochs: 100
+mode: client
+port: 57546
+pred_file: tmp/input_ffnn_selectivity_hidden.pkl
+random_state: 0
+rxn_id_column: rxn_id
+save_dir: tmp/omega_exp_data
+splits:
+- 80
+- 10
+- 10
+target_column: G_act
+test_set_path: null
+train_valid_set_path: null
+trained_dir: tmp/cv_omega_60test/fold_0
+transfer_learning: false
+
+2025-02-27 22:55:00,919 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_0.ckpt
+2025-02-27 22:55:01,271 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_1.ckpt
+2025-02-27 22:55:01,368 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_2.ckpt
+2025-02-27 22:55:01,463 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_3.ckpt
+2025-02-27 22:55:01,472 INFO: Predictions done
+2025-02-27 22:55:01,472 INFO: Save in tmp/omega_exp_data/pred.csv
+2025-02-27 23:34:35,457 INFO: Args:
+!!python/object:argparse.Namespace
+batch_size: 64
+csv_file: null
+data_path: null
+debug: false
+delta_ML: false
+dropout: 0.0
+ensemble_size: 4
+features:
+- mol1_hidden
+- rad1_hidden
+- mol2_hidden
+- rad2_hidden
+- rad_atom1_hidden
+- rad_atom2_hidden
+gpu: false
+hidden_size: 230
+host: 127.0.0.1
+layers: 0
+learning_rate: 0.0277
+lr_ratio: 0.95
+max_epochs: 100
+mode: client
+port: 57546
+pred_file: tmp/input_ffnn_selectivity_hidden.pkl
+random_state: 0
+rxn_id_column: rxn_id
+save_dir: tmp/omega_exp_data
+splits:
+- 80
+- 10
+- 10
+target_column: G_act
+test_set_path: null
+train_valid_set_path: null
+trained_dir: tmp/cv_omega_60test/fold_0
+transfer_learning: false
+
+2025-02-27 23:34:35,545 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_0.ckpt
+2025-02-27 23:34:35,894 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_1.ckpt
+2025-02-27 23:34:35,992 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_2.ckpt
+2025-02-27 23:34:36,090 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_3.ckpt
+2025-02-27 23:34:36,099 INFO: Predictions done
+2025-02-27 23:34:36,099 INFO: Save in tmp/omega_exp_data/pred.csv
+2025-02-28 00:14:46,781 INFO: Args:
+!!python/object:argparse.Namespace
+batch_size: 64
+csv_file: null
+data_path: null
+debug: false
+delta_ML: false
+dropout: 0.0
+ensemble_size: 4
+features:
+- mol1_hidden
+- rad1_hidden
+- mol2_hidden
+- rad2_hidden
+- rad_atom1_hidden
+- rad_atom2_hidden
+gpu: false
+hidden_size: 230
+host: 127.0.0.1
+layers: 0
+learning_rate: 0.0277
+lr_ratio: 0.95
+max_epochs: 100
+mode: client
+port: 57546
+pred_file: tmp/input_ffnn_selectivity_hidden.pkl
+random_state: 0
+rxn_id_column: rxn_id
+save_dir: tmp/omega_exp_data
+splits:
+- 80
+- 10
+- 10
+target_column: G_act
+test_set_path: null
+train_valid_set_path: null
+trained_dir: tmp/cv_omega_60test/fold_0
+transfer_learning: false
+
+2025-02-28 00:14:46,873 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_0.ckpt
+2025-02-28 00:14:47,146 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_1.ckpt
+2025-02-28 00:14:47,224 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_2.ckpt
+2025-02-28 00:14:47,305 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_3.ckpt
+2025-02-28 00:14:47,311 INFO: Predictions done
+2025-02-28 00:14:47,311 INFO: Save in tmp/omega_exp_data/pred.csv
+2025-02-28 00:56:13,716 INFO: Args:
+!!python/object:argparse.Namespace
+batch_size: 64
+csv_file: null
+data_path: null
+debug: false
+delta_ML: false
+dropout: 0.0
+ensemble_size: 4
+features:
+- mol1_hidden
+- rad1_hidden
+- mol2_hidden
+- rad2_hidden
+- rad_atom1_hidden
+- rad_atom2_hidden
+gpu: false
+hidden_size: 230
+host: 127.0.0.1
+layers: 0
+learning_rate: 0.0277
+lr_ratio: 0.95
+max_epochs: 100
+mode: client
+port: 57546
+pred_file: tmp/input_ffnn_selectivity_hidden.pkl
+random_state: 0
+rxn_id_column: rxn_id
+save_dir: tmp/omega_exp_data
+splits:
+- 80
+- 10
+- 10
+target_column: G_act
+test_set_path: null
+train_valid_set_path: null
+trained_dir: tmp/cv_omega_60test/fold_0
+transfer_learning: false
+
+2025-02-28 00:56:13,811 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_0.ckpt
+2025-02-28 00:56:14,158 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_1.ckpt
+2025-02-28 00:56:14,238 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_2.ckpt
+2025-02-28 00:56:14,300 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_3.ckpt
+2025-02-28 00:56:14,306 INFO: Predictions done
+2025-02-28 00:56:14,306 INFO: Save in tmp/omega_exp_data/pred.csv
+2025-02-28 01:39:44,604 INFO: Args:
+!!python/object:argparse.Namespace
+batch_size: 64
+csv_file: null
+data_path: null
+debug: false
+delta_ML: false
+dropout: 0.0
+ensemble_size: 4
+features:
+- mol1_hidden
+- rad1_hidden
+- mol2_hidden
+- rad2_hidden
+- rad_atom1_hidden
+- rad_atom2_hidden
+gpu: false
+hidden_size: 230
+host: 127.0.0.1
+layers: 0
+learning_rate: 0.0277
+lr_ratio: 0.95
+max_epochs: 100
+mode: client
+port: 57546
+pred_file: tmp/input_ffnn_selectivity_hidden.pkl
+random_state: 0
+rxn_id_column: rxn_id
+save_dir: tmp/omega_exp_data
+splits:
+- 80
+- 10
+- 10
+target_column: G_act
+test_set_path: null
+train_valid_set_path: null
+trained_dir: tmp/cv_omega_60test/fold_0
+transfer_learning: false
+
+2025-02-28 01:39:44,702 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_0.ckpt
+2025-02-28 01:39:45,058 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_1.ckpt
+2025-02-28 01:39:45,125 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_2.ckpt
+2025-02-28 01:39:45,191 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_3.ckpt
+2025-02-28 01:39:45,197 INFO: Predictions done
+2025-02-28 01:39:45,198 INFO: Save in tmp/omega_exp_data/pred.csv
+2025-02-28 02:23:56,882 INFO: Args:
+!!python/object:argparse.Namespace
+batch_size: 64
+csv_file: null
+data_path: null
+debug: false
+delta_ML: false
+dropout: 0.0
+ensemble_size: 4
+features:
+- mol1_hidden
+- rad1_hidden
+- mol2_hidden
+- rad2_hidden
+- rad_atom1_hidden
+- rad_atom2_hidden
+gpu: false
+hidden_size: 230
+host: 127.0.0.1
+layers: 0
+learning_rate: 0.0277
+lr_ratio: 0.95
+max_epochs: 100
+mode: client
+port: 57546
+pred_file: tmp/input_ffnn_selectivity_hidden.pkl
+random_state: 0
+rxn_id_column: rxn_id
+save_dir: tmp/omega_exp_data
+splits:
+- 80
+- 10
+- 10
+target_column: G_act
+test_set_path: null
+train_valid_set_path: null
+trained_dir: tmp/cv_omega_60test/fold_0
+transfer_learning: false
+
+2025-02-28 02:23:56,949 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_0.ckpt
+2025-02-28 02:23:57,323 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_1.ckpt
+2025-02-28 02:23:57,459 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_2.ckpt
+2025-02-28 02:23:57,595 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_3.ckpt
+2025-02-28 02:23:57,606 INFO: Predictions done
+2025-02-28 02:23:57,606 INFO: Save in tmp/omega_exp_data/pred.csv
+2025-02-28 03:06:50,490 INFO: Args:
+!!python/object:argparse.Namespace
+batch_size: 64
+csv_file: null
+data_path: null
+debug: false
+delta_ML: false
+dropout: 0.0
+ensemble_size: 4
+features:
+- mol1_hidden
+- rad1_hidden
+- mol2_hidden
+- rad2_hidden
+- rad_atom1_hidden
+- rad_atom2_hidden
+gpu: false
+hidden_size: 230
+host: 127.0.0.1
+layers: 0
+learning_rate: 0.0277
+lr_ratio: 0.95
+max_epochs: 100
+mode: client
+port: 57546
+pred_file: tmp/input_ffnn_selectivity_hidden.pkl
+random_state: 0
+rxn_id_column: rxn_id
+save_dir: tmp/omega_exp_data
+splits:
+- 80
+- 10
+- 10
+target_column: G_act
+test_set_path: null
+train_valid_set_path: null
+trained_dir: tmp/cv_omega_60test/fold_0
+transfer_learning: false
+
+2025-02-28 03:06:50,585 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_0.ckpt
+2025-02-28 03:06:50,951 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_1.ckpt
+2025-02-28 03:06:51,025 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_2.ckpt
+2025-02-28 03:06:51,100 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_3.ckpt
+2025-02-28 03:06:51,107 INFO: Predictions done
+2025-02-28 03:06:51,107 INFO: Save in tmp/omega_exp_data/pred.csv
+2025-02-28 03:53:03,622 INFO: Args:
+!!python/object:argparse.Namespace
+batch_size: 64
+csv_file: null
+data_path: null
+debug: false
+delta_ML: false
+dropout: 0.0
+ensemble_size: 4
+features:
+- mol1_hidden
+- rad1_hidden
+- mol2_hidden
+- rad2_hidden
+- rad_atom1_hidden
+- rad_atom2_hidden
+gpu: false
+hidden_size: 230
+host: 127.0.0.1
+layers: 0
+learning_rate: 0.0277
+lr_ratio: 0.95
+max_epochs: 100
+mode: client
+port: 57546
+pred_file: tmp/input_ffnn_selectivity_hidden.pkl
+random_state: 0
+rxn_id_column: rxn_id
+save_dir: tmp/omega_exp_data
+splits:
+- 80
+- 10
+- 10
+target_column: G_act
+test_set_path: null
+train_valid_set_path: null
+trained_dir: tmp/cv_omega_60test/fold_0
+transfer_learning: false
+
+2025-02-28 03:53:03,699 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_0.ckpt
+2025-02-28 03:53:04,074 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_1.ckpt
+2025-02-28 03:53:04,151 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_2.ckpt
+2025-02-28 03:53:04,229 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_3.ckpt
+2025-02-28 03:53:04,238 INFO: Predictions done
+2025-02-28 03:53:04,238 INFO: Save in tmp/omega_exp_data/pred.csv
+2025-02-28 04:42:06,428 INFO: Args:
+!!python/object:argparse.Namespace
+batch_size: 64
+csv_file: null
+data_path: null
+debug: false
+delta_ML: false
+dropout: 0.0
+ensemble_size: 4
+features:
+- mol1_hidden
+- rad1_hidden
+- mol2_hidden
+- rad2_hidden
+- rad_atom1_hidden
+- rad_atom2_hidden
+gpu: false
+hidden_size: 230
+host: 127.0.0.1
+layers: 0
+learning_rate: 0.0277
+lr_ratio: 0.95
+max_epochs: 100
+mode: client
+port: 57546
+pred_file: tmp/input_ffnn_selectivity_hidden.pkl
+random_state: 0
+rxn_id_column: rxn_id
+save_dir: tmp/omega_exp_data
+splits:
+- 80
+- 10
+- 10
+target_column: G_act
+test_set_path: null
+train_valid_set_path: null
+trained_dir: tmp/cv_omega_60test/fold_0
+transfer_learning: false
+
+2025-02-28 04:42:06,541 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_0.ckpt
+2025-02-28 04:42:06,905 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_1.ckpt
+2025-02-28 04:42:06,983 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_2.ckpt
+2025-02-28 04:42:07,065 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_3.ckpt
+2025-02-28 04:42:07,073 INFO: Predictions done
+2025-02-28 04:42:07,073 INFO: Save in tmp/omega_exp_data/pred.csv
+2025-02-28 05:34:03,429 INFO: Args:
+!!python/object:argparse.Namespace
+batch_size: 64
+csv_file: null
+data_path: null
+debug: false
+delta_ML: false
+dropout: 0.0
+ensemble_size: 4
+features:
+- mol1_hidden
+- rad1_hidden
+- mol2_hidden
+- rad2_hidden
+- rad_atom1_hidden
+- rad_atom2_hidden
+gpu: false
+hidden_size: 230
+host: 127.0.0.1
+layers: 0
+learning_rate: 0.0277
+lr_ratio: 0.95
+max_epochs: 100
+mode: client
+port: 57546
+pred_file: tmp/input_ffnn_selectivity_hidden.pkl
+random_state: 0
+rxn_id_column: rxn_id
+save_dir: tmp/omega_exp_data
+splits:
+- 80
+- 10
+- 10
+target_column: G_act
+test_set_path: null
+train_valid_set_path: null
+trained_dir: tmp/cv_omega_60test/fold_0
+transfer_learning: false
+
+2025-02-28 05:34:03,546 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_0.ckpt
+2025-02-28 05:34:03,924 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_1.ckpt
+2025-02-28 05:34:04,088 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_2.ckpt
+2025-02-28 05:34:04,170 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_3.ckpt
+2025-02-28 05:34:04,178 INFO: Predictions done
+2025-02-28 05:34:04,179 INFO: Save in tmp/omega_exp_data/pred.csv
+2025-02-28 06:27:14,526 INFO: Args:
+!!python/object:argparse.Namespace
+batch_size: 64
+csv_file: null
+data_path: null
+debug: false
+delta_ML: false
+dropout: 0.0
+ensemble_size: 4
+features:
+- mol1_hidden
+- rad1_hidden
+- mol2_hidden
+- rad2_hidden
+- rad_atom1_hidden
+- rad_atom2_hidden
+gpu: false
+hidden_size: 230
+host: 127.0.0.1
+layers: 0
+learning_rate: 0.0277
+lr_ratio: 0.95
+max_epochs: 100
+mode: client
+port: 57546
+pred_file: tmp/input_ffnn_selectivity_hidden.pkl
+random_state: 0
+rxn_id_column: rxn_id
+save_dir: tmp/omega_exp_data
+splits:
+- 80
+- 10
+- 10
+target_column: G_act
+test_set_path: null
+train_valid_set_path: null
+trained_dir: tmp/cv_omega_60test/fold_0
+transfer_learning: false
+
+2025-02-28 06:27:14,645 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_0.ckpt
+2025-02-28 06:27:15,025 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_1.ckpt
+2025-02-28 06:27:15,199 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_2.ckpt
+2025-02-28 06:27:15,372 INFO: Loaded model with from tmp/cv_omega_60test/fold_0/best_model_3.ckpt
+2025-02-28 06:27:15,384 INFO: Predictions done
+2025-02-28 06:27:15,384 INFO: Save in tmp/omega_exp_data/pred.csv

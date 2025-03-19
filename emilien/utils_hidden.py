@@ -133,7 +133,7 @@ def hyper_opt_cv_hidden_in_house(layers, hidden_size, dropout, lr, logger, gpu=T
 
 
 
-def hyper_opt_cv_hidden(transfer_learning=False, trained_dir='tmp/cv_in-house_data/fold_0', features=['mol1_hidden','rad2_hidden','rad_atom2_hidden'], target_column='DFT_Barrier', save_dir='tmp/cv_tantillo_data', k_fold=4, ensemble_size=4, random_state=0, data_path = None, test_set=None, train_valid_set=None, layers=1, hidden_size_M2=1024, dropout=0.0, lr=0.0277, gpu=True, logger=None, max_epochs=100, batch_size=64, hidden_size_M1=1200, dataset_name=None):
+def hyper_opt_cv_hidden(transfer_learning=False, trained_dir='tmp/cv_in-house_data/fold_0', features=['mol1_hidden','rad2_hidden','rad_atom2_hidden'], target_column='DFT_Barrier', save_dir='tmp/cv_tantillo_data', k_fold=4, ensemble_size=4, random_state=0, data_path = None, test_set=None, train_valid_set=None, layers=1, hidden_size_M2=1024, dropout=0.0, lr=0.0277, gpu=True, logger=None, max_epochs=100, batch_size=64, hidden_size_M1=1200, dataset_name=None, if_log=True):
     
     run_cv_hidden(transfer_learning=transfer_learning, trained_dir=trained_dir, features=features,  target_column=target_column, save_dir=save_dir, k_fold=k_fold, ensemble_size=ensemble_size, random_state=random_state, test_set=test_set, train_valid_set=train_valid_set, data_path=data_path, layers=layers, hidden_size=hidden_size_M2, dropout=dropout, lr=lr, gpu=gpu, max_epochs=max_epochs, batch_size=batch_size)
 
@@ -145,7 +145,8 @@ def hyper_opt_cv_hidden(transfer_learning=False, trained_dir='tmp/cv_in-house_da
     r2 = float(r2)
     logger.info(f'{k_fold}-fold CV RMSE, MAE and R^2 for NN with a hidden representation: {rmse} {mae} {r2}')
     
-    update_dataset(file_path=data_manager_file_path, dataset_name=dataset_name, h=hidden_size_M1, rmse=rmse, mae=mae, r2=r2)
+    if if_log:
+        update_dataset(file_path=data_manager_file_path, dataset_name=dataset_name, h=hidden_size_M1, rmse=rmse, mae=mae, r2=r2)
 
     cv = {"RMSE" : rmse, "MAE": mae, "R2": r2}
     args = {"hidden_size_M1":hidden_size_M1, "features":features, "layers":layers, "hidden_size_M2":hidden_size_M2, "dropout":dropout, "lr":lr, "transfer_learning":transfer_learning, "ensemble_size":ensemble_size, "max_epochs":max_epochs, "random_state":random_state}
@@ -156,7 +157,7 @@ def hyper_opt_cv_hidden(transfer_learning=False, trained_dir='tmp/cv_in-house_da
         
     return rmse, mae, r2
 
-def hyper_opt_up_hidden(save_dir='tmp/cv_tantillo_data', data_path = None, train_valid_set_path = 'tmp/tantillo_data/input_tantillo_hidden.pkl', test_set_path = 'tmp/tantillo_data/input_steroids_tantillo_hidden.pkl', trained_dir = 'tmp/cv_in-house_data/fold_0', transfer_learning = False, target_column='DFT_Barrier', ensemble_size=4, batch_size=64, layers = 0, hidden_size_M2=256, dropout=0.0, lr=0.0277, random_state=0, lr_ratio=0.95, features=['mol1_hidden','rad2_hidden', 'rad_atom2_hidden'], max_epochs=100, gpu=True, logger=None, hidden_size_M1=1200, dataset_name=None):
+def hyper_opt_up_hidden(save_dir='tmp/cv_tantillo_data', data_path = None, train_valid_set_path = 'tmp/tantillo_data/input_tantillo_hidden.pkl', test_set_path = 'tmp/tantillo_data/input_steroids_tantillo_hidden.pkl', trained_dir = 'tmp/cv_in-house_data/fold_0', transfer_learning = False, target_column='DFT_Barrier', ensemble_size=4, batch_size=64, layers = 0, hidden_size_M2=256, dropout=0.0, lr=0.0277, random_state=0, lr_ratio=0.95, features=['mol1_hidden','rad2_hidden', 'rad_atom2_hidden'], max_epochs=100, gpu=True, logger=None, hidden_size_M1=1200, dataset_name=None, if_log=True):
     
     run_train_M2(save_dir=save_dir, data_path = data_path, train_valid_set_path = train_valid_set_path, test_set_path = test_set_path, trained_dir = trained_dir, transfer_learning = transfer_learning, target_column=target_column, ensemble_size=ensemble_size, batch_size=batch_size, layers = layers, hidden_size=hidden_size_M2, dropout=dropout, lr=lr, random_state=random_state, lr_ratio=lr_ratio, features=features, max_epochs=max_epochs, gpu=gpu)
 
@@ -168,7 +169,8 @@ def hyper_opt_up_hidden(save_dir='tmp/cv_tantillo_data', data_path = None, train
     r2 = float(r2)
     logger.info(f'Upper bound of RMSE, MAE and R^2 for NN with a hidden representation: {rmse} {mae} {r2}')
     
-    update_dataset(file_path=data_manager_file_path, dataset_name=dataset_name, h=hidden_size_M1, rmse=rmse, mae=mae, r2=r2)
+    if if_log:
+        update_dataset(file_path=data_manager_file_path, dataset_name=dataset_name, h=hidden_size_M1, rmse=rmse, mae=mae, r2=r2)
 
     metrics = {"RMSE" : rmse, "MAE": mae, "R2": r2}
     args = {"hidden_size_M1":hidden_size_M1, "features":features, "layers":layers, "hidden_size_M2":hidden_size_M2, "dropout":dropout, "lr":lr, "transfer_learning":transfer_learning, "ensemble_size":ensemble_size, "max_epochs":max_epochs, "random_state":random_state}

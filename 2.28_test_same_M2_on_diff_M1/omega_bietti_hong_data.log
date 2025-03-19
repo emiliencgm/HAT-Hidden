@@ -1,0 +1,100 @@
+2025-02-27 17:52:59,938 - INFO - ********************************
+2025-02-27 17:52:59,938 - INFO - ======= OMEGA_BIETTI_HONG DATASET, M1's hidden size: 100 =======
+2025-02-27 17:53:57,983 - INFO - CV done
+2025-02-27 17:53:57,983 - INFO - Results in tmp/cv_bietti_data/ffn_train.log
+2025-02-27 17:53:57,984 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 0.850750349049977 0.6738434572611964 0.43145379365070413
+2025-02-27 18:19:47,667 - INFO - ********************************
+2025-02-27 18:19:47,667 - INFO - ======= OMEGA_BIETTI_HONG DATASET, M1's hidden size: 200 =======
+2025-02-27 18:21:17,710 - INFO - CV done
+2025-02-27 18:21:17,710 - INFO - Results in tmp/cv_bietti_data/ffn_train.log
+2025-02-27 18:21:17,711 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 0.5820706653408789 0.4507424833927966 0.6676396523691981
+2025-02-27 18:48:16,547 - INFO - ********************************
+2025-02-27 18:48:16,547 - INFO - ======= OMEGA_BIETTI_HONG DATASET, M1's hidden size: 300 =======
+2025-02-27 18:49:36,637 - INFO - CV done
+2025-02-27 18:49:36,637 - INFO - Results in tmp/cv_bietti_data/ffn_train.log
+2025-02-27 18:49:36,638 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 0.6350588486049001 0.5004466648034701 0.5871561770310058
+2025-02-27 19:19:05,815 - INFO - ********************************
+2025-02-27 19:19:05,815 - INFO - ======= OMEGA_BIETTI_HONG DATASET, M1's hidden size: 400 =======
+2025-02-27 19:20:28,799 - INFO - CV done
+2025-02-27 19:20:28,800 - INFO - Results in tmp/cv_bietti_data/ffn_train.log
+2025-02-27 19:20:28,800 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 0.6038413474077475 0.49873525999823876 0.6033369902114145
+2025-02-27 19:50:58,963 - INFO - ********************************
+2025-02-27 19:50:58,963 - INFO - ======= OMEGA_BIETTI_HONG DATASET, M1's hidden size: 500 =======
+2025-02-27 19:52:06,990 - INFO - CV done
+2025-02-27 19:52:06,990 - INFO - Results in tmp/cv_bietti_data/ffn_train.log
+2025-02-27 19:52:06,991 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 0.6229354604472351 0.5179910084498325 0.5074637039997734
+2025-02-27 20:26:44,364 - INFO - ********************************
+2025-02-27 20:26:44,364 - INFO - ======= OMEGA_BIETTI_HONG DATASET, M1's hidden size: 600 =======
+2025-02-27 20:27:59,607 - INFO - CV done
+2025-02-27 20:27:59,607 - INFO - Results in tmp/cv_bietti_data/ffn_train.log
+2025-02-27 20:27:59,607 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 0.5860716106722247 0.4556434448922747 0.5394352291787141
+2025-02-27 21:02:26,873 - INFO - ********************************
+2025-02-27 21:02:26,873 - INFO - ======= OMEGA_BIETTI_HONG DATASET, M1's hidden size: 700 =======
+2025-02-27 21:03:56,743 - INFO - CV done
+2025-02-27 21:03:56,743 - INFO - Results in tmp/cv_bietti_data/ffn_train.log
+2025-02-27 21:03:56,743 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 0.5836998676839963 0.46459600324608685 0.4638289386350828
+2025-02-27 21:39:08,433 - INFO - ********************************
+2025-02-27 21:39:08,433 - INFO - ======= OMEGA_BIETTI_HONG DATASET, M1's hidden size: 800 =======
+2025-02-27 21:40:33,321 - INFO - CV done
+2025-02-27 21:40:33,321 - INFO - Results in tmp/cv_bietti_data/ffn_train.log
+2025-02-27 21:40:33,322 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 0.574087790799686 0.43548323383263393 0.6330331831190478
+2025-02-27 22:17:10,719 - INFO - ********************************
+2025-02-27 22:17:10,719 - INFO - ======= OMEGA_BIETTI_HONG DATASET, M1's hidden size: 900 =======
+2025-02-27 22:19:14,895 - INFO - CV done
+2025-02-27 22:19:14,895 - INFO - Results in tmp/cv_bietti_data/ffn_train.log
+2025-02-27 22:19:14,896 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 0.5687636852237713 0.45064688623274163 0.6468522902995237
+2025-02-27 22:57:08,849 - INFO - ********************************
+2025-02-27 22:57:08,849 - INFO - ======= OMEGA_BIETTI_HONG DATASET, M1's hidden size: 1000 =======
+2025-02-27 22:58:47,625 - INFO - CV done
+2025-02-27 22:58:47,625 - INFO - Results in tmp/cv_bietti_data/ffn_train.log
+2025-02-27 22:58:47,626 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 0.6153639903708579 0.4873582780447351 0.4870519664160099
+2025-02-27 23:36:35,191 - INFO - ********************************
+2025-02-27 23:36:35,191 - INFO - ======= OMEGA_BIETTI_HONG DATASET, M1's hidden size: 1100 =======
+2025-02-27 23:39:03,690 - INFO - CV done
+2025-02-27 23:39:03,690 - INFO - Results in tmp/cv_bietti_data/ffn_train.log
+2025-02-27 23:39:03,691 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 0.5434901406842565 0.40237404602440163 0.6217659736692798
+2025-02-28 00:16:36,727 - INFO - ********************************
+2025-02-28 00:16:36,727 - INFO - ======= OMEGA_BIETTI_HONG DATASET, M1's hidden size: 1200 =======
+2025-02-28 00:18:24,815 - INFO - CV done
+2025-02-28 00:18:24,815 - INFO - Results in tmp/cv_bietti_data/ffn_train.log
+2025-02-28 00:18:24,816 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 0.5908279778906256 0.46302192595515634 0.547694702165592
+2025-02-28 00:58:08,147 - INFO - ********************************
+2025-02-28 00:58:08,147 - INFO - ======= OMEGA_BIETTI_HONG DATASET, M1's hidden size: 1300 =======
+2025-02-28 00:59:46,394 - INFO - CV done
+2025-02-28 00:59:46,394 - INFO - Results in tmp/cv_bietti_data/ffn_train.log
+2025-02-28 00:59:46,395 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 0.6318389442232956 0.4948931654599097 0.4781684339051379
+2025-02-28 01:41:46,768 - INFO - ********************************
+2025-02-28 01:41:46,768 - INFO - ======= OMEGA_BIETTI_HONG DATASET, M1's hidden size: 1400 =======
+2025-02-28 01:45:03,060 - INFO - CV done
+2025-02-28 01:45:03,060 - INFO - Results in tmp/cv_bietti_data/ffn_train.log
+2025-02-28 01:45:03,061 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 0.5117407728205825 0.3976477477076352 0.7375594124717171
+2025-02-28 02:26:01,270 - INFO - ********************************
+2025-02-28 02:26:01,270 - INFO - ======= OMEGA_BIETTI_HONG DATASET, M1's hidden size: 1500 =======
+2025-02-28 02:27:59,919 - INFO - CV done
+2025-02-28 02:27:59,920 - INFO - Results in tmp/cv_bietti_data/ffn_train.log
+2025-02-28 02:27:59,921 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 0.5820839999053617 0.45001838748448125 0.5439152650538197
+2025-02-28 03:08:55,606 - INFO - ********************************
+2025-02-28 03:08:55,606 - INFO - ======= OMEGA_BIETTI_HONG DATASET, M1's hidden size: 1600 =======
+2025-02-28 03:10:41,668 - INFO - CV done
+2025-02-28 03:10:41,668 - INFO - Results in tmp/cv_bietti_data/ffn_train.log
+2025-02-28 03:10:41,669 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 0.5949471058938103 0.4882196828397182 0.6030683476404448
+2025-02-28 03:55:07,754 - INFO - ********************************
+2025-02-28 03:55:07,754 - INFO - ======= OMEGA_BIETTI_HONG DATASET, M1's hidden size: 1700 =======
+2025-02-28 03:57:12,196 - INFO - CV done
+2025-02-28 03:57:12,196 - INFO - Results in tmp/cv_bietti_data/ffn_train.log
+2025-02-28 03:57:12,197 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 0.559476373497653 0.4256845746107937 0.5192651702929316
+2025-02-28 04:44:38,328 - INFO - ********************************
+2025-02-28 04:44:38,328 - INFO - ======= OMEGA_BIETTI_HONG DATASET, M1's hidden size: 1800 =======
+2025-02-28 04:47:32,777 - INFO - CV done
+2025-02-28 04:47:32,777 - INFO - Results in tmp/cv_bietti_data/ffn_train.log
+2025-02-28 04:47:32,778 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 0.6054046894908908 0.45603857848819185 0.6081602230111179
+2025-02-28 05:36:34,460 - INFO - ********************************
+2025-02-28 05:36:34,460 - INFO - ======= OMEGA_BIETTI_HONG DATASET, M1's hidden size: 1900 =======
+2025-02-28 05:38:34,523 - INFO - CV done
+2025-02-28 05:38:34,523 - INFO - Results in tmp/cv_bietti_data/ffn_train.log
+2025-02-28 05:38:34,524 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 0.5474479331092121 0.423358496681545 0.5880247541104625
+2025-02-28 06:29:38,263 - INFO - ********************************
+2025-02-28 06:29:38,263 - INFO - ======= OMEGA_BIETTI_HONG DATASET, M1's hidden size: 2000 =======
+2025-02-28 06:32:15,164 - INFO - CV done
+2025-02-28 06:32:15,164 - INFO - Results in tmp/cv_bietti_data/ffn_train.log
+2025-02-28 06:32:15,165 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 0.5952670635185487 0.4502151915460358 0.5388914406325813

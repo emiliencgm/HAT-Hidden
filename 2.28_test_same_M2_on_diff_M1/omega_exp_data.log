@@ -1,0 +1,80 @@
+2025-02-27 17:51:28,313 - INFO - ********************************
+2025-02-27 17:51:28,313 - INFO - ======= OMEGA_EXP DATASET, M1's hidden size: 100 =======
+2025-02-27 17:51:36,177 - INFO - args: Namespace(dataset='omega_exp', hidden_size=1024, layers=0, dropout=0.0, lr=0.0277, features=['mol1_hidden', 'rad1_hidden', 'mol2_hidden', 'rad2_hidden', 'rad_atom1_hidden', 'rad_atom2_hidden'], random_state=0, transfer_learning=True, chk_path='surrogate_model/output_h100_b50_e100/model_0/model.pt', chk_path_hidden=100, fine_tune=0)
+2025-02-27 17:51:36,178 - INFO - RMSE, MAE and R^2 for NN (**4** ensembles trained on Omega and predict on Omega_Exp) with a hidden representation: 2.050146374176948 1.65023792418494 0.03706624886267884
+2025-02-27 18:18:17,286 - INFO - ********************************
+2025-02-27 18:18:17,286 - INFO - ======= OMEGA_EXP DATASET, M1's hidden size: 200 =======
+2025-02-27 18:18:25,189 - INFO - args: Namespace(dataset='omega_exp', hidden_size=1024, layers=0, dropout=0.0, lr=0.0277, features=['mol1_hidden', 'rad1_hidden', 'mol2_hidden', 'rad2_hidden', 'rad_atom1_hidden', 'rad_atom2_hidden'], random_state=0, transfer_learning=True, chk_path='surrogate_model/output_h200_b50_e100/model_0/model.pt', chk_path_hidden=200, fine_tune=0)
+2025-02-27 18:18:25,190 - INFO - RMSE, MAE and R^2 for NN (**4** ensembles trained on Omega and predict on Omega_Exp) with a hidden representation: 1.5714955464011846 1.239135320075057 0.43421298067204694
+2025-02-27 18:46:43,807 - INFO - ********************************
+2025-02-27 18:46:43,807 - INFO - ======= OMEGA_EXP DATASET, M1's hidden size: 300 =======
+2025-02-27 18:46:52,199 - INFO - args: Namespace(dataset='omega_exp', hidden_size=1024, layers=0, dropout=0.0, lr=0.0277, features=['mol1_hidden', 'rad1_hidden', 'mol2_hidden', 'rad2_hidden', 'rad_atom1_hidden', 'rad_atom2_hidden'], random_state=0, transfer_learning=True, chk_path='surrogate_model/output_h300_b50_e100/model_0/model.pt', chk_path_hidden=300, fine_tune=0)
+2025-02-27 18:46:52,199 - INFO - RMSE, MAE and R^2 for NN (**4** ensembles trained on Omega and predict on Omega_Exp) with a hidden representation: 1.7636153905636716 1.3856336523035395 0.28741868467155385
+2025-02-27 19:17:21,157 - INFO - ********************************
+2025-02-27 19:17:21,157 - INFO - ======= OMEGA_EXP DATASET, M1's hidden size: 400 =======
+2025-02-27 19:17:29,776 - INFO - args: Namespace(dataset='omega_exp', hidden_size=1024, layers=0, dropout=0.0, lr=0.0277, features=['mol1_hidden', 'rad1_hidden', 'mol2_hidden', 'rad2_hidden', 'rad_atom1_hidden', 'rad_atom2_hidden'], random_state=0, transfer_learning=True, chk_path='surrogate_model/output_h400_b50_e100/model_0/model.pt', chk_path_hidden=400, fine_tune=0)
+2025-02-27 19:17:29,776 - INFO - RMSE, MAE and R^2 for NN (**4** ensembles trained on Omega and predict on Omega_Exp) with a hidden representation: 1.763746430193505 1.3886408091739577 0.2873127887247402
+2025-02-27 19:49:19,128 - INFO - ********************************
+2025-02-27 19:49:19,128 - INFO - ======= OMEGA_EXP DATASET, M1's hidden size: 500 =======
+2025-02-27 19:49:27,919 - INFO - args: Namespace(dataset='omega_exp', hidden_size=1024, layers=0, dropout=0.0, lr=0.0277, features=['mol1_hidden', 'rad1_hidden', 'mol2_hidden', 'rad2_hidden', 'rad_atom1_hidden', 'rad_atom2_hidden'], random_state=0, transfer_learning=True, chk_path='surrogate_model/output_h500_b50_e100/model_0/model.pt', chk_path_hidden=500, fine_tune=0)
+2025-02-27 19:49:27,919 - INFO - RMSE, MAE and R^2 for NN (**4** ensembles trained on Omega and predict on Omega_Exp) with a hidden representation: 1.615798574122248 1.2207937765649788 0.401862389654877
+2025-02-27 20:24:47,513 - INFO - ********************************
+2025-02-27 20:24:47,513 - INFO - ======= OMEGA_EXP DATASET, M1's hidden size: 600 =======
+2025-02-27 20:24:56,525 - INFO - args: Namespace(dataset='omega_exp', hidden_size=1024, layers=0, dropout=0.0, lr=0.0277, features=['mol1_hidden', 'rad1_hidden', 'mol2_hidden', 'rad2_hidden', 'rad_atom1_hidden', 'rad_atom2_hidden'], random_state=0, transfer_learning=True, chk_path='surrogate_model/output_h600_b50_e100/model_0/model.pt', chk_path_hidden=600, fine_tune=0)
+2025-02-27 20:24:56,525 - INFO - RMSE, MAE and R^2 for NN (**4** ensembles trained on Omega and predict on Omega_Exp) with a hidden representation: 1.5512519745216968 1.2186372621873767 0.4486957190853448
+2025-02-27 21:00:23,994 - INFO - ********************************
+2025-02-27 21:00:23,994 - INFO - ======= OMEGA_EXP DATASET, M1's hidden size: 700 =======
+2025-02-27 21:00:33,198 - INFO - args: Namespace(dataset='omega_exp', hidden_size=1024, layers=0, dropout=0.0, lr=0.0277, features=['mol1_hidden', 'rad1_hidden', 'mol2_hidden', 'rad2_hidden', 'rad_atom1_hidden', 'rad_atom2_hidden'], random_state=0, transfer_learning=True, chk_path='surrogate_model/output_h700_b50_e100/model_0/model.pt', chk_path_hidden=700, fine_tune=0)
+2025-02-27 21:00:33,198 - INFO - RMSE, MAE and R^2 for NN (**4** ensembles trained on Omega and predict on Omega_Exp) with a hidden representation: 1.6080748346903129 1.2544682921555872 0.40756708247948237
+2025-02-27 21:37:00,634 - INFO - ********************************
+2025-02-27 21:37:00,634 - INFO - ======= OMEGA_EXP DATASET, M1's hidden size: 800 =======
+2025-02-27 21:37:10,402 - INFO - args: Namespace(dataset='omega_exp', hidden_size=1024, layers=0, dropout=0.0, lr=0.0277, features=['mol1_hidden', 'rad1_hidden', 'mol2_hidden', 'rad2_hidden', 'rad_atom1_hidden', 'rad_atom2_hidden'], random_state=0, transfer_learning=True, chk_path='surrogate_model/output_h800_b50_e100/model_0/model.pt', chk_path_hidden=800, fine_tune=0)
+2025-02-27 21:37:10,402 - INFO - RMSE, MAE and R^2 for NN (**4** ensembles trained on Omega and predict on Omega_Exp) with a hidden representation: 1.5481849946921709 1.1716445968430593 0.450873531147451
+2025-02-27 22:14:58,702 - INFO - ********************************
+2025-02-27 22:14:58,702 - INFO - ======= OMEGA_EXP DATASET, M1's hidden size: 900 =======
+2025-02-27 22:15:08,328 - INFO - args: Namespace(dataset='omega_exp', hidden_size=1024, layers=0, dropout=0.0, lr=0.0277, features=['mol1_hidden', 'rad1_hidden', 'mol2_hidden', 'rad2_hidden', 'rad_atom1_hidden', 'rad_atom2_hidden'], random_state=0, transfer_learning=True, chk_path='surrogate_model/output_h900_b50_e100/model_0/model.pt', chk_path_hidden=900, fine_tune=0)
+2025-02-27 22:15:08,328 - INFO - RMSE, MAE and R^2 for NN (**4** ensembles trained on Omega and predict on Omega_Exp) with a hidden representation: 1.6481375589584044 1.3342145907874146 0.37768025110811165
+2025-02-27 22:54:51,880 - INFO - ********************************
+2025-02-27 22:54:51,880 - INFO - ======= OMEGA_EXP DATASET, M1's hidden size: 1000 =======
+2025-02-27 22:55:01,796 - INFO - args: Namespace(dataset='omega_exp', hidden_size=1024, layers=0, dropout=0.0, lr=0.0277, features=['mol1_hidden', 'rad1_hidden', 'mol2_hidden', 'rad2_hidden', 'rad_atom1_hidden', 'rad_atom2_hidden'], random_state=0, transfer_learning=True, chk_path='surrogate_model/output_h1000_b50_e100/model_0/model.pt', chk_path_hidden=1000, fine_tune=0)
+2025-02-27 22:55:01,796 - INFO - RMSE, MAE and R^2 for NN (**4** ensembles trained on Omega and predict on Omega_Exp) with a hidden representation: 1.435658366627936 1.0962202921985025 0.5277968469209802
+2025-02-27 23:34:27,936 - INFO - ********************************
+2025-02-27 23:34:27,936 - INFO - ======= OMEGA_EXP DATASET, M1's hidden size: 1100 =======
+2025-02-27 23:34:36,418 - INFO - args: Namespace(dataset='omega_exp', hidden_size=1024, layers=0, dropout=0.0, lr=0.0277, features=['mol1_hidden', 'rad1_hidden', 'mol2_hidden', 'rad2_hidden', 'rad_atom1_hidden', 'rad_atom2_hidden'], random_state=0, transfer_learning=True, chk_path='surrogate_model/output_h1100_b50_e100/model_0/model.pt', chk_path_hidden=1100, fine_tune=0)
+2025-02-27 23:34:36,418 - INFO - RMSE, MAE and R^2 for NN (**4** ensembles trained on Omega and predict on Omega_Exp) with a hidden representation: 1.7209157713468684 1.239367274324995 0.3215061747919744
+2025-02-28 00:14:39,289 - INFO - ********************************
+2025-02-28 00:14:39,289 - INFO - ======= OMEGA_EXP DATASET, M1's hidden size: 1200 =======
+2025-02-28 00:14:47,538 - INFO - args: Namespace(dataset='omega_exp', hidden_size=1024, layers=0, dropout=0.0, lr=0.0277, features=['mol1_hidden', 'rad1_hidden', 'mol2_hidden', 'rad2_hidden', 'rad_atom1_hidden', 'rad_atom2_hidden'], random_state=0, transfer_learning=True, chk_path='surrogate_model/output_h1200_b50_e100/model_0/model.pt', chk_path_hidden=1200, fine_tune=0)
+2025-02-28 00:14:47,538 - INFO - RMSE, MAE and R^2 for NN (**4** ensembles trained on Omega and predict on Omega_Exp) with a hidden representation: 1.5455447202001296 1.1750181562433861 0.45274489449379207
+2025-02-28 00:56:06,160 - INFO - ********************************
+2025-02-28 00:56:06,160 - INFO - ======= OMEGA_EXP DATASET, M1's hidden size: 1300 =======
+2025-02-28 00:56:14,532 - INFO - args: Namespace(dataset='omega_exp', hidden_size=1024, layers=0, dropout=0.0, lr=0.0277, features=['mol1_hidden', 'rad1_hidden', 'mol2_hidden', 'rad2_hidden', 'rad_atom1_hidden', 'rad_atom2_hidden'], random_state=0, transfer_learning=True, chk_path='surrogate_model/output_h1300_b50_e100/model_0/model.pt', chk_path_hidden=1300, fine_tune=0)
+2025-02-28 00:56:14,532 - INFO - RMSE, MAE and R^2 for NN (**4** ensembles trained on Omega and predict on Omega_Exp) with a hidden representation: 1.6006791587718614 1.2206482845102107 0.4130038525241997
+2025-02-28 01:39:37,155 - INFO - ********************************
+2025-02-28 01:39:37,155 - INFO - ======= OMEGA_EXP DATASET, M1's hidden size: 1400 =======
+2025-02-28 01:39:45,517 - INFO - args: Namespace(dataset='omega_exp', hidden_size=1024, layers=0, dropout=0.0, lr=0.0277, features=['mol1_hidden', 'rad1_hidden', 'mol2_hidden', 'rad2_hidden', 'rad_atom1_hidden', 'rad_atom2_hidden'], random_state=0, transfer_learning=True, chk_path='surrogate_model/output_h1400_b50_e100/model_0/model.pt', chk_path_hidden=1400, fine_tune=0)
+2025-02-28 01:39:45,517 - INFO - RMSE, MAE and R^2 for NN (**4** ensembles trained on Omega and predict on Omega_Exp) with a hidden representation: 1.5748990992360672 1.165454790897829 0.43175955807325017
+2025-02-28 02:23:49,387 - INFO - ********************************
+2025-02-28 02:23:49,387 - INFO - ======= OMEGA_EXP DATASET, M1's hidden size: 1500 =======
+2025-02-28 02:23:57,927 - INFO - args: Namespace(dataset='omega_exp', hidden_size=1024, layers=0, dropout=0.0, lr=0.0277, features=['mol1_hidden', 'rad1_hidden', 'mol2_hidden', 'rad2_hidden', 'rad_atom1_hidden', 'rad_atom2_hidden'], random_state=0, transfer_learning=True, chk_path='surrogate_model/output_h1500_b50_e100/model_0/model.pt', chk_path_hidden=1500, fine_tune=0)
+2025-02-28 02:23:57,927 - INFO - RMSE, MAE and R^2 for NN (**4** ensembles trained on Omega and predict on Omega_Exp) with a hidden representation: 1.733371633879249 1.350692496856651 0.31164885273779386
+2025-02-28 03:06:42,961 - INFO - ********************************
+2025-02-28 03:06:42,961 - INFO - ======= OMEGA_EXP DATASET, M1's hidden size: 1600 =======
+2025-02-28 03:06:51,335 - INFO - args: Namespace(dataset='omega_exp', hidden_size=1024, layers=0, dropout=0.0, lr=0.0277, features=['mol1_hidden', 'rad1_hidden', 'mol2_hidden', 'rad2_hidden', 'rad_atom1_hidden', 'rad_atom2_hidden'], random_state=0, transfer_learning=True, chk_path='surrogate_model/output_h1600_b50_e100/model_0/model.pt', chk_path_hidden=1600, fine_tune=0)
+2025-02-28 03:06:51,335 - INFO - RMSE, MAE and R^2 for NN (**4** ensembles trained on Omega and predict on Omega_Exp) with a hidden representation: 1.5572525604974954 1.1435310398986975 0.44442233588694013
+2025-02-28 03:52:56,016 - INFO - ********************************
+2025-02-28 03:52:56,016 - INFO - ======= OMEGA_EXP DATASET, M1's hidden size: 1700 =======
+2025-02-28 03:53:04,480 - INFO - args: Namespace(dataset='omega_exp', hidden_size=1024, layers=0, dropout=0.0, lr=0.0277, features=['mol1_hidden', 'rad1_hidden', 'mol2_hidden', 'rad2_hidden', 'rad_atom1_hidden', 'rad_atom2_hidden'], random_state=0, transfer_learning=True, chk_path='surrogate_model/output_h1700_b50_e100/model_0/model.pt', chk_path_hidden=1700, fine_tune=0)
+2025-02-28 03:53:04,480 - INFO - RMSE, MAE and R^2 for NN (**4** ensembles trained on Omega and predict on Omega_Exp) with a hidden representation: 1.704489490440105 1.3223362055590566 0.3343969155991847
+2025-02-28 04:41:58,933 - INFO - ********************************
+2025-02-28 04:41:58,933 - INFO - ======= OMEGA_EXP DATASET, M1's hidden size: 1800 =======
+2025-02-28 04:42:07,310 - INFO - args: Namespace(dataset='omega_exp', hidden_size=1024, layers=0, dropout=0.0, lr=0.0277, features=['mol1_hidden', 'rad1_hidden', 'mol2_hidden', 'rad2_hidden', 'rad_atom1_hidden', 'rad_atom2_hidden'], random_state=0, transfer_learning=True, chk_path='surrogate_model/output_h1800_b50_e100/model_0/model.pt', chk_path_hidden=1800, fine_tune=0)
+2025-02-28 04:42:07,310 - INFO - RMSE, MAE and R^2 for NN (**4** ensembles trained on Omega and predict on Omega_Exp) with a hidden representation: 1.6553312522596886 1.3188272079290364 0.37223586648007945
+2025-02-28 05:33:55,875 - INFO - ********************************
+2025-02-28 05:33:55,875 - INFO - ======= OMEGA_EXP DATASET, M1's hidden size: 1900 =======
+2025-02-28 05:34:04,416 - INFO - args: Namespace(dataset='omega_exp', hidden_size=1024, layers=0, dropout=0.0, lr=0.0277, features=['mol1_hidden', 'rad1_hidden', 'mol2_hidden', 'rad2_hidden', 'rad_atom1_hidden', 'rad_atom2_hidden'], random_state=0, transfer_learning=True, chk_path='surrogate_model/output_h1900_b50_e100/model_0/model.pt', chk_path_hidden=1900, fine_tune=0)
+2025-02-28 05:34:04,416 - INFO - RMSE, MAE and R^2 for NN (**4** ensembles trained on Omega and predict on Omega_Exp) with a hidden representation: 1.6783647543039328 1.273019668773855 0.3546439708924016
+2025-02-28 06:27:06,677 - INFO - ********************************
+2025-02-28 06:27:06,677 - INFO - ======= OMEGA_EXP DATASET, M1's hidden size: 2000 =======
+2025-02-28 06:27:15,610 - INFO - args: Namespace(dataset='omega_exp', hidden_size=1024, layers=0, dropout=0.0, lr=0.0277, features=['mol1_hidden', 'rad1_hidden', 'mol2_hidden', 'rad2_hidden', 'rad_atom1_hidden', 'rad_atom2_hidden'], random_state=0, transfer_learning=True, chk_path='surrogate_model/output_h2000_b50_e100/model_0/model.pt', chk_path_hidden=2000, fine_tune=0)
+2025-02-28 06:27:15,610 - INFO - RMSE, MAE and R^2 for NN (**4** ensembles trained on Omega and predict on Omega_Exp) with a hidden representation: 1.647991469495017 1.222211635220121 0.37779056996880667

@@ -31,6 +31,23 @@ def update_dataset(file_path, dataset_name, h, rmse, mae, r2):
     
     save_pkl(file_path, df)
     
+def update_dataset_rogi(file_path, dataset_name, h, rogi_score):
+    metrics = rogi_score
+    
+    df = load_or_create_pkl(file_path)
+    
+    if str(h) not in df.columns:
+        df[str(h)] = None
+    
+    if dataset_name not in df["dataset"].values:
+        new_row = {"dataset": dataset_name, str(h): metrics}
+        df = pd.concat([df, pd.DataFrame([new_row])], ignore_index=True)
+    else:
+        dataset_index = df[df["dataset"] == dataset_name].index[0]
+        df.at[dataset_index, str(h)] = metrics
+    
+    save_pkl(file_path, df)
+    
 
 def convert_csv(file_name):
     df = pd.read_pickle(file_name+'.pkl')

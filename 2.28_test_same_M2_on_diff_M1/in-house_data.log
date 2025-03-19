@@ -1,0 +1,120 @@
+2025-02-27 17:45:53,312 - INFO - ********************************
+2025-02-27 17:45:53,312 - INFO - ======= In-HOUSE DATASET, M1's hidden size: 100=======
+2025-02-27 17:46:10,559 - INFO - Surrogate model done
+2025-02-27 17:48:30,180 - INFO - CV done
+2025-02-27 17:48:30,180 - INFO - Results in tmp/cv_in-house_data/ffn_train.log
+2025-02-27 17:48:30,180 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 3.7236353028740927 2.7065052633951687 0.7211601585021192
+2025-02-27 18:12:31,323 - INFO - ********************************
+2025-02-27 18:12:31,323 - INFO - ======= In-HOUSE DATASET, M1's hidden size: 200=======
+2025-02-27 18:12:50,432 - INFO - Surrogate model done
+2025-02-27 18:15:11,479 - INFO - CV done
+2025-02-27 18:15:11,479 - INFO - Results in tmp/cv_in-house_data/ffn_train.log
+2025-02-27 18:15:11,480 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 3.483103592567393 2.531410545283261 0.7561361363370652
+2025-02-27 18:39:31,398 - INFO - ********************************
+2025-02-27 18:39:31,398 - INFO - ======= In-HOUSE DATASET, M1's hidden size: 300=======
+2025-02-27 18:39:53,566 - INFO - Surrogate model done
+2025-02-27 18:42:29,641 - INFO - CV done
+2025-02-27 18:42:29,641 - INFO - Results in tmp/cv_in-house_data/ffn_train.log
+2025-02-27 18:42:29,642 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 3.36055677135056 2.4570639918049646 0.771807990615811
+2025-02-27 19:07:45,229 - INFO - ********************************
+2025-02-27 19:07:45,229 - INFO - ======= In-HOUSE DATASET, M1's hidden size: 400=======
+2025-02-27 19:08:11,878 - INFO - Surrogate model done
+2025-02-27 19:11:23,828 - INFO - CV done
+2025-02-27 19:11:23,828 - INFO - Results in tmp/cv_in-house_data/ffn_train.log
+2025-02-27 19:11:23,828 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 3.5090225421132586 2.5359063094910206 0.7532331005264651
+2025-02-27 19:39:35,177 - INFO - ********************************
+2025-02-27 19:39:35,177 - INFO - ======= In-HOUSE DATASET, M1's hidden size: 500=======
+2025-02-27 19:40:05,373 - INFO - Surrogate model done
+2025-02-27 19:43:26,829 - INFO - CV done
+2025-02-27 19:43:26,830 - INFO - Results in tmp/cv_in-house_data/ffn_train.log
+2025-02-27 19:43:26,831 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 3.507527907296821 2.526891922731705 0.7529164302967508
+2025-02-27 20:12:06,392 - INFO - ********************************
+2025-02-27 20:12:06,392 - INFO - ======= In-HOUSE DATASET, M1's hidden size: 600=======
+2025-02-27 20:12:39,765 - INFO - Surrogate model done
+2025-02-27 20:16:09,433 - INFO - CV done
+2025-02-27 20:16:09,433 - INFO - Results in tmp/cv_in-house_data/ffn_train.log
+2025-02-27 20:16:09,434 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 3.3492450537132803 2.4414101621978714 0.7744022100468588
+2025-02-27 20:48:00,181 - INFO - ********************************
+2025-02-27 20:48:00,181 - INFO - ======= In-HOUSE DATASET, M1's hidden size: 700=======
+2025-02-27 20:48:37,831 - INFO - Surrogate model done
+2025-02-27 20:52:05,318 - INFO - CV done
+2025-02-27 20:52:05,319 - INFO - Results in tmp/cv_in-house_data/ffn_train.log
+2025-02-27 20:52:05,320 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 3.387227379327477 2.4589285558601075 0.768814468566933
+2025-02-27 21:23:20,339 - INFO - ********************************
+2025-02-27 21:23:20,339 - INFO - ======= In-HOUSE DATASET, M1's hidden size: 800=======
+2025-02-27 21:24:02,751 - INFO - Surrogate model done
+2025-02-27 21:27:28,304 - INFO - CV done
+2025-02-27 21:27:28,304 - INFO - Results in tmp/cv_in-house_data/ffn_train.log
+2025-02-27 21:27:28,305 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 3.4468638603429667 2.484094018974317 0.7604675088583557
+2025-02-27 22:00:01,958 - INFO - ********************************
+2025-02-27 22:00:01,958 - INFO - ======= In-HOUSE DATASET, M1's hidden size: 900=======
+2025-02-27 22:00:47,759 - INFO - Surrogate model done
+2025-02-27 22:04:18,856 - INFO - CV done
+2025-02-27 22:04:18,856 - INFO - Results in tmp/cv_in-house_data/ffn_train.log
+2025-02-27 22:04:18,857 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 3.32489501979139 2.385370435226018 0.7778147391531764
+2025-02-27 22:39:06,515 - INFO - ********************************
+2025-02-27 22:39:06,515 - INFO - ======= In-HOUSE DATASET, M1's hidden size: 1000=======
+2025-02-27 22:39:55,607 - INFO - Surrogate model done
+2025-02-27 22:43:45,038 - INFO - CV done
+2025-02-27 22:43:45,038 - INFO - Results in tmp/cv_in-house_data/ffn_train.log
+2025-02-27 22:43:45,039 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 3.1891626673384534 2.306113840804288 0.7949074342389477
+2025-02-27 23:18:45,712 - INFO - ********************************
+2025-02-27 23:18:45,712 - INFO - ======= In-HOUSE DATASET, M1's hidden size: 1100=======
+2025-02-27 23:18:59,241 - INFO - Surrogate model done
+2025-02-27 23:22:52,361 - INFO - CV done
+2025-02-27 23:22:52,362 - INFO - Results in tmp/cv_in-house_data/ffn_train.log
+2025-02-27 23:22:52,363 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 3.394289219888094 2.4360570957960195 0.7679586009610454
+2025-02-27 23:58:07,214 - INFO - ********************************
+2025-02-27 23:58:07,215 - INFO - ======= In-HOUSE DATASET, M1's hidden size: 1200=======
+2025-02-27 23:58:20,833 - INFO - Surrogate model done
+2025-02-28 00:01:48,717 - INFO - CV done
+2025-02-28 00:01:48,717 - INFO - Results in tmp/cv_in-house_data/ffn_train.log
+2025-02-28 00:01:48,718 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 3.3303090291275352 2.4131627386767143 0.7759134801507578
+2025-02-28 00:37:55,115 - INFO - ********************************
+2025-02-28 00:37:55,115 - INFO - ======= In-HOUSE DATASET, M1's hidden size: 1300=======
+2025-02-28 00:38:08,977 - INFO - Surrogate model done
+2025-02-28 00:42:02,448 - INFO - CV done
+2025-02-28 00:42:02,448 - INFO - Results in tmp/cv_in-house_data/ffn_train.log
+2025-02-28 00:42:02,450 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 3.2421559131408473 2.3455640575047196 0.788154632812821
+2025-02-28 01:18:25,687 - INFO - ********************************
+2025-02-28 01:18:25,687 - INFO - ======= In-HOUSE DATASET, M1's hidden size: 1400=======
+2025-02-28 01:18:39,369 - INFO - Surrogate model done
+2025-02-28 01:23:02,126 - INFO - CV done
+2025-02-28 01:23:02,126 - INFO - Results in tmp/cv_in-house_data/ffn_train.log
+2025-02-28 01:23:02,127 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 3.2418167323967966 2.3423892223822453 0.788737783316663
+2025-02-28 02:04:21,198 - INFO - ********************************
+2025-02-28 02:04:21,198 - INFO - ======= In-HOUSE DATASET, M1's hidden size: 1500=======
+2025-02-28 02:04:35,062 - INFO - Surrogate model done
+2025-02-28 02:09:04,536 - INFO - CV done
+2025-02-28 02:09:04,536 - INFO - Results in tmp/cv_in-house_data/ffn_train.log
+2025-02-28 02:09:04,538 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 3.2472656889423335 2.3202190420419324 0.7874844725683717
+2025-02-28 02:46:09,067 - INFO - ********************************
+2025-02-28 02:46:09,067 - INFO - ======= In-HOUSE DATASET, M1's hidden size: 1600=======
+2025-02-28 02:46:23,008 - INFO - Surrogate model done
+2025-02-28 02:51:02,857 - INFO - CV done
+2025-02-28 02:51:02,857 - INFO - Results in tmp/cv_in-house_data/ffn_train.log
+2025-02-28 02:51:02,858 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 3.3544216556107345 2.430998287823703 0.7737254039014173
+2025-02-28 03:30:03,319 - INFO - ********************************
+2025-02-28 03:30:03,319 - INFO - ======= In-HOUSE DATASET, M1's hidden size: 1700=======
+2025-02-28 03:30:17,474 - INFO - Surrogate model done
+2025-02-28 03:34:51,868 - INFO - CV done
+2025-02-28 03:34:51,868 - INFO - Results in tmp/cv_in-house_data/ffn_train.log
+2025-02-28 03:34:51,870 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 3.2045198593010156 2.3024636862532644 0.7931538993489069
+2025-02-28 04:16:56,047 - INFO - ********************************
+2025-02-28 04:16:56,047 - INFO - ======= In-HOUSE DATASET, M1's hidden size: 1800=======
+2025-02-28 04:17:10,237 - INFO - Surrogate model done
+2025-02-28 04:22:52,520 - INFO - CV done
+2025-02-28 04:22:52,520 - INFO - Results in tmp/cv_in-house_data/ffn_train.log
+2025-02-28 04:22:52,521 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 3.1735743910904666 2.2822960318674936 0.7970991622379898
+2025-02-28 05:08:26,818 - INFO - ********************************
+2025-02-28 05:08:26,818 - INFO - ======= In-HOUSE DATASET, M1's hidden size: 1900=======
+2025-02-28 05:08:41,525 - INFO - Surrogate model done
+2025-02-28 05:13:48,218 - INFO - CV done
+2025-02-28 05:13:48,218 - INFO - Results in tmp/cv_in-house_data/ffn_train.log
+2025-02-28 05:13:48,220 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 3.2849242019502114 2.3714231235889938 0.7826532560358975
+2025-02-28 05:58:08,900 - INFO - ********************************
+2025-02-28 05:58:08,900 - INFO - ======= In-HOUSE DATASET, M1's hidden size: 2000=======
+2025-02-28 05:58:23,411 - INFO - Surrogate model done
+2025-02-28 06:03:43,456 - INFO - CV done
+2025-02-28 06:03:43,457 - INFO - Results in tmp/cv_in-house_data/ffn_train.log
+2025-02-28 06:03:43,458 - INFO - 10-fold CV RMSE, MAE and R^2 for NN with a hidden representation: 3.2714552392806353 2.3721193823670697 0.7856205468095357
